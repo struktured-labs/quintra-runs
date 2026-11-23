@@ -1,0 +1,55 @@
+{
+  "schema": "quintra-player-telemetry-v1",
+  "build": "285670f7bd1c41ccb88d7e8fa9d4d7b13d8a0cb4",
+  "seed": 2064128948,
+  "hero": "Corvin",
+  "difficulty": "easy",
+  "started": "2026-11-23T15:37:27-05:00",
+  "outcome": "timeout",
+  "stages": [
+    {
+      "stage": 1,
+      "play_s": 1200,
+      "wall_s": 137.94,
+      "frames": 72000,
+      "rooms": [
+        12,
+        13
+      ],
+      "room_count": 2,
+      "dmg": 3,
+      "hits": 3,
+      "deaths": 0,
+      "death_causes": [],
+      "boss_seen": 0,
+      "boss_cleared": 0,
+      "boss_s": 0.0,
+      "status": {},
+      "hp_min": 14,
+      "outcome": "timeout"
+    }
+  ],
+  "death": null,
+  "events": [
+    {
+      "type": "room",
+      "frame": 0,
+      "stage": 1,
+      "room": 12,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 9556,
+      "stage": 1,
+      "room": 13,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        12
+      ]
+    }
+  ]
+}

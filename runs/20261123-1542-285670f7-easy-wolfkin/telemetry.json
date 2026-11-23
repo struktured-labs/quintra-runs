@@ -1,0 +1,50 @@
+{
+  "schema": "quintra-player-telemetry-v1",
+  "build": "285670f7bd1c41ccb88d7e8fa9d4d7b13d8a0cb4",
+  "seed": 2064128952,
+  "hero": "Wolfkin",
+  "difficulty": "easy",
+  "started": "2026-11-23T15:42:45-05:00",
+  "outcome": "timeout",
+  "stages": [
+    {
+      "stage": 1,
+      "play_s": 1200,
+      "wall_s": 144.27,
+      "frames": 72000,
+      "rooms": [
+        7
+      ],
+      "room_count": 1,
+      "dmg": 6,
+      "hits": 6,
+      "deaths": 0,
+      "death_causes": [],
+      "boss_seen": 0,
+      "boss_cleared": 0,
+      "boss_s": 0.0,
+      "status": {
+        "bleed": 1
+      },
+      "hp_min": 11,
+      "outcome": "timeout"
+    }
+  ],
+  "death": null,
+  "events": [
+    {
+      "type": "room",
+      "frame": 0,
+      "stage": 1,
+      "room": 7,
+      "world": false
+    },
+    {
+      "type": "status",
+      "kind": "bleed",
+      "frame": 2620,
+      "stage": 1,
+      "room": 7
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "schema": 1,
+  "id": "20261123-1555-285670f7-easy-corvin-v5c",
+  "build_sha": "285670f7bd1c41ccb88d7e8fa9d4d7b13d8a0cb4",
+  "rom_sha256": "68755c1d5b9a971fef787fe1ada797832873126f372a7d3aa08c75ad61a5d664",
+  "rom_size": 524288,
+  "emulator": {
+    "name": "pyboy",
+    "version": "2.7.0",
+    "window": "null",
+    "cgb": true
+  },
+  "hero": "Corvin",
+  "class_id": 2,
+  "player_type": "machine",
+  "player_policy": "bfs-pilot-v2",
+  "difficulty": "easy",
+  "seed": 2064128948,
+  "started": "2026-11-23T15:52:55-05:00",
+  "ended": "2026-11-23T15:53:08-05:00",
+  "timezone": "America/New_York",
+  "outcome": "timeout",
+  "timings": {
+    "wall_s": 13.41,
+    "play_s": 480,
+    "emulated_frames": 28800,
+    "video_frames": 7200
+  },
+  "deaths": [],
+  "stages": [
+    {
+      "stage": 1,
+      "play_s": 480,
+      "wall_s": 13.29,
+      "frames": 28800,
+      "rooms": [
+        12,
+        13
+      ],
+      "room_count": 2,
+      "dmg": 0,
+      "hits": 0,
+      "deaths": 0,
+      "death_causes": [],
+      "boss_seen": 0,
+      "boss_cleared": 0,
+      "boss_s": 0.0,
+      "status": {},
+      "hp_min": 16,
+      "outcome": "timeout"
+    }
+  ],
+  "furthest": {
+    "stage": 1,
+    "room": 13,
+    "bosses": 0
+  },
+  "end": {
+    "screen": 5,
+    "screen_name": "room",
+    "hp": 16,
+    "hp_max": 16,
+    "mp": 8,
+    "room": 13,
+    "stage": 1,
+    "score": 0,
+    "coins": 12,
+    "bosses": 0,
+    "x": 232,
+    "y": 59
+  },
+  "screenshots": [
+    {
+      "file": "screenshots/01-title.png",
+      "colors": 17,
+      "note": "title (intro muted)",
+      "blank": false
+    },
+    {
+      "file": "screenshots/02-class-select.png",
+      "colors": 9,
+      "note": "Corvin highlighted, difficulty=easy",
+      "blank": false
+    },
+    {
+      "file": "screenshots/04-run-start.png",
+      "colors": 28,
+      "note": "screen=room",
+      "blank": false
+    },
+    {
+      "file": "screenshots/05-combat.png",
+      "colors": 36,
+      "note": "room=12 hp=16/16 hostiles=11",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t01s.png",
+      "colors": 28,
+      "note": "t=30s room=13 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t02s.png",
+      "colors": 22,
+      "note": "t=60s room=13 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t03s.png",
+      "colors": 22,
+      "note": "t=90s room=13 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t04s.png",
+      "colors": 22,
+      "note": "t=120s room=13 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t05s.png",
+      "colors": 22,
+      "note": "t=150s room=13 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t06s.png",
+      "colors": 22,
+      "note": "t=180s room=13 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t07s.png",
+      "colors": 22,
+      "note": "t=210s room=13 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t08s.png",
+      "colors": 22,
+      "note": "t=240s room=13 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t09s.png",
+      "colors": 22,
+      "note": "t=270s room=13 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t10s.png",
+      "colors": 22,
+      "note": "t=300s room=13 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t11s.png",
+      "colors": 22,
+      "note": "t=330s room=13 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t12s.png",
+      "colors": 22,
+      "note": "t=360s room=13 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t13s.png",
+      "colors": 22,
+      "note": "t=390s room=13 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t14s.png",
+      "colors": 22,
+      "note": "t=420s room=13 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t15s.png",
+      "colors": 22,
+      "note": "t=450s room=13 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t16s.png",
+      "colors": 22,
+      "note": "t=480s room=13 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/07-timeout.png",
+      "colors": 22,
+      "note": "reached 8.0 emulated minutes",
+      "blank": false
+    },
+    {
+      "file": "screenshots/09-final.png",
+      "colors": 22,
+      "note": "outcome=timeout screen=room",
+      "blank": false
+    }
+  ],
+  "video": "gameplay.mp4",
+  "gif": "gameplay-open.gif",
+  "telemetry": "telemetry.json",
+  "commentary": "commentary.md",
+  "notes": [
+    "Stall 600f at stage 1 room 13 (232,59) hostiles=0 stale=False.",
+    "Stall 1200f at stage 1 room 13 (232,59) hostiles=0 stale=False.",
+    "Stall 1800f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 2400f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 3000f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 3600f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 4200f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 4800f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 5400f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 6000f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 6600f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 7200f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 7800f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 8400f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 9000f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 9600f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 10200f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 10800f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 11400f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 12000f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 12600f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 13200f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 13800f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 14400f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 15000f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 15600f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 16200f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 16800f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 17400f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 18000f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 18600f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 19200f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 19800f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 20400f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 21000f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 21600f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 22200f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 22800f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 23400f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 24000f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 24600f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 25200f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Stall 25800f at stage 1 room 13 (232,59) hostiles=0 stale=True.",
+    "Timed out after 8.0 emulated minutes at stage 1 room 13."
+  ],
+  "bugs": [],
+  "blank_shots": []
+}

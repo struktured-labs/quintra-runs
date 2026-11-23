@@ -1,0 +1,358 @@
+{
+  "schema": 1,
+  "id": "20261123-1539-285670f7-easy-picsean",
+  "build_sha": "285670f7bd1c41ccb88d7e8fa9d4d7b13d8a0cb4",
+  "rom_sha256": "68755c1d5b9a971fef787fe1ada797832873126f372a7d3aa08c75ad61a5d664",
+  "rom_size": 524288,
+  "emulator": {
+    "name": "pyboy",
+    "version": "2.7.0",
+    "window": "null",
+    "cgb": true
+  },
+  "hero": "Picsean",
+  "class_id": 3,
+  "player_type": "machine",
+  "player_policy": "bfs-pilot-v2",
+  "difficulty": "easy",
+  "seed": 2064128590,
+  "started": "2026-11-23T15:39:45-05:00",
+  "ended": "2026-11-23T15:42:04-05:00",
+  "timezone": "America/New_York",
+  "outcome": "timeout",
+  "timings": {
+    "wall_s": 138.79,
+    "play_s": 1200,
+    "emulated_frames": 72000,
+    "video_frames": 18000
+  },
+  "deaths": [],
+  "stages": [
+    {
+      "stage": 1,
+      "play_s": 1200,
+      "wall_s": 138.66,
+      "frames": 72000,
+      "rooms": [
+        8
+      ],
+      "room_count": 1,
+      "dmg": 0,
+      "hits": 0,
+      "deaths": 0,
+      "death_causes": [],
+      "boss_seen": 0,
+      "boss_cleared": 0,
+      "boss_s": 0.0,
+      "status": {},
+      "hp_min": 16,
+      "outcome": "timeout"
+    }
+  ],
+  "furthest": {
+    "stage": 1,
+    "room": 8,
+    "bosses": 0
+  },
+  "end": {
+    "screen": 5,
+    "screen_name": "room",
+    "hp": 16,
+    "hp_max": 16,
+    "mp": 10,
+    "room": 8,
+    "stage": 1,
+    "score": 0,
+    "coins": 0,
+    "bosses": 0,
+    "x": 190,
+    "y": 144
+  },
+  "screenshots": [
+    {
+      "file": "screenshots/01-title.png",
+      "colors": 17,
+      "note": "title (intro muted)",
+      "blank": false
+    },
+    {
+      "file": "screenshots/02-class-select.png",
+      "colors": 9,
+      "note": "Picsean highlighted, difficulty=easy",
+      "blank": false
+    },
+    {
+      "file": "screenshots/04-run-start.png",
+      "colors": 25,
+      "note": "screen=room",
+      "blank": false
+    },
+    {
+      "file": "screenshots/05-combat.png",
+      "colors": 27,
+      "note": "room=8 hp=16/16 hostiles=10",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t01s.png",
+      "colors": 27,
+      "note": "t=30s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t02s.png",
+      "colors": 20,
+      "note": "t=60s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t03s.png",
+      "colors": 20,
+      "note": "t=90s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t04s.png",
+      "colors": 20,
+      "note": "t=120s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t05s.png",
+      "colors": 20,
+      "note": "t=150s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t06s.png",
+      "colors": 20,
+      "note": "t=180s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t07s.png",
+      "colors": 20,
+      "note": "t=210s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t08s.png",
+      "colors": 20,
+      "note": "t=240s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t09s.png",
+      "colors": 20,
+      "note": "t=270s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t10s.png",
+      "colors": 20,
+      "note": "t=300s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t11s.png",
+      "colors": 20,
+      "note": "t=330s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t12s.png",
+      "colors": 20,
+      "note": "t=360s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t13s.png",
+      "colors": 20,
+      "note": "t=390s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t14s.png",
+      "colors": 20,
+      "note": "t=420s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t15s.png",
+      "colors": 20,
+      "note": "t=450s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t16s.png",
+      "colors": 20,
+      "note": "t=480s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t17s.png",
+      "colors": 20,
+      "note": "t=510s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t18s.png",
+      "colors": 20,
+      "note": "t=540s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t19s.png",
+      "colors": 20,
+      "note": "t=570s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t20s.png",
+      "colors": 20,
+      "note": "t=600s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t21s.png",
+      "colors": 20,
+      "note": "t=630s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t22s.png",
+      "colors": 20,
+      "note": "t=660s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t23s.png",
+      "colors": 20,
+      "note": "t=690s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t24s.png",
+      "colors": 20,
+      "note": "t=720s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t25s.png",
+      "colors": 20,
+      "note": "t=750s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t26s.png",
+      "colors": 20,
+      "note": "t=780s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t27s.png",
+      "colors": 20,
+      "note": "t=810s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t28s.png",
+      "colors": 20,
+      "note": "t=840s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t29s.png",
+      "colors": 20,
+      "note": "t=870s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t30s.png",
+      "colors": 20,
+      "note": "t=900s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t31s.png",
+      "colors": 20,
+      "note": "t=930s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t32s.png",
+      "colors": 20,
+      "note": "t=960s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t33s.png",
+      "colors": 20,
+      "note": "t=990s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t34s.png",
+      "colors": 20,
+      "note": "t=1020s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t35s.png",
+      "colors": 20,
+      "note": "t=1050s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t36s.png",
+      "colors": 20,
+      "note": "t=1080s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t37s.png",
+      "colors": 20,
+      "note": "t=1110s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t38s.png",
+      "colors": 20,
+      "note": "t=1140s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t39s.png",
+      "colors": 20,
+      "note": "t=1170s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t40s.png",
+      "colors": 20,
+      "note": "t=1200s room=8 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/07-timeout.png",
+      "colors": 20,
+      "note": "reached 20.0 emulated minutes",
+      "blank": false
+    },
+    {
+      "file": "screenshots/09-final.png",
+      "colors": 20,
+      "note": "outcome=timeout screen=room",
+      "blank": false
+    }
+  ],
+  "video": "gameplay.mp4",
+  "gif": "gameplay-open.gif",
+  "telemetry": "telemetry.json",
+  "commentary": "commentary.md",
+  "notes": [
+    "Timed out after 20.0 emulated minutes at stage 1 room 8."
+  ],
+  "bugs": [],
+  "blank_shots": []
+}

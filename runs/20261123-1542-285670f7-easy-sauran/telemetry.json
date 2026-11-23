@@ -1,0 +1,81 @@
+{
+  "schema": "quintra-player-telemetry-v1",
+  "build": "285670f7bd1c41ccb88d7e8fa9d4d7b13d8a0cb4",
+  "seed": 2064128946,
+  "hero": "Sauran",
+  "difficulty": "easy",
+  "started": "2026-11-23T15:42:04-05:00",
+  "outcome": "timeout",
+  "stages": [
+    {
+      "stage": 1,
+      "play_s": 1200,
+      "wall_s": 40.42,
+      "frames": 72000,
+      "rooms": [
+        11,
+        12
+      ],
+      "room_count": 2,
+      "dmg": 1,
+      "hits": 1,
+      "deaths": 0,
+      "death_causes": [],
+      "boss_seen": 0,
+      "boss_cleared": 0,
+      "boss_s": 0.0,
+      "status": {},
+      "hp_min": 15,
+      "outcome": "timeout"
+    }
+  ],
+  "death": null,
+  "events": [
+    {
+      "type": "room",
+      "frame": 0,
+      "stage": 1,
+      "room": 12,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 444,
+      "stage": 1,
+      "room": 11,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        12
+      ]
+    },
+    {
+      "type": "room",
+      "frame": 680,
+      "stage": 1,
+      "room": 12,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        11
+      ]
+    },
+    {
+      "type": "room",
+      "frame": 748,
+      "stage": 1,
+      "room": 11,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        12
+      ]
+    }
+  ]
+}

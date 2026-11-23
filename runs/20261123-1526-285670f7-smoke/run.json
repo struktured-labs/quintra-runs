@@ -1,0 +1,160 @@
+{
+  "schema": 1,
+  "id": "20261123-1526-285670f7-smoke",
+  "build_sha": "285670f7bd1c41ccb88d7e8fa9d4d7b13d8a0cb4",
+  "rom_sha256": "68755c1d5b9a971fef787fe1ada797832873126f372a7d3aa08c75ad61a5d664",
+  "rom_size": 524288,
+  "emulator": {
+    "name": "pyboy",
+    "version": "2.7.0",
+    "window": "null",
+    "cgb": true
+  },
+  "hero": "Corvin",
+  "class_id": 2,
+  "player_type": "machine",
+  "player_policy": "greedy-ranged-v1",
+  "difficulty": "easy",
+  "seed": 2064128904,
+  "started": "2026-11-23T15:26:15-05:00",
+  "ended": "2026-11-23T15:26:23-05:00",
+  "timezone": "America/New_York",
+  "outcome": "timeout",
+  "timings": {
+    "wall_s": 7.4,
+    "play_s": 179,
+    "emulated_frames": 10800,
+    "video_frames": 2700
+  },
+  "deaths": [],
+  "stages": [
+    {
+      "stage": 1,
+      "play_s": 179,
+      "wall_s": 7.31,
+      "frames": 10800,
+      "rooms": [
+        7
+      ],
+      "room_count": 1,
+      "dmg": 0,
+      "hits": 0,
+      "deaths": 0,
+      "death_causes": [],
+      "boss_seen": 0,
+      "boss_cleared": 0,
+      "boss_s": 0,
+      "status": {
+        "haste": 1
+      },
+      "hp_min": 16,
+      "outcome": "timeout"
+    }
+  ],
+  "end": {
+    "screen": 5,
+    "screen_name": "room",
+    "hp": 16,
+    "hp_max": 16,
+    "mp": 1,
+    "room": 7,
+    "stage": 1,
+    "score": 0,
+    "coins": 1,
+    "bosses": 0,
+    "x": 162,
+    "y": 120
+  },
+  "screenshots": [
+    {
+      "file": "screenshots/00-boot.png",
+      "colors": 2,
+      "note": "early power-on",
+      "blank": true
+    },
+    {
+      "file": "screenshots/01-title.png",
+      "colors": 17,
+      "note": "title after 240 frames (intro muted)",
+      "blank": false
+    },
+    {
+      "file": "screenshots/02-class-select.png",
+      "colors": 9,
+      "note": "Corvin highlighted, difficulty=easy",
+      "blank": false
+    },
+    {
+      "file": "screenshots/03-after-confirm.png",
+      "colors": 1,
+      "note": "post A confirm / run init or foyer",
+      "blank": true
+    },
+    {
+      "file": "screenshots/04-run-start.png",
+      "colors": 1,
+      "note": "screen=room",
+      "blank": true
+    },
+    {
+      "file": "screenshots/05-combat.png",
+      "colors": 28,
+      "note": "room=7 hostiles=13",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t01s.png",
+      "colors": 30,
+      "note": "t=30s room=7 hp=16",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t02s.png",
+      "colors": 31,
+      "note": "t=60s room=7 hp=16",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t03s.png",
+      "colors": 26,
+      "note": "t=90s room=7 hp=16",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t04s.png",
+      "colors": 27,
+      "note": "t=120s room=7 hp=16",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t05s.png",
+      "colors": 29,
+      "note": "t=150s room=7 hp=16",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t06s.png",
+      "colors": 22,
+      "note": "t=180s room=7 hp=16",
+      "blank": false
+    },
+    {
+      "file": "screenshots/07-timeout.png",
+      "colors": 22,
+      "note": "reached 3.0 emulated minutes",
+      "blank": false
+    },
+    {
+      "file": "screenshots/09-final.png",
+      "colors": 22,
+      "note": "outcome=timeout screen=room",
+      "blank": false
+    }
+  ],
+  "video": "gameplay.mp4",
+  "gif": "gameplay-open.gif",
+  "notes": [],
+  "bugs": [
+    "Blank or near-blank screenshots: ['screenshots/00-boot.png', 'screenshots/03-after-confirm.png', 'screenshots/04-run-start.png']"
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "schema": "quintra-player-telemetry-v1",
+  "build": "285670f7bd1c41ccb88d7e8fa9d4d7b13d8a0cb4",
+  "seed": 2064128948,
+  "hero": "Corvin",
+  "difficulty": "easy",
+  "started": "2026-11-23T16:05:33-05:00",
+  "outcome": "timeout",
+  "stages": [
+    {
+      "stage": 1,
+      "play_s": 480,
+      "wall_s": 16.81,
+      "frames": 28802,
+      "rooms": [
+        12,
+        13,
+        14
+      ],
+      "room_count": 3,
+      "dmg": 4,
+      "hits": 4,
+      "deaths": 0,
+      "death_causes": [],
+      "boss_seen": 0,
+      "boss_cleared": 0,
+      "boss_s": 0.0,
+      "status": {},
+      "hp_min": 13,
+      "outcome": "timeout"
+    }
+  ],
+  "death": null,
+  "events": [
+    {
+      "type": "room",
+      "frame": 0,
+      "stage": 1,
+      "room": 12,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 1068,
+      "stage": 1,
+      "room": 13,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        12
+      ]
+    },
+    {
+      "type": "puzzle",
+      "frame": 1106,
+      "stage": 1,
+      "room": 13,
+      "kind": "rune_sequence",
+      "locked": true,
+      "combat_sealed": false,
+      "runes": [
+        {
+          "i": 0,
+          "x": 5,
+          "y": 8,
+          "pitch": 2,
+          "lit": false
+        },
+        {
+          "i": 1,
+          "x": 10,
+          "y": 5,
+          "pitch": 0,
+          "lit": false
+        },
+        {
+          "i": 2,
+          "x": 14,
+          "y": 10,
+          "pitch": 1,
+          "lit": false
+        }
+      ],
+      "socket": null
+    },
+    {
+      "type": "puzzle-solved",
+      "frame": 1582,
+      "stage": 1,
+      "room": 13,
+      "kind": "rune_sequence"
+    },
+    {
+      "type": "room",
+      "frame": 1718,
+      "stage": 1,
+      "room": 12,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        13
+      ]
+    },
+    {
+      "type": "room",
+      "frame": 1794,
+      "stage": 1,
+      "room": 13,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        12
+      ]
+    },
+    {
+      "type": "puzzle",
+      "frame": 1826,
+      "stage": 1,
+      "room": 13,
+      "kind": "rune_sequence",
+      "locked": false,
+      "combat_sealed": false,
+      "runes": [],
+      "socket": null
+    },
+    {
+      "type": "room",
+      "frame": 1862,
+      "stage": 1,
+      "room": 12,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        13
+      ]
+    },
+    {
+      "type": "room",
+      "frame": 1934,
+      "stage": 1,
+      "room": 13,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        12
+      ]
+    },
+    {
+      "type": "puzzle",
+      "frame": 1968,
+      "stage": 1,
+      "room": 13,
+      "kind": "rune_sequence",
+      "locked": false,
+      "combat_sealed": false,
+      "runes": [],
+      "socket": null
+    },
+    {
+      "type": "room",
+      "frame": 2904,
+      "stage": 1,
+      "room": 14,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        13
+      ]
+    },
+    {
+      "type": "stall",
+      "frame": 5306,
+      "frames": 600,
+      "stage": 1,
+      "room": 14,
+      "x": 18,
+      "y": 48,
+      "combat_stale": false,
+      "hostiles": 3
+    },
+    {
+      "type": "stall-end",
+      "frame": 5386,
+      "frames": 676
+    }
+  ]
+}
