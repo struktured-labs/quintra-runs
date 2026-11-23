@@ -1,6 +1,342 @@
 [
   {
     "schema": 1,
+    "id": "20261123-1640-285670f7-easy-corvin-v10",
+    "build_sha": "285670f7bd1c41ccb88d7e8fa9d4d7b13d8a0cb4",
+    "rom_sha256": "68755c1d5b9a971fef787fe1ada797832873126f372a7d3aa08c75ad61a5d664",
+    "rom_size": 524288,
+    "emulator": {
+      "name": "pyboy",
+      "version": "2.7.0",
+      "window": "null",
+      "cgb": true
+    },
+    "hero": "Corvin",
+    "class_id": 2,
+    "player_type": "machine",
+    "player_policy": "bfs-pilot-v4",
+    "difficulty": "easy",
+    "seed": 2064128948,
+    "started": "2026-11-23T16:10:23-05:00",
+    "ended": "2026-11-23T16:10:56-05:00",
+    "timezone": "America/New_York",
+    "outcome": "timeout",
+    "timings": {
+      "wall_s": 33.84,
+      "play_s": 900,
+      "emulated_frames": 54000,
+      "video_frames": 13430
+    },
+    "deaths": [],
+    "stages": [
+      {
+        "stage": 1,
+        "play_s": 900,
+        "wall_s": 33.71,
+        "frames": 54000,
+        "rooms": [
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "room_count": 5,
+        "dmg": 11,
+        "hits": 11,
+        "deaths": 0,
+        "death_causes": [],
+        "boss_seen": 0,
+        "boss_cleared": 0,
+        "boss_s": 0.0,
+        "status": {
+          "haste": 2
+        },
+        "hp_min": 9,
+        "outcome": "timeout"
+      }
+    ],
+    "furthest": "stage 1, room 13",
+    "end": {
+      "screen": 5,
+      "screen_name": "room",
+      "hp": 10,
+      "hp_max": 16,
+      "mp": 8,
+      "room": 13,
+      "stage": 1,
+      "score": 0,
+      "coins": 9,
+      "bosses": 0,
+      "x": 222,
+      "y": 70
+    },
+    "video": "gameplay.mp4",
+    "gif": "gameplay-open.gif",
+    "telemetry": "telemetry.json",
+    "commentary": "commentary.md",
+    "notes": [
+      "Stage 1 room 13: rune_sequence (locked).",
+      "Solved rune_sequence in stage 1 room 13.",
+      "Stage 1 room 14: none combat-sealed.",
+      "Stage 1 room 15: none combat-sealed.",
+      "Stage 1 room 13: rune_sequence.",
+      "Timed out after 15.0 emulated minutes at stage 1 room 13."
+    ],
+    "bugs": [],
+    "blank_shots": [],
+    "screenshots": [
+      {
+        "file": "screenshots/01-title.png",
+        "colors": 17,
+        "note": "title (intro muted)",
+        "blank": false
+      },
+      {
+        "file": "screenshots/02-class-select.png",
+        "colors": 9,
+        "note": "Corvin highlighted, difficulty=easy",
+        "blank": false
+      },
+      {
+        "file": "screenshots/04-run-start.png",
+        "colors": 28,
+        "note": "screen=room",
+        "blank": false
+      },
+      {
+        "file": "screenshots/05-combat.png",
+        "colors": 36,
+        "note": "room=12 hp=16/16 hostiles=11",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s1-r13.png",
+        "colors": 26,
+        "note": "solved puzzle in room 13",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t01s.png",
+        "colors": 27,
+        "note": "t=30s room=13 hp=14 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t02s.png",
+        "colors": 30,
+        "note": "t=60s room=14 hp=16 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t03s.png",
+        "colors": 26,
+        "note": "t=90s room=14 hp=15 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t04s.png",
+        "colors": 26,
+        "note": "t=120s room=14 hp=15 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t05s.png",
+        "colors": 26,
+        "note": "t=150s room=14 hp=15 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t06s.png",
+        "colors": 26,
+        "note": "t=180s room=14 hp=15 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t07s.png",
+        "colors": 28,
+        "note": "t=210s room=15 hp=15 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-progress-s1-r16.png",
+        "colors": 26,
+        "note": "progress stage=1 room=16",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-progress-s1-r15.png",
+        "colors": 26,
+        "note": "progress stage=1 room=15",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t08s.png",
+        "colors": 25,
+        "note": "t=240s room=15 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-progress-s1-r14.png",
+        "colors": 24,
+        "note": "progress stage=1 room=14",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-progress-s1-r13.png",
+        "colors": 27,
+        "note": "progress stage=1 room=13",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t09s.png",
+        "colors": 20,
+        "note": "t=270s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t10s.png",
+        "colors": 20,
+        "note": "t=300s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t11s.png",
+        "colors": 19,
+        "note": "t=330s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t12s.png",
+        "colors": 19,
+        "note": "t=360s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t13s.png",
+        "colors": 20,
+        "note": "t=390s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t14s.png",
+        "colors": 20,
+        "note": "t=420s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t15s.png",
+        "colors": 20,
+        "note": "t=450s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t16s.png",
+        "colors": 18,
+        "note": "t=480s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t17s.png",
+        "colors": 19,
+        "note": "t=510s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t18s.png",
+        "colors": 20,
+        "note": "t=540s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t19s.png",
+        "colors": 20,
+        "note": "t=570s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t20s.png",
+        "colors": 18,
+        "note": "t=600s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t21s.png",
+        "colors": 19,
+        "note": "t=630s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t22s.png",
+        "colors": 20,
+        "note": "t=660s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t23s.png",
+        "colors": 20,
+        "note": "t=690s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t24s.png",
+        "colors": 20,
+        "note": "t=720s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t25s.png",
+        "colors": 18,
+        "note": "t=750s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t26s.png",
+        "colors": 19,
+        "note": "t=780s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t27s.png",
+        "colors": 20,
+        "note": "t=810s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t28s.png",
+        "colors": 20,
+        "note": "t=840s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t29s.png",
+        "colors": 18,
+        "note": "t=870s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t30s.png",
+        "colors": 18,
+        "note": "t=900s room=13 hp=10 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-timeout.png",
+        "colors": 18,
+        "note": "reached 15.0 emulated minutes",
+        "blank": false
+      },
+      {
+        "file": "screenshots/09-final.png",
+        "colors": 18,
+        "note": "outcome=timeout screen=room",
+        "blank": false
+      }
+    ],
+    "href": "runs/20261123-1640-285670f7-easy-corvin-v10/"
+  },
+  {
+    "schema": 1,
     "id": "20261123-1620-285670f7-easy-corvin-v8",
     "build_sha": "285670f7bd1c41ccb88d7e8fa9d4d7b13d8a0cb4",
     "rom_sha256": "68755c1d5b9a971fef787fe1ada797832873126f372a7d3aa08c75ad61a5d664",
