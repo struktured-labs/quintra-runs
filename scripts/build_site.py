@@ -307,6 +307,8 @@ def index_html(runs: list[dict]) -> str:
   <h1>Quintra runs</h1>
   <p>Recorded playtests for the Game Boy Color roguelike. Machine and human-style
      sessions, with per-stage times and death causes. No ROMs.</p>
+  <p class="meta"><a href="balance/">Stage 3 balance summary</a> — Cinder Rex
+     matrix and Stop/Burn room deaths on current main.</p>
 </header>
 <main>
   <div class="stats">
@@ -657,6 +659,16 @@ def main() -> int:
     (out / "runs").mkdir(exist_ok=True)
     (out / "runs" / "index.json").write_text(json.dumps(catalog, indent=2) + "\n")
     (out / "index.html").write_text(index_html(runs))
+    summary = out / "balance" / "summary.json"
+    if summary.exists():
+        builder = Path(__file__).resolve().parent / "build_balance_page.py"
+        if builder.exists():
+            import subprocess
+            subprocess.check_call([
+                sys.executable, str(builder),
+                "--summary", str(summary),
+                "--out", str(out / "balance" / "index.html"),
+            ])
     (out / ".nojekyll").touch()
 
     problems = scan_tree(out)

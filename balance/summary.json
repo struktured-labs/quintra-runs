@@ -1,0 +1,1796 @@
+{
+  "schema": "quintra-balance-summary-v1",
+  "build": "684bac5c",
+  "rom_sha256": "519f58d9e31205a8911062b48c781a65df0c91d166b6b29813de03870387ac7f",
+  "title": "Stage 3 death breakdown and Cinder Rex matrix",
+  "notes": [
+    "Official balance_arena.py and balance_rooms.py on 684bac5c (after #217 Burn DoT floor / attack halving, #218, #219 Confusion).",
+    "Arena: 5 heroes x 3 skills (bot, skilled, average) x 4 seeds x boss+entry, Easy and Normal.",
+    "Rooms: 80 fixtures per difficulty (incl. Cinder Maw/Kite and Fold Star) x 3 skills x 2 seeds = 480 fights each.",
+    "Cinder Rex is the stage 3 colossus (boss_hp_start 240). Burn carriers: Cinder Maw (14), Cinder Kite (25). Stop carrier: Fold Star (11).",
+    "death_kind comes from the official room harness (status at death). Arena deaths used death_status_active / death_status_kind; those fields were empty in this sweep because Cinder Rex and foyer slices landed no harmful statuses."
+  ],
+  "arena": {
+    "easy": {
+      "difficulty": "easy",
+      "n": 120,
+      "boss": {
+        "n": 60,
+        "outcomes": {
+          "cleared": 21,
+          "died": 39
+        },
+        "death_status_active": {
+          "none": 39
+        },
+        "death_status_kind": {
+          "none": 39
+        },
+        "status_lands": 0,
+        "status_harmful": 0,
+        "matrix": {
+          "bot": {
+            "wolfkin": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                5174,
+                5552,
+                5015,
+                5815
+              ],
+              "boss_hp_end": [
+                105,
+                37,
+                66,
+                74
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "sauran": {
+              "n": 4,
+              "outcomes": {
+                "cleared": 2,
+                "died": 2
+              },
+              "cleared": 2,
+              "died": 2,
+              "timeout": 0,
+              "frames": [
+                3944,
+                4347,
+                4108,
+                4373
+              ],
+              "boss_hp_end": [
+                0,
+                30,
+                0,
+                5
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "corvin": {
+              "n": 4,
+              "outcomes": {
+                "cleared": 4
+              },
+              "cleared": 4,
+              "died": 0,
+              "timeout": 0,
+              "frames": [
+                3686,
+                3297,
+                3453,
+                3072
+              ],
+              "boss_hp_end": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "picsean": {
+              "n": 4,
+              "outcomes": {
+                "cleared": 4
+              },
+              "cleared": 4,
+              "died": 0,
+              "timeout": 0,
+              "frames": [
+                3138,
+                3839,
+                3285,
+                3387
+              ],
+              "boss_hp_end": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "vespine": {
+              "n": 4,
+              "outcomes": {
+                "died": 3,
+                "cleared": 1
+              },
+              "cleared": 1,
+              "died": 3,
+              "timeout": 0,
+              "frames": [
+                4108,
+                4108,
+                4442,
+                4129
+              ],
+              "boss_hp_end": [
+                85,
+                0,
+                65,
+                25
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            }
+          },
+          "skilled": {
+            "wolfkin": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                5287,
+                5598,
+                4738,
+                5168
+              ],
+              "boss_hp_end": [
+                160,
+                58,
+                117,
+                77
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "sauran": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                4278,
+                4621,
+                4381,
+                5408
+              ],
+              "boss_hp_end": [
+                75,
+                75,
+                35,
+                70
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "corvin": {
+              "n": 4,
+              "outcomes": {
+                "cleared": 4
+              },
+              "cleared": 4,
+              "died": 0,
+              "timeout": 0,
+              "frames": [
+                3242,
+                3079,
+                3855,
+                4381
+              ],
+              "boss_hp_end": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "picsean": {
+              "n": 4,
+              "outcomes": {
+                "cleared": 3,
+                "died": 1
+              },
+              "cleared": 3,
+              "died": 1,
+              "timeout": 0,
+              "frames": [
+                3606,
+                3508,
+                3370,
+                4729
+              ],
+              "boss_hp_end": [
+                0,
+                0,
+                0,
+                35
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "vespine": {
+              "n": 4,
+              "outcomes": {
+                "died": 3,
+                "cleared": 1
+              },
+              "cleared": 1,
+              "died": 3,
+              "timeout": 0,
+              "frames": [
+                5048,
+                4137,
+                4681,
+                4610
+              ],
+              "boss_hp_end": [
+                37,
+                37,
+                17,
+                0
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            }
+          },
+          "average": {
+            "wolfkin": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                4410,
+                5011,
+                5462,
+                5512
+              ],
+              "boss_hp_end": [
+                205,
+                122,
+                112,
+                112
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "sauran": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                4935,
+                4532,
+                5688,
+                5125
+              ],
+              "boss_hp_end": [
+                80,
+                90,
+                70,
+                80
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "corvin": {
+              "n": 4,
+              "outcomes": {
+                "cleared": 2,
+                "died": 2
+              },
+              "cleared": 2,
+              "died": 2,
+              "timeout": 0,
+              "frames": [
+                3770,
+                4115,
+                3797,
+                5246
+              ],
+              "boss_hp_end": [
+                0,
+                0,
+                95,
+                40
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "picsean": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                4048,
+                4208,
+                4644,
+                4005
+              ],
+              "boss_hp_end": [
+                35,
+                20,
+                10,
+                30
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "vespine": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                4756,
+                4757,
+                4868,
+                4712
+              ],
+              "boss_hp_end": [
+                93,
+                38,
+                38,
+                75
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            }
+          }
+        },
+        "status_kinds": {}
+      },
+      "entry": {
+        "n": 60,
+        "outcomes": {
+          "died": 7,
+          "timeout": 52,
+          "cleared": 1
+        },
+        "death_status_active": {
+          "none": 7
+        },
+        "death_status_kind": {
+          "none": 7
+        },
+        "status_lands": 8,
+        "status_harmful": 0,
+        "matrix": {
+          "bot": {
+            "wolfkin": {
+              "n": 4,
+              "outcomes": {
+                "died": 1,
+                "timeout": 3
+              },
+              "cleared": 0,
+              "died": 1,
+              "timeout": 3,
+              "frames": [
+                2768,
+                3600,
+                3600,
+                3600
+              ]
+            },
+            "sauran": {
+              "n": 4,
+              "outcomes": {
+                "died": 1,
+                "timeout": 3
+              },
+              "cleared": 0,
+              "died": 1,
+              "timeout": 3,
+              "frames": [
+                3505,
+                3600,
+                3600,
+                3600
+              ]
+            },
+            "corvin": {
+              "n": 4,
+              "outcomes": {
+                "timeout": 4
+              },
+              "cleared": 0,
+              "died": 0,
+              "timeout": 4,
+              "frames": [
+                3600,
+                3600,
+                3600,
+                3600
+              ]
+            },
+            "picsean": {
+              "n": 4,
+              "outcomes": {
+                "timeout": 4
+              },
+              "cleared": 0,
+              "died": 0,
+              "timeout": 4,
+              "frames": [
+                3600,
+                3600,
+                3600,
+                3600
+              ]
+            },
+            "vespine": {
+              "n": 4,
+              "outcomes": {
+                "died": 1,
+                "timeout": 3
+              },
+              "cleared": 0,
+              "died": 1,
+              "timeout": 3,
+              "frames": [
+                2537,
+                3600,
+                3600,
+                3600
+              ]
+            }
+          },
+          "skilled": {
+            "wolfkin": {
+              "n": 4,
+              "outcomes": {
+                "died": 1,
+                "timeout": 3
+              },
+              "cleared": 0,
+              "died": 1,
+              "timeout": 3,
+              "frames": [
+                2947,
+                3600,
+                3600,
+                3600
+              ]
+            },
+            "sauran": {
+              "n": 4,
+              "outcomes": {
+                "timeout": 4
+              },
+              "cleared": 0,
+              "died": 0,
+              "timeout": 4,
+              "frames": [
+                3600,
+                3600,
+                3600,
+                3600
+              ]
+            },
+            "corvin": {
+              "n": 4,
+              "outcomes": {
+                "timeout": 4
+              },
+              "cleared": 0,
+              "died": 0,
+              "timeout": 4,
+              "frames": [
+                3600,
+                3600,
+                3600,
+                3600
+              ]
+            },
+            "picsean": {
+              "n": 4,
+              "outcomes": {
+                "timeout": 4
+              },
+              "cleared": 0,
+              "died": 0,
+              "timeout": 4,
+              "frames": [
+                3600,
+                3600,
+                3600,
+                3600
+              ]
+            },
+            "vespine": {
+              "n": 4,
+              "outcomes": {
+                "timeout": 4
+              },
+              "cleared": 0,
+              "died": 0,
+              "timeout": 4,
+              "frames": [
+                3600,
+                3600,
+                3600,
+                3600
+              ]
+            }
+          },
+          "average": {
+            "wolfkin": {
+              "n": 4,
+              "outcomes": {
+                "died": 1,
+                "cleared": 1,
+                "timeout": 2
+              },
+              "cleared": 1,
+              "died": 1,
+              "timeout": 2,
+              "frames": [
+                2794,
+                3048,
+                3600,
+                3600
+              ]
+            },
+            "sauran": {
+              "n": 4,
+              "outcomes": {
+                "died": 1,
+                "timeout": 3
+              },
+              "cleared": 0,
+              "died": 1,
+              "timeout": 3,
+              "frames": [
+                2860,
+                3600,
+                3600,
+                3600
+              ]
+            },
+            "corvin": {
+              "n": 4,
+              "outcomes": {
+                "timeout": 4
+              },
+              "cleared": 0,
+              "died": 0,
+              "timeout": 4,
+              "frames": [
+                3600,
+                3600,
+                3600,
+                3600
+              ]
+            },
+            "picsean": {
+              "n": 4,
+              "outcomes": {
+                "timeout": 4
+              },
+              "cleared": 0,
+              "died": 0,
+              "timeout": 4,
+              "frames": [
+                3600,
+                3600,
+                3600,
+                3600
+              ]
+            },
+            "vespine": {
+              "n": 4,
+              "outcomes": {
+                "died": 1,
+                "timeout": 3
+              },
+              "cleared": 0,
+              "died": 1,
+              "timeout": 3,
+              "frames": [
+                2744,
+                3600,
+                3600,
+                3600
+              ]
+            }
+          }
+        },
+        "status_kinds": {
+          "haste": 8
+        }
+      }
+    },
+    "normal": {
+      "difficulty": "normal",
+      "n": 120,
+      "boss": {
+        "n": 60,
+        "outcomes": {
+          "died": 60
+        },
+        "death_status_active": {
+          "none": 60
+        },
+        "death_status_kind": {
+          "none": 60
+        },
+        "status_lands": 0,
+        "status_harmful": 0,
+        "matrix": {
+          "bot": {
+            "wolfkin": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                1516,
+                1563,
+                2082,
+                2043
+              ],
+              "boss_hp_end": [
+                226,
+                231,
+                213,
+                231
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "sauran": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                2096,
+                1884,
+                2059,
+                2069
+              ],
+              "boss_hp_end": [
+                216,
+                204,
+                216,
+                213
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "corvin": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                1086,
+                1289,
+                1035,
+                1088
+              ],
+              "boss_hp_end": [
+                222,
+                213,
+                222,
+                216
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "picsean": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                763,
+                1112,
+                956,
+                1069
+              ],
+              "boss_hp_end": [
+                228,
+                213,
+                228,
+                222
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "vespine": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                1404,
+                917,
+                1639,
+                1747
+              ],
+              "boss_hp_end": [
+                219,
+                225,
+                225,
+                213
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            }
+          },
+          "skilled": {
+            "wolfkin": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                2100,
+                2168,
+                2149,
+                2164
+              ],
+              "boss_hp_end": [
+                221,
+                224,
+                234,
+                231
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "sauran": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                2020,
+                2173,
+                1844,
+                1847
+              ],
+              "boss_hp_end": [
+                219,
+                222,
+                213,
+                213
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "corvin": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                864,
+                928,
+                943,
+                1301
+              ],
+              "boss_hp_end": [
+                222,
+                222,
+                228,
+                210
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "picsean": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                1681,
+                1046,
+                980,
+                1238
+              ],
+              "boss_hp_end": [
+                204,
+                228,
+                228,
+                228
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "vespine": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                902,
+                1297,
+                1240,
+                1773
+              ],
+              "boss_hp_end": [
+                228,
+                218,
+                225,
+                221
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            }
+          },
+          "average": {
+            "wolfkin": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                1493,
+                1591,
+                2364,
+                2310
+              ],
+              "boss_hp_end": [
+                222,
+                222,
+                213,
+                237
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "sauran": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                1936,
+                1761,
+                2588,
+                3525
+              ],
+              "boss_hp_end": [
+                222,
+                219,
+                216,
+                213
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "corvin": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                1195,
+                979,
+                1031,
+                1176
+              ],
+              "boss_hp_end": [
+                228,
+                228,
+                222,
+                210
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "picsean": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                1040,
+                1083,
+                1101,
+                1168
+              ],
+              "boss_hp_end": [
+                228,
+                210,
+                228,
+                234
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            },
+            "vespine": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                1731,
+                1767,
+                1460,
+                1826
+              ],
+              "boss_hp_end": [
+                216,
+                225,
+                219,
+                219
+              ],
+              "boss_hp_start": [
+                240,
+                240,
+                240,
+                240
+              ]
+            }
+          }
+        },
+        "status_kinds": {}
+      },
+      "entry": {
+        "n": 60,
+        "outcomes": {
+          "died": 41,
+          "timeout": 19
+        },
+        "death_status_active": {
+          "none": 41
+        },
+        "death_status_kind": {
+          "none": 41
+        },
+        "status_lands": 1,
+        "status_harmful": 0,
+        "matrix": {
+          "bot": {
+            "wolfkin": {
+              "n": 4,
+              "outcomes": {
+                "died": 3,
+                "timeout": 1
+              },
+              "cleared": 0,
+              "died": 3,
+              "timeout": 1,
+              "frames": [
+                1655,
+                2072,
+                3085,
+                3600
+              ]
+            },
+            "sauran": {
+              "n": 4,
+              "outcomes": {
+                "died": 3,
+                "timeout": 1
+              },
+              "cleared": 0,
+              "died": 3,
+              "timeout": 1,
+              "frames": [
+                864,
+                866,
+                3600,
+                3424
+              ]
+            },
+            "corvin": {
+              "n": 4,
+              "outcomes": {
+                "died": 1,
+                "timeout": 3
+              },
+              "cleared": 0,
+              "died": 1,
+              "timeout": 3,
+              "frames": [
+                2077,
+                3600,
+                3600,
+                3600
+              ]
+            },
+            "picsean": {
+              "n": 4,
+              "outcomes": {
+                "died": 1,
+                "timeout": 3
+              },
+              "cleared": 0,
+              "died": 1,
+              "timeout": 3,
+              "frames": [
+                3038,
+                3600,
+                3600,
+                3600
+              ]
+            },
+            "vespine": {
+              "n": 4,
+              "outcomes": {
+                "died": 3,
+                "timeout": 1
+              },
+              "cleared": 0,
+              "died": 3,
+              "timeout": 1,
+              "frames": [
+                1612,
+                1693,
+                1494,
+                3600
+              ]
+            }
+          },
+          "skilled": {
+            "wolfkin": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                1039,
+                1163,
+                1716,
+                2225
+              ]
+            },
+            "sauran": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                3114,
+                2287,
+                2215,
+                3171
+              ]
+            },
+            "corvin": {
+              "n": 4,
+              "outcomes": {
+                "died": 1,
+                "timeout": 3
+              },
+              "cleared": 0,
+              "died": 1,
+              "timeout": 3,
+              "frames": [
+                2540,
+                3600,
+                3600,
+                3600
+              ]
+            },
+            "picsean": {
+              "n": 4,
+              "outcomes": {
+                "timeout": 4
+              },
+              "cleared": 0,
+              "died": 0,
+              "timeout": 4,
+              "frames": [
+                3600,
+                3600,
+                3600,
+                3600
+              ]
+            },
+            "vespine": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                788,
+                814,
+                882,
+                1835
+              ]
+            }
+          },
+          "average": {
+            "wolfkin": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                2077,
+                1582,
+                2612,
+                3518
+              ]
+            },
+            "sauran": {
+              "n": 4,
+              "outcomes": {
+                "died": 3,
+                "timeout": 1
+              },
+              "cleared": 0,
+              "died": 3,
+              "timeout": 1,
+              "frames": [
+                3252,
+                2164,
+                2600,
+                3600
+              ]
+            },
+            "corvin": {
+              "n": 4,
+              "outcomes": {
+                "died": 3,
+                "timeout": 1
+              },
+              "cleared": 0,
+              "died": 3,
+              "timeout": 1,
+              "frames": [
+                2802,
+                1872,
+                3327,
+                3600
+              ]
+            },
+            "picsean": {
+              "n": 4,
+              "outcomes": {
+                "died": 3,
+                "timeout": 1
+              },
+              "cleared": 0,
+              "died": 3,
+              "timeout": 1,
+              "frames": [
+                1657,
+                3600,
+                3501,
+                1631
+              ]
+            },
+            "vespine": {
+              "n": 4,
+              "outcomes": {
+                "died": 4
+              },
+              "cleared": 0,
+              "died": 4,
+              "timeout": 0,
+              "frames": [
+                2057,
+                2292,
+                1861,
+                2247
+              ]
+            }
+          }
+        },
+        "status_kinds": {
+          "haste": 1
+        }
+      }
+    }
+  },
+  "rooms": {
+    "easy": {
+      "difficulty": "easy",
+      "n": 480,
+      "outcomes": {
+        "left_room": 22,
+        "cleared": 313,
+        "died": 93,
+        "timeout": 52
+      },
+      "deaths": 93,
+      "death_kind": {
+        "none": 56,
+        "burn": 33,
+        "stop": 4
+      },
+      "death_chain": {
+        "none": 87,
+        "dot_pinned_then_hit": 5,
+        "stop_then_hit+status_replaced": 1
+      },
+      "cinder": {
+        "n": 288,
+        "outcomes": {
+          "died": 69,
+          "cleared": 175,
+          "timeout": 27,
+          "left_room": 17
+        },
+        "died": 69,
+        "death_kind": {
+          "none": 35,
+          "burn": 33,
+          "stop": 1
+        },
+        "lands_gt0": 131,
+        "harmful_gt0": 104,
+        "dot_gt0": 72
+      },
+      "fold_star": {
+        "n": 156,
+        "outcomes": {
+          "died": 39,
+          "cleared": 95,
+          "timeout": 19,
+          "left_room": 3
+        },
+        "died": 39,
+        "death_kind": {
+          "none": 20,
+          "burn": 15,
+          "stop": 4
+        },
+        "lands_gt0": 78,
+        "harmful_gt0": 57,
+        "dot_gt0": 28
+      },
+      "no_status_carriers": {
+        "n": 132,
+        "outcomes": {
+          "left_room": 4,
+          "cleared": 101,
+          "timeout": 14,
+          "died": 13
+        },
+        "died": 13,
+        "death_kind": {
+          "none": 13
+        },
+        "lands_gt0": 24,
+        "harmful_gt0": 0,
+        "dot_gt0": 0
+      },
+      "by_skill": {
+        "bot": {
+          "n": 160,
+          "died": 30,
+          "outcomes": {
+            "left_room": 6,
+            "cleared": 88,
+            "died": 30,
+            "timeout": 36
+          },
+          "death_kind": {
+            "none": 24,
+            "burn": 6
+          }
+        },
+        "skilled": {
+          "n": 160,
+          "died": 25,
+          "outcomes": {
+            "left_room": 7,
+            "cleared": 123,
+            "died": 25,
+            "timeout": 5
+          },
+          "death_kind": {
+            "burn": 12,
+            "none": 11,
+            "stop": 2
+          }
+        },
+        "average": {
+          "n": 160,
+          "died": 38,
+          "outcomes": {
+            "left_room": 9,
+            "cleared": 102,
+            "died": 38,
+            "timeout": 11
+          },
+          "death_kind": {
+            "burn": 15,
+            "none": 21,
+            "stop": 2
+          }
+        }
+      },
+      "by_hero": {
+        "wolfkin": {
+          "n": 96,
+          "died": 24,
+          "outcomes": {
+            "cleared": 57,
+            "left_room": 7,
+            "timeout": 8,
+            "died": 24
+          },
+          "death_kind": {
+            "none": 14,
+            "burn": 7,
+            "stop": 3
+          }
+        },
+        "sauran": {
+          "n": 96,
+          "died": 23,
+          "outcomes": {
+            "cleared": 54,
+            "left_room": 2,
+            "timeout": 17,
+            "died": 23
+          },
+          "death_kind": {
+            "none": 16,
+            "burn": 7
+          }
+        },
+        "corvin": {
+          "n": 96,
+          "died": 8,
+          "outcomes": {
+            "left_room": 8,
+            "cleared": 74,
+            "died": 8,
+            "timeout": 6
+          },
+          "death_kind": {
+            "none": 6,
+            "burn": 2
+          }
+        },
+        "picsean": {
+          "n": 96,
+          "died": 6,
+          "outcomes": {
+            "left_room": 4,
+            "cleared": 71,
+            "timeout": 15,
+            "died": 6
+          },
+          "death_kind": {
+            "none": 6
+          }
+        },
+        "vespine": {
+          "n": 96,
+          "died": 32,
+          "outcomes": {
+            "cleared": 57,
+            "died": 32,
+            "left_room": 1,
+            "timeout": 6
+          },
+          "death_kind": {
+            "burn": 17,
+            "none": 14,
+            "stop": 1
+          }
+        }
+      }
+    },
+    "normal": {
+      "difficulty": "normal",
+      "n": 480,
+      "outcomes": {
+        "cleared": 156,
+        "died": 251,
+        "timeout": 48,
+        "left_room": 25
+      },
+      "deaths": 251,
+      "death_kind": {
+        "burn": 158,
+        "none": 41,
+        "stop": 52
+      },
+      "death_chain": {
+        "none": 166,
+        "dot_pinned_then_hit": 44,
+        "status_replaced": 2,
+        "stop_then_hit": 37,
+        "stop_then_hit+status_replaced": 2
+      },
+      "cinder": {
+        "n": 288,
+        "outcomes": {
+          "died": 199,
+          "cleared": 50,
+          "timeout": 22,
+          "left_room": 17
+        },
+        "died": 199,
+        "death_kind": {
+          "burn": 158,
+          "none": 22,
+          "stop": 19
+        },
+        "lands_gt0": 215,
+        "harmful_gt0": 209,
+        "dot_gt0": 179
+      },
+      "fold_star": {
+        "n": 162,
+        "outcomes": {
+          "died": 107,
+          "cleared": 30,
+          "timeout": 17,
+          "left_room": 8
+        },
+        "died": 107,
+        "death_kind": {
+          "burn": 46,
+          "none": 9,
+          "stop": 52
+        },
+        "lands_gt0": 116,
+        "harmful_gt0": 111,
+        "dot_gt0": 49
+      },
+      "no_status_carriers": {
+        "n": 132,
+        "outcomes": {
+          "cleared": 91,
+          "timeout": 18,
+          "died": 18,
+          "left_room": 5
+        },
+        "died": 18,
+        "death_kind": {
+          "none": 18
+        },
+        "lands_gt0": 13,
+        "harmful_gt0": 0,
+        "dot_gt0": 0
+      },
+      "by_skill": {
+        "bot": {
+          "n": 160,
+          "died": 78,
+          "outcomes": {
+            "cleared": 53,
+            "died": 78,
+            "timeout": 23,
+            "left_room": 6
+          },
+          "death_kind": {
+            "burn": 49,
+            "none": 13,
+            "stop": 16
+          }
+        },
+        "skilled": {
+          "n": 160,
+          "died": 85,
+          "outcomes": {
+            "cleared": 57,
+            "died": 85,
+            "left_room": 6,
+            "timeout": 12
+          },
+          "death_kind": {
+            "burn": 56,
+            "none": 14,
+            "stop": 15
+          }
+        },
+        "average": {
+          "n": 160,
+          "died": 88,
+          "outcomes": {
+            "cleared": 46,
+            "died": 88,
+            "timeout": 13,
+            "left_room": 13
+          },
+          "death_kind": {
+            "burn": 53,
+            "none": 14,
+            "stop": 21
+          }
+        }
+      },
+      "by_hero": {
+        "wolfkin": {
+          "n": 96,
+          "died": 62,
+          "outcomes": {
+            "died": 62,
+            "cleared": 27,
+            "left_room": 1,
+            "timeout": 6
+          },
+          "death_kind": {
+            "burn": 39,
+            "none": 5,
+            "stop": 18
+          }
+        },
+        "sauran": {
+          "n": 96,
+          "died": 55,
+          "outcomes": {
+            "cleared": 29,
+            "died": 55,
+            "timeout": 12
+          },
+          "death_kind": {
+            "burn": 24,
+            "none": 14,
+            "stop": 17
+          }
+        },
+        "corvin": {
+          "n": 96,
+          "died": 42,
+          "outcomes": {
+            "cleared": 37,
+            "died": 42,
+            "timeout": 8,
+            "left_room": 9
+          },
+          "death_kind": {
+            "burn": 35,
+            "none": 7
+          }
+        },
+        "picsean": {
+          "n": 96,
+          "died": 15,
+          "outcomes": {
+            "cleared": 48,
+            "died": 15,
+            "left_room": 14,
+            "timeout": 19
+          },
+          "death_kind": {
+            "burn": 9,
+            "none": 5,
+            "stop": 1
+          }
+        },
+        "vespine": {
+          "n": 96,
+          "died": 77,
+          "outcomes": {
+            "died": 77,
+            "cleared": 15,
+            "left_room": 1,
+            "timeout": 3
+          },
+          "death_kind": {
+            "stop": 16,
+            "burn": 51,
+            "none": 10
+          }
+        }
+      }
+    }
+  }
+}
