@@ -1,0 +1,254 @@
+{
+  "schema": "quintra-player-telemetry-v1",
+  "build": "684bac5c",
+  "seed": 1369886733,
+  "hero": "Corvin",
+  "difficulty": "easy",
+  "started": "2026-11-23T16:46:06-05:00",
+  "outcome": "timeout",
+  "stages": [
+    {
+      "stage": 3,
+      "play_s": 60,
+      "wall_s": 3.15,
+      "frames": 3612,
+      "rooms": [
+        62
+      ],
+      "room_count": 1,
+      "dmg": 12,
+      "hits": 12,
+      "deaths": 0,
+      "death_causes": [],
+      "boss_seen": 1,
+      "boss_cleared": 1,
+      "boss_s": 60.2,
+      "status": {},
+      "hp_min": 5,
+      "outcome": "cleared"
+    },
+    {
+      "stage": 4,
+      "play_s": 179,
+      "wall_s": 7.85,
+      "frames": 14402,
+      "rooms": [
+        62
+      ],
+      "room_count": 1,
+      "dmg": 0,
+      "hits": 0,
+      "deaths": 0,
+      "death_causes": [],
+      "boss_seen": 0,
+      "boss_cleared": 0,
+      "boss_s": 0.0,
+      "status": {},
+      "hp_min": 5,
+      "outcome": "timeout"
+    }
+  ],
+  "death": null,
+  "events": [
+    {
+      "type": "room",
+      "frame": 0,
+      "stage": 3,
+      "room": 62,
+      "world": false
+    },
+    {
+      "type": "boss",
+      "event": "seen",
+      "stage": 3,
+      "frame": 4
+    },
+    {
+      "type": "room",
+      "frame": 3616,
+      "stage": 4,
+      "room": 62,
+      "world": false,
+      "from": [
+        3,
+        false,
+        21,
+        62
+      ]
+    },
+    {
+      "type": "boss",
+      "event": "cleared",
+      "stage": 3,
+      "frame": 3644
+    },
+    {
+      "type": "room",
+      "frame": 3952,
+      "stage": 4,
+      "room": 62,
+      "world": true,
+      "from": [
+        4,
+        false,
+        21,
+        62
+      ]
+    },
+    {
+      "type": "stall-end",
+      "frame": 6966,
+      "frames": 677
+    },
+    {
+      "type": "stall-end",
+      "frame": 7206,
+      "frames": 689
+    },
+    {
+      "type": "stall-end",
+      "frame": 7446,
+      "frames": 673
+    },
+    {
+      "type": "stall-end",
+      "frame": 7686,
+      "frames": 689
+    },
+    {
+      "type": "stall-end",
+      "frame": 7926,
+      "frames": 677
+    },
+    {
+      "type": "stall-end",
+      "frame": 8166,
+      "frames": 689
+    },
+    {
+      "type": "stall-end",
+      "frame": 8406,
+      "frames": 673
+    },
+    {
+      "type": "stall-end",
+      "frame": 8646,
+      "frames": 689
+    },
+    {
+      "type": "stall-end",
+      "frame": 8886,
+      "frames": 677
+    },
+    {
+      "type": "stall-end",
+      "frame": 9126,
+      "frames": 689
+    },
+    {
+      "type": "stall-end",
+      "frame": 9370,
+      "frames": 677
+    },
+    {
+      "type": "stall-end",
+      "frame": 9606,
+      "frames": 689
+    },
+    {
+      "type": "stall-end",
+      "frame": 9846,
+      "frames": 677
+    },
+    {
+      "type": "stall-end",
+      "frame": 10086,
+      "frames": 689
+    },
+    {
+      "type": "stall-end",
+      "frame": 10326,
+      "frames": 673
+    },
+    {
+      "type": "stall-end",
+      "frame": 10566,
+      "frames": 689
+    },
+    {
+      "type": "stall-end",
+      "frame": 10806,
+      "frames": 677
+    },
+    {
+      "type": "stall-end",
+      "frame": 11046,
+      "frames": 689
+    },
+    {
+      "type": "stall-end",
+      "frame": 11286,
+      "frames": 673
+    },
+    {
+      "type": "stall-end",
+      "frame": 11526,
+      "frames": 689
+    },
+    {
+      "type": "stall-end",
+      "frame": 11766,
+      "frames": 677
+    },
+    {
+      "type": "stall-end",
+      "frame": 12006,
+      "frames": 689
+    },
+    {
+      "type": "stall-end",
+      "frame": 12246,
+      "frames": 673
+    },
+    {
+      "type": "stall-end",
+      "frame": 12486,
+      "frames": 689
+    },
+    {
+      "type": "stall-end",
+      "frame": 12726,
+      "frames": 677
+    },
+    {
+      "type": "stall-end",
+      "frame": 12966,
+      "frames": 689
+    },
+    {
+      "type": "stall-end",
+      "frame": 13206,
+      "frames": 677
+    },
+    {
+      "type": "stall-end",
+      "frame": 13446,
+      "frames": 689
+    },
+    {
+      "type": "stall-end",
+      "frame": 13686,
+      "frames": 677
+    },
+    {
+      "type": "stall-end",
+      "frame": 13926,
+      "frames": 689
+    },
+    {
+      "type": "stall-end",
+      "frame": 14166,
+      "frames": 673
+    }
+  ]
+}

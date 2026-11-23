@@ -1,6 +1,200 @@
 [
   {
     "schema": 1,
+    "id": "20261123-1648-684bac5c-easy-corvin-stage-start-boss",
+    "build_sha": "684bac5c",
+    "rom_sha256": "519f58d9e31205a8911062b48c781a65df0c91d166b6b29813de03870387ac7f",
+    "rom_size": 524288,
+    "emulator": {
+      "name": "pyboy",
+      "version": "2.7.0",
+      "window": "null",
+      "cgb": true
+    },
+    "hero": "Corvin",
+    "class_id": 2,
+    "player_type": "machine",
+    "player_policy": "official-wrap-v1",
+    "run_kind": "stage-start",
+    "start_state": "quintra-stage-03-boss-corvin-easy.pyboy",
+    "difficulty": "easy",
+    "seed": 1369886733,
+    "started": "2026-11-23T16:46:06-05:00",
+    "ended": "2026-11-23T16:46:18-05:00",
+    "timezone": "America/New_York",
+    "outcome": "timeout",
+    "timings": {
+      "wall_s": 11.05,
+      "play_s": 239,
+      "emulated_frames": 14402,
+      "video_frames": 3577
+    },
+    "deaths": [],
+    "stages": [
+      {
+        "stage": 3,
+        "play_s": 60,
+        "wall_s": 3.15,
+        "frames": 3612,
+        "rooms": [
+          62
+        ],
+        "room_count": 1,
+        "dmg": 12,
+        "hits": 12,
+        "deaths": 0,
+        "death_causes": [],
+        "boss_seen": 1,
+        "boss_cleared": 1,
+        "boss_s": 60.2,
+        "status": {},
+        "hp_min": 5,
+        "outcome": "cleared"
+      },
+      {
+        "stage": 4,
+        "play_s": 179,
+        "wall_s": 7.86,
+        "frames": 14402,
+        "rooms": [
+          62
+        ],
+        "room_count": 1,
+        "dmg": 0,
+        "hits": 0,
+        "deaths": 0,
+        "death_causes": [],
+        "boss_seen": 0,
+        "boss_cleared": 0,
+        "boss_s": 0.0,
+        "status": {},
+        "hp_min": 5,
+        "outcome": "timeout"
+      }
+    ],
+    "furthest": "stage 4, room 62, 3 bosses",
+    "end": {
+      "screen": 5,
+      "screen_name": "room",
+      "hp": 8,
+      "hp_max": 16,
+      "mp": 8,
+      "room": 62,
+      "stage": 4,
+      "score": 0,
+      "coins": 16,
+      "bosses": 3,
+      "x": 182,
+      "y": 0
+    },
+    "video": "gameplay.mp4",
+    "gif": "gameplay-open.gif",
+    "telemetry": "telemetry.json",
+    "commentary": "commentary.md",
+    "notes": [
+      "Stage-start run loaded from quintra-stage-03-boss-corvin-easy.pyboy (not a full boot).",
+      "Entered a Colossus fight on stage 3.",
+      "Cleared stage 3 Colossus at t=60s.",
+      "Timed out after 4.0 emulated minutes at stage 4 room 62."
+    ],
+    "bugs": [],
+    "blank_shots": [],
+    "screenshots": [
+      {
+        "file": "screenshots/04-run-start.png",
+        "colors": 18,
+        "note": "stage-start quintra-stage-03-boss-corvin-easy.pyboy screen=room stage=3 room=62",
+        "blank": false
+      },
+      {
+        "file": "screenshots/11-boss-s3.png",
+        "colors": 18,
+        "note": "colossus stage 3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/05-combat.png",
+        "colors": 18,
+        "note": "room=62 hp=16/16 hostiles=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t01s.png",
+        "colors": 22,
+        "note": "t=30s room=62 hp=11 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t02s.png",
+        "colors": 19,
+        "note": "t=60s room=62 hp=5 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-progress-s4-r62.png",
+        "colors": 23,
+        "note": "progress stage=4 room=62",
+        "blank": false
+      },
+      {
+        "file": "screenshots/10-boss-clear-s3.png",
+        "colors": 23,
+        "note": "cleared colossus stage 3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t03s.png",
+        "colors": 25,
+        "note": "t=90s room=62 hp=8 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t04s.png",
+        "colors": 25,
+        "note": "t=120s room=62 hp=8 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t05s.png",
+        "colors": 25,
+        "note": "t=150s room=62 hp=8 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t06s.png",
+        "colors": 23,
+        "note": "t=180s room=62 hp=8 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t07s.png",
+        "colors": 23,
+        "note": "t=210s room=62 hp=8 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t08s.png",
+        "colors": 23,
+        "note": "t=240s room=62 hp=8 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-timeout.png",
+        "colors": 23,
+        "note": "reached 4.0 emulated minutes",
+        "blank": false
+      },
+      {
+        "file": "screenshots/09-final.png",
+        "colors": 23,
+        "note": "outcome=timeout screen=room",
+        "blank": false
+      }
+    ],
+    "href": "runs/20261123-1648-684bac5c-easy-corvin-stage-start-boss/"
+  },
+  {
+    "schema": 1,
     "id": "20261123-1640-285670f7-easy-corvin-v10",
     "build_sha": "285670f7bd1c41ccb88d7e8fa9d4d7b13d8a0cb4",
     "rom_sha256": "68755c1d5b9a971fef787fe1ada797832873126f372a7d3aa08c75ad61a5d664",
