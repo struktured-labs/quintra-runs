@@ -1,0 +1,453 @@
+# 20261124-1510-87b8b9a0-easy-wolfkin-full-w1serpfo5L
+
+- Hero: **Wolfkin** (class_id 0)
+- Difficulty: **easy**
+- Player: machine / official-wrap-v13
+- Seed: `2064128953`
+- Build: `87b8b9a0`
+- Outcome: **won**
+- Play time: 7403s cartridge, 449136 frames, wall 340.7s
+- Furthest: stage 9, room 220, bosses beaten 8
+
+## What happened
+
+- Stage 1: 312s, 15 rooms, 25 hits / 25 dmg, deaths=0, boss seen=1 cleared=1, status={'haste': 3}, outcome=cleared
+- Stage 2: 273s, 19 rooms, 25 hits / 25 dmg, deaths=0, boss seen=1 cleared=1, status={'regen': 1, 'bleed': 1, 'haste': 2}, outcome=cleared
+- Stage 3: 580s, 18 rooms, 42 hits / 42 dmg, deaths=0, boss seen=1 cleared=1, status={'haste': 6, 'stop': 1}, outcome=cleared
+- Stage 4: 569s, 23 rooms, 35 hits / 35 dmg, deaths=0, boss seen=1 cleared=1, status={'regen': 1, 'inversion': 1, 'haste': 4, 'slow': 1}, outcome=cleared
+- Stage 5: 417s, 21 rooms, 27 hits / 27 dmg, deaths=0, boss seen=1 cleared=1, status={'haste': 6, 'regen': 1}, outcome=cleared
+- Stage 6: 402s, 19 rooms, 32 hits / 32 dmg, deaths=0, boss seen=1 cleared=1, status={'haste': 3, 'blind': 1, 'stop': 1}, outcome=cleared
+- Stage 7: 917s, 20 rooms, 21 hits / 21 dmg, deaths=0, boss seen=1 cleared=1, status={'haste': 4, 'regen': 4}, outcome=cleared
+- Stage 8: 3315s, 23 rooms, 261 hits / 261 dmg, deaths=0, boss seen=1 cleared=1, status={'regen': 1, 'haste': 21, 'stop': 7, 'blind': 2, 'confusion': 22, 'mute': 4}, outcome=cleared
+- Stage 9: 618s, 23 rooms, 18 hits / 18 dmg, deaths=0, boss seen=1 cleared=1, status={'haste': 10, 'mute': 1}, outcome=won
+
+## Deaths
+
+- None.
+
+## Gameplay notes
+
+- Stage 1 room 1: prism_toggle (locked).
+- Solved prism_toggle in stage 1 room 1.
+- Stage 1 room 2: none combat-sealed.
+- Stage 1 room 3: none combat-sealed.
+- Stage 1 room 2: none combat-sealed.
+- Stage 1 room 1: prism_toggle.
+- Stage 1 room 10: none combat-sealed.
+- Stage 1 room 9: none combat-sealed.
+- Stage 1 room 7: push_seal (locked).
+- Solved push_seal in stage 1 room 7.
+- Stage 1 room 16: none combat-sealed.
+- Stage 1 room 14: phase_switch.
+- Stage 1 room 13: phase_gate.
+- Stage 1 room 14: phase_switch.
+- Stage 1 room 16: none combat-sealed.
+- Entered a Colossus fight on stage 1.
+- Cleared stage 1 Colossus at t=312s.
+- Stage 2 room 27: none combat-sealed.
+- Stage 2 room 29: prism_toggle (locked).
+- Solved prism_toggle in stage 2 room 29.
+- Stage 2 room 30: none combat-sealed.
+- Stage 2 room 32: none combat-sealed.
+- Stage 2 room 21: none combat-sealed.
+- Stage 2 room 23: rune_sequence (locked).
+- Solved rune_sequence in stage 2 room 23.
+- Stage 2 room 22: none combat-sealed.
+- Stage 2 room 21: none combat-sealed.
+- Stage 2 room 32: none combat-sealed.
+- Stage 2 room 33: none combat-sealed.
+- Stage 2 room 34: phase_switch.
+- Stage 2 room 36: phase_gate.
+- Entered a Colossus fight on stage 2.
+- Cleared stage 2 Colossus at t=273s.
+- Stage 3 room 41: none combat-sealed.
+- Stall 600f at stage 3 room 41 (130,68) hostiles=0 stale=False phase=leftover hp=10.
+- Stage 3 room 42: sun_lattice (locked).
+- Solved sun_lattice in stage 3 room 42.
+- Stage 3 room 51: none combat-sealed.
+- Stage 3 room 50: none combat-sealed.
+- Stage 3 room 51: none combat-sealed.
+- Stage 3 room 42: sun_lattice.
+- Stage 3 room 42: sun_lattice.
+- Stage 3 room 50: none combat-sealed.
+- Stage 3 room 50: none combat-sealed.
+- Stage 3 room 50: none combat-sealed.
+- Loop mode on: stage 3 room 51 seq [40, 41, 42, 51, 50, 51, 42, 51, 42, 51, 50, 51, 50, 51, 50, 51]
+- Stage 3 room 55: sun_lattice (locked).
+- Solved sun_lattice in stage 3 room 55.
+- Stage 3 room 50: none combat-sealed.
+- Stage 3 room 48: none combat-sealed.
+- Stage 3 room 47: phase_switch.
+- Stage 3 room 48: none combat-sealed.
+- Stage 3 room 50: none combat-sealed.
+- Stage 3 room 55: sun_lattice.
+- Stage 3 room 59: phase_gate.
+- Entered a Colossus fight on stage 3.
+- Cleared stage 3 Colossus at t=580s.
+- Stage 4 room 64: none combat-sealed.
+- Sealed room 64 t=30s pos=(83,113) hp=16 hostiles=1.
+- Solved sun_lattice in stage 4 room 65.
+- Stage 4 room 66: none combat-sealed.
+- Stage 4 room 65: sun_lattice.
+- Stage 4 room 68: none combat-sealed.
+- Stage 4 room 72: none combat-sealed.
+- Stage 4 room 71: prism_toggle (locked).
+- Solved prism_toggle in stage 4 room 71.
+- Stage 4 room 76: none combat-sealed.
+- Stage 4 room 77: none combat-sealed.
+- Stage 4 room 80: phase_switch.
+- Stage 4 room 80: phase_switch.
+- Stage 4 room 77: none combat-sealed.
+- Stage 4 room 77: none combat-sealed.
+- Stage 4 room 80: phase_switch.
+- Stage 4 room 83: phase_gate.
+- Entered a Colossus fight on stage 4.
+- Stall 600f at stage 4 room 86 (155,51) hostiles=1 stale=True phase=pack hp=14.
+- Cleared stage 4 Colossus at t=569s.
+- Stage 5 room 87: none combat-sealed.
+- Sealed room 87 t=30s pos=(198,52) hp=15 hostiles=1.
+- Stage 5 room 88: sun_lattice.
+- Solved sun_lattice in stage 5 room 88.
+- Stage 5 room 89: none combat-sealed.
+- Sealed room 89 t=30s pos=(225,204) hp=16 hostiles=3.
+- Stage 5 room 90: none combat-sealed.
+- Stall 600f at stage 5 room 90 (95,25) hostiles=0 stale=False phase=leftover hp=16.
+- Stage 5 room 90: none combat-sealed.
+- Stage 5 room 89: none combat-sealed.
+- Stage 5 room 96: none combat-sealed.
+- Stage 5 room 94: none combat-sealed.
+- Stage 5 room 93: prism_toggle (locked).
+- Solved prism_toggle in stage 5 room 93.
+- Stage 5 room 106: none combat-sealed.
+- Stage 5 room 102: none combat-sealed.
+- Stage 5 room 101: phase_switch.
+- Stage 5 room 99: phase_gate.
+- Stage 5 room 101: phase_switch.
+- Stage 5 room 101: phase_switch.
+- Stage 5 room 101: phase_switch.
+- Stage 5 room 101: phase_switch.
+- Stage 5 room 101: phase_switch.
+- Stage 5 room 106: none combat-sealed.
+- Entered a Colossus fight on stage 5.
+- Cleared stage 5 Colossus at t=417s.
+- Stage 6 room 111: none combat-sealed.
+- Solved sun_lattice in stage 6 room 112.
+- Stage 6 room 115: none combat-sealed.
+- Stage 6 room 114: none combat-sealed.
+- Stage 6 room 118: none combat-sealed.
+- Stage 6 room 127: sun_lattice (locked).
+- Solved sun_lattice in stage 6 room 127.
+- Stage 6 room 127: sun_lattice.
+- Stage 6 room 127: sun_lattice.
+- Stage 6 room 129: none combat-sealed.
+- Stage 6 room 130: phase_switch.
+- Stage 6 room 129: none combat-sealed.
+- Stage 6 room 130: phase_switch.
+- Stage 6 room 129: none combat-sealed.
+- Stage 6 room 130: phase_switch.
+- Stage 6 room 131: none combat-sealed.
+- Sealed room 131 t=30s pos=(194,191) hp=15 hostiles=1.
+- Stall 600f at stage 6 room 131 (194,191) hostiles=1 stale=True phase=leftover hp=15.
+- Sealed room 131 t=60s pos=(102,102) hp=15 hostiles=1.
+- Stage 6 room 132: phase_gate.
+- Entered a Colossus fight on stage 6.
+- Cleared stage 6 Colossus at t=402s.
+- Stage 7 room 141: none combat-sealed.
+- Stage 7 room 140: sun_lattice (locked).
+- Solved sun_lattice in stage 7 room 140.
+- Stage 7 room 139: none combat-sealed.
+- Stage 7 room 138: none combat-sealed.
+- Stage 7 room 147: none combat-sealed.
+- Stage 7 room 146: sun_lattice.
+- Solved sun_lattice in stage 7 room 146.
+- Stage 7 room 144: none combat-sealed.
+- Stage 7 room 143: none combat-sealed.
+- Stage 7 room 155: none combat-sealed.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Loop mode on: stage 7 room 157 seq [154, 155, 156, 157, 158, 157, 158, 157, 158, 157, 158, 157, 158, 157, 158, 157]
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 157: none combat-sealed.
+- Stage 7 room 158: phase_switch.
+- Stage 7 room 159: phase_gate.
+- Entered a Colossus fight on stage 7.
+- Cleared stage 7 Colossus at t=917s.
+- Stage 8 room 181: none combat-sealed.
+- Sealed room 181 t=30s pos=(210,192) hp=16 hostiles=1.
+- Solved sun_lattice in stage 8 room 182.
+- Stage 8 room 181: none combat-sealed.
+- Stage 8 room 170: none combat-sealed.
+- Stage 8 room 169: none combat-sealed.
+- Sealed room 169 t=30s pos=(123,72) hp=15 hostiles=1.
+- Stage 8 room 181: none combat-sealed.
+- Sealed room 181 t=30s pos=(226,224) hp=4 hostiles=9.
+- Sealed room 181 t=60s pos=(166,161) hp=7 hostiles=5.
+- Sealed room 181 t=90s pos=(226,92) hp=7 hostiles=2.
+- Sealed room 181 t=120s pos=(226,96) hp=7 hostiles=1.
+- Stage 8 room 182: sun_lattice.
+- Stage 8 room 183: none combat-sealed.
+- Stage 8 room 182: sun_lattice.
+- Stage 8 room 182: sun_lattice.
+- Stage 8 room 182: sun_lattice.
+- Stage 8 room 181: none combat-sealed.
+- Sealed room 181 t=30s pos=(208,181) hp=11 hostiles=1.
+- Stage 8 room 177: sun_lattice (locked).
+- Solved sun_lattice in stage 8 room 177.
+- Stage 8 room 170: none combat-sealed.
+- Stage 8 room 172: none combat-sealed.
+- Stage 8 room 164: phase_switch.
+- Stage 8 room 167: phase_gate.
+- Loop mode on: stage 8 room 165 seq [171, 165, 172, 165, 164, 165, 166, 167, 166, 165, 166, 165, 166, 165, 166, 165]
+- Stage 8 room 172: none combat-sealed.
+- Stage 8 room 172: none combat-sealed.
+- Stage 8 room 172: none combat-sealed.
+- Stage 8 room 172: none combat-sealed.
+- Stage 8 room 172: none combat-sealed.
+- Stage 8 room 172: none combat-sealed.
+- Stage 8 room 172: none combat-sealed.
+- Stage 8 room 172: none combat-sealed.
+- Stage 8 room 172: none combat-sealed.
+- Stall 600f at stage 8 room 165 (118,101) hostiles=6 stale=True phase=pack hp=9.
+- Stage 8 room 164: phase_switch.
+- Stage 8 room 172: none combat-sealed.
+- Stall 600f at stage 8 room 165 (30,100) hostiles=13 stale=True phase=pack hp=12.
+- Stage 8 room 172: none combat-sealed.
+- Stage 8 room 172: none combat-sealed.
+- Stage 8 room 172: none combat-sealed.
+- Stage 8 room 172: none combat-sealed.
+- Stage 8 room 170: none combat-sealed.
+- Stage 8 room 181: none combat-sealed.
+- Sealed room 181 t=30s pos=(224,78) hp=14 hostiles=9.
+- Sealed room 181 t=60s pos=(226,112) hp=14 hostiles=8.
+- Sealed room 181 t=90s pos=(190,113) hp=15 hostiles=7.
+- Sealed room 181 t=120s pos=(206,152) hp=14 hostiles=4.
+- Stage 8 room 182: sun_lattice.
+- Stage 8 room 184: none combat-sealed.
+- Entered a Colossus fight on stage 8.
+- Cleared stage 8 Colossus at t=3315s.
+- Stage 9 room 197: none combat-sealed.
+- Solved sun_lattice in stage 9 room 198.
+- Stage 9 room 200: none combat-sealed.
+- Stage 9 room 199: none combat-sealed.
+- Stage 9 room 200: none combat-sealed.
+- Stage 9 room 193: none combat-sealed.
+- Stage 9 room 193: none combat-sealed.
+- Stage 9 room 192: sun_lattice.
+- Solved sun_lattice in stage 9 room 192.
+- Stage 9 room 201: none combat-sealed.
+- Stage 9 room 192: sun_lattice.
+- Stage 9 room 193: none combat-sealed.
+- Stage 9 room 198: sun_lattice.
+- Stage 9 room 197: none combat-sealed.
+- Stage 9 room 209: none combat-sealed.
+- Stage 9 room 210: none combat-sealed.
+- Stage 9 room 212: none combat-sealed.
+- Stage 9 room 213: none combat-sealed.
+- Stage 9 room 197: none combat-sealed.
+- Stage 9 room 198: sun_lattice.
+- Stage 9 room 193: none combat-sealed.
+- Stage 9 room 195: phase_switch.
+- Stage 9 room 193: none combat-sealed.
+- Stage 9 room 198: sun_lattice.
+- Stage 9 room 198: sun_lattice.
+- Stage 9 room 198: sun_lattice.
+- Stage 9 room 197: none combat-sealed.
+- Stage 9 room 213: none combat-sealed.
+- Stage 9 room 217: phase_gate.
+- Entered a Colossus fight on stage 9.
+- Cleared stage 9 Colossus at t=618s.
+- Compressed gameplay.mp4 to stay under 50MB.
+- Entered 666 room transitions.
+- Reached stage 3 (Cinder Rex wall). boss_seen=1 cleared=1 deaths=0 play_s=580.
+- Pathing stalls recorded: 6 (longest 600 frames).
+- Cleared all nine Colossi — full run win.
+
+## Boss attempts
+
+- {'type': 'boss', 'event': 'seen', 'stage': 1, 'frame': 12388}
+- {'type': 'boss', 'event': 'cleared', 'stage': 1, 'frame': 18916}
+- {'type': 'boss', 'event': 'seen', 'stage': 2, 'frame': 33542}
+- {'type': 'boss', 'event': 'cleared', 'stage': 2, 'frame': 35982}
+- {'type': 'boss', 'event': 'seen', 'stage': 3, 'frame': 66152}
+- {'type': 'boss', 'event': 'cleared', 'stage': 3, 'frame': 71384}
+- {'type': 'boss', 'event': 'seen', 'stage': 4, 'frame': 96338}
+- {'type': 'boss', 'event': 'cleared', 'stage': 4, 'frame': 105882}
+- {'type': 'boss', 'event': 'seen', 'stage': 5, 'frame': 130644}
+- {'type': 'boss', 'event': 'cleared', 'stage': 5, 'frame': 131570}
+- {'type': 'boss', 'event': 'seen', 'stage': 6, 'frame': 153330}
+- {'type': 'boss', 'event': 'cleared', 'stage': 6, 'frame': 156228}
+- {'type': 'boss', 'event': 'seen', 'stage': 7, 'frame': 208130}
+- {'type': 'boss', 'event': 'cleared', 'stage': 7, 'frame': 211756}
+- {'type': 'boss', 'event': 'seen', 'stage': 8, 'frame': 409460}
+- {'type': 'boss', 'event': 'cleared', 'stage': 8, 'frame': 411228}
+- {'type': 'boss', 'event': 'seen', 'stage': 9, 'frame': 447360}
+- {'type': 'boss', 'event': 'cleared', 'stage': 9, 'frame': 449136}
