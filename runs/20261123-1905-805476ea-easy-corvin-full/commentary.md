@@ -1,0 +1,287 @@
+# 20261123-1905-805476ea-easy-corvin-full
+
+- Hero: **Corvin** (class_id 2)
+- Difficulty: **easy**
+- Player: machine / official-wrap-v13
+- Seed: `2064128948`
+- Build: `805476ea`
+- Outcome: **timeout**
+- Play time: 7192s cartridge, 432000 frames, wall 222.76s
+- Furthest: stage 2, room 30, bosses beaten 1
+
+## What happened
+
+- Stage 1: 274s, 16 rooms, 27 hits / 37 dmg, deaths=0, boss seen=1 cleared=1, status={'haste': 2}, outcome=cleared
+- Stage 2: 6918s, 4 rooms, 0 hits / 0 dmg, deaths=0, boss seen=0 cleared=0, status={'regen': 1}, outcome=timeout
+
+## Deaths
+
+- None.
+
+## Gameplay notes
+
+- Stage 1 room 13: rune_sequence (locked).
+- Solved rune_sequence in stage 1 room 13.
+- Stage 1 room 14: none combat-sealed.
+- Stage 1 room 15: none combat-sealed.
+- Stage 1 room 7: none combat-sealed.
+- Stage 1 room 9: push_seal (locked).
+- Solved push_seal in stage 1 room 9.
+- Stage 1 room 10: none combat-sealed.
+- Stage 1 room 1: none combat-sealed.
+- Sealed room 1 t=30s pos=(101,34) hp=13 hostiles=1.
+- Stage 1 room 3: phase_switch.
+- Stage 1 room 4: phase_gate.
+- Stage 1 room 3: phase_switch.
+- Stage 1 room 9: push_seal.
+- Stage 1 room 7: none combat-sealed.
+- Entered a Colossus fight on stage 1.
+- Cleared stage 1 Colossus at t=274s.
+- Stage 2 room 29: none combat-sealed.
+- Stage 2 room 30: rune_sequence (locked).
+- Solved rune_sequence in stage 2 room 30.
+- Stage 2 room 29: none combat-sealed.
+- Stage 2 room 28: none combat-sealed.
+- Sealed room 28 t=30s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=60s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=90s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=120s pos=(25,55) hp=16 hostiles=6.
+- Sealed room 28 t=150s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=180s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=210s pos=(25,55) hp=16 hostiles=6.
+- Sealed room 28 t=240s pos=(27,55) hp=16 hostiles=6.
+- Sealed room 28 t=270s pos=(25,55) hp=16 hostiles=6.
+- Sealed room 28 t=300s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=330s pos=(25,55) hp=16 hostiles=6.
+- Sealed room 28 t=360s pos=(25,55) hp=16 hostiles=6.
+- Sealed room 28 t=390s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=420s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=450s pos=(25,55) hp=16 hostiles=6.
+- Sealed room 28 t=480s pos=(25,55) hp=16 hostiles=6.
+- Sealed room 28 t=510s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=540s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=570s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=600s pos=(25,55) hp=16 hostiles=6.
+- Sealed room 28 t=630s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=660s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=690s pos=(25,55) hp=16 hostiles=6.
+- Sealed room 28 t=720s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=750s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=780s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=810s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=840s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=870s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=900s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=930s pos=(27,55) hp=16 hostiles=6.
+- Sealed room 28 t=960s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=990s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=1020s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=1050s pos=(27,55) hp=16 hostiles=6.
+- Sealed room 28 t=1080s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=1110s pos=(27,55) hp=16 hostiles=6.
+- Sealed room 28 t=1140s pos=(25,55) hp=16 hostiles=6.
+- Sealed room 28 t=1170s pos=(27,55) hp=16 hostiles=6.
+- Sealed room 28 t=1200s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=1230s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1260s pos=(23,55) hp=16 hostiles=6.
+- Sealed room 28 t=1290s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1320s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=1350s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1380s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1410s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1440s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1470s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1500s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=1530s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1560s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1590s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1620s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1650s pos=(26,55) hp=16 hostiles=6.
+- Sealed room 28 t=1680s pos=(26,55) hp=16 hostiles=6.
+- Sealed room 28 t=1710s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1740s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1770s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1800s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=1830s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1860s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1890s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1920s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1950s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=1980s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=2010s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2040s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2070s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2100s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2130s pos=(26,55) hp=16 hostiles=6.
+- Sealed room 28 t=2160s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2190s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2220s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2250s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2280s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=2310s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2340s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2370s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2400s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2430s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2460s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=2490s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2520s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2550s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2580s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2610s pos=(26,55) hp=16 hostiles=6.
+- Sealed room 28 t=2640s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2670s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2700s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=2730s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2760s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=2790s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2820s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2850s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2880s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2910s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=2940s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=2970s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3000s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3030s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3060s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3090s pos=(26,55) hp=16 hostiles=6.
+- Sealed room 28 t=3120s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3150s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3180s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3210s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3240s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=3270s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3300s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3330s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3360s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3390s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3420s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=3450s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3480s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3510s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3540s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3570s pos=(26,55) hp=16 hostiles=6.
+- Sealed room 28 t=3600s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3630s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3660s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3690s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3720s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=3750s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3780s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3810s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3840s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3870s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3900s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=3930s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3960s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=3990s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4020s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4050s pos=(26,55) hp=16 hostiles=6.
+- Sealed room 28 t=4080s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4110s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4140s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4170s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4200s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=4230s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4260s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4290s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4320s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4350s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4380s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=4410s pos=(26,55) hp=16 hostiles=6.
+- Sealed room 28 t=4440s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4470s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4500s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4530s pos=(26,55) hp=16 hostiles=6.
+- Sealed room 28 t=4560s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4590s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4620s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4650s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4680s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=4710s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4740s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4770s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4800s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4830s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4860s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=4890s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4920s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4950s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=4980s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5010s pos=(26,55) hp=16 hostiles=6.
+- Sealed room 28 t=5040s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5070s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5100s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5130s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5160s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=5190s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5220s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5250s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5280s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5310s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5340s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=5370s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5400s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5430s pos=(26,55) hp=16 hostiles=6.
+- Sealed room 28 t=5460s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5490s pos=(26,55) hp=16 hostiles=6.
+- Sealed room 28 t=5520s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5550s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5580s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5610s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5640s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=5670s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5700s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5730s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5760s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5790s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5820s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=5850s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5880s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5910s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5940s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=5970s pos=(26,55) hp=16 hostiles=6.
+- Sealed room 28 t=6000s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6030s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6060s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6090s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6120s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=6150s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6180s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6210s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6240s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6270s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6300s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=6330s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6360s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6390s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6420s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6450s pos=(26,55) hp=16 hostiles=6.
+- Sealed room 28 t=6480s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6510s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6540s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6570s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6600s pos=(22,55) hp=16 hostiles=6.
+- Sealed room 28 t=6630s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6660s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6690s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6720s pos=(24,55) hp=16 hostiles=6.
+- Sealed room 28 t=6750s pos=(24,55) hp=16 hostiles=6.
+- Timed out after 120.0 emulated minutes at stage 2 room 28.
+- Entered 33 room transitions.
+- Did not reach stage 3 (Cinder Rex) this run.
+- Hit the emulated time cap; not a cartridge game-over.
+
+## Boss attempts
+
+- {'type': 'boss', 'event': 'seen', 'stage': 1, 'frame': 14962}
+- {'type': 'boss', 'event': 'cleared', 'stage': 1, 'frame': 16646}
+
+## Notes (policy official-wrap-v13, build 805476ea)
+
+- First full Easy Corvin title-boot run on 805476ea to clear stage 1: rune
+  court, Flutterbat room 14, Stage Reaper hunt room 15, sigil, warden,
+  waystone, deep switch (rune row), boss, Riftwild crossing, and Warden. 0 deaths.
+- Ends in stage-2 room 28: Corvin keeps losing a firing lane on a
+  stationary Hornet that sits between crystal clusters (bot wall, not a game bug).
+- The video is cut to the first 20 minutes. The rest is the room-28 stall.
