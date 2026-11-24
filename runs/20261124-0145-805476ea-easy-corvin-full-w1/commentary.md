@@ -1,0 +1,279 @@
+# 20261124-0145-805476ea-easy-corvin-full-w1
+
+- Hero: **Corvin** (class_id 2)
+- Difficulty: **easy**
+- Player: machine / official-wrap-v13
+- Seed: `2064128949`
+- Build: `805476ea`
+- Outcome: **timeout**
+- Play time: 3552s cartridge, 216000 frames, wall 142.94s
+- Furthest: stage 6, room 115, bosses beaten 5
+
+## What happened
+
+- Stage 1: 181s, 13 rooms, 9 hits / 9 dmg, deaths=0, boss seen=1 cleared=1, status={'haste': 4}, outcome=cleared
+- Stage 2: 371s, 18 rooms, 26 hits / 27 dmg, deaths=0, boss seen=1 cleared=1, status={'regen': 1, 'haste': 2}, outcome=cleared
+- Stage 3: 550s, 18 rooms, 44 hits / 44 dmg, deaths=0, boss seen=1 cleared=1, status={'haste': 5}, outcome=cleared
+- Stage 4: 504s, 21 rooms, 29 hits / 29 dmg, deaths=0, boss seen=1 cleared=1, status={'regen': 1, 'haste': 7, 'inversion': 1}, outcome=cleared
+- Stage 5: 618s, 20 rooms, 32 hits / 32 dmg, deaths=0, boss seen=1 cleared=1, status={'haste': 4, 'poison': 1}, outcome=cleared
+- Stage 6: 1328s, 3 rooms, 5 hits / 5 dmg, deaths=0, boss seen=0 cleared=0, status={}, outcome=timeout
+
+## Deaths
+
+- None.
+
+## Gameplay notes
+
+- Stage 1 room 1: prism_toggle (locked).
+- Solved prism_toggle in stage 1 room 1.
+- Stage 1 room 2: none combat-sealed.
+- Stage 1 room 3: none combat-sealed.
+- Stage 1 room 2: none combat-sealed.
+- Stage 1 room 1: prism_toggle.
+- Stage 1 room 9: none combat-sealed.
+- Stage 1 room 8: none combat-sealed.
+- Stage 1 room 7: rune_sequence (locked).
+- Solved rune_sequence in stage 1 room 7.
+- Stage 1 room 16: none combat-sealed.
+- Stage 1 room 14: phase_switch.
+- Stage 1 room 13: phase_gate.
+- Stage 1 room 14: phase_switch.
+- Stage 1 room 16: none combat-sealed.
+- Entered a Colossus fight on stage 1.
+- Cleared stage 1 Colossus at t=181s.
+- Stage 2 room 22: none combat-sealed.
+- Stage 2 room 23: prism_toggle (locked).
+- Solved prism_toggle in stage 2 room 23.
+- Stage 2 room 23: prism_toggle.
+- Stage 2 room 22: none combat-sealed.
+- Stage 2 room 21: none combat-sealed.
+- Stage 2 room 30: none combat-sealed.
+- Stage 2 room 29: none combat-sealed.
+- Stage 2 room 27: push_seal (locked).
+- Solved push_seal in stage 2 room 27.
+- Stage 2 room 26: none combat-sealed.
+- Stage 2 room 27: push_seal.
+- Stage 2 room 35: none combat-sealed.
+- Stage 2 room 34: phase_switch.
+- Stage 2 room 33: phase_gate.
+- Stage 2 room 34: phase_switch.
+- Entered a Colossus fight on stage 2.
+- Cleared stage 2 Colossus at t=371s.
+- Stage 3 room 44: none combat-sealed.
+- Sealed room 44 t=30s pos=(127,101) hp=4 hostiles=3.
+- Stage 3 room 45: sun_lattice (locked).
+- Solved sun_lattice in stage 3 room 45.
+- Stage 3 room 47: none combat-sealed.
+- Stage 3 room 59: none combat-sealed.
+- Stage 3 room 59: none combat-sealed.
+- Stage 3 room 47: none combat-sealed.
+- Stage 3 room 48: none combat-sealed.
+- Stage 3 room 48: none combat-sealed.
+- Stage 3 room 50: sun_lattice (locked).
+- Solved sun_lattice in stage 3 room 50.
+- Stage 3 room 51: none combat-sealed.
+- Stage 3 room 50: sun_lattice.
+- Stage 3 room 47: none combat-sealed.
+- Stage 3 room 56: none combat-sealed.
+- Sealed room 56 t=30s pos=(169,56) hp=16 hostiles=1.
+- Stage 3 room 55: phase_switch.
+- Stage 3 room 54: phase_gate.
+- Stage 3 room 55: phase_switch.
+- Stage 3 room 59: none combat-sealed.
+- Entered a Colossus fight on stage 3.
+- Cleared stage 3 Colossus at t=550s.
+- Stage 4 room 76: none combat-sealed.
+- Stage 4 room 77: sun_lattice (locked).
+- Solved sun_lattice in stage 4 room 77.
+- Stage 4 room 79: none combat-sealed.
+- Stage 4 room 80: none combat-sealed.
+- Stage 4 room 82: none combat-sealed.
+- Stage 4 room 83: sun_lattice (locked).
+- Solved sun_lattice in stage 4 room 83.
+- Stage 4 room 82: none combat-sealed.
+- Stage 4 room 71: none combat-sealed.
+- Stage 4 room 72: none combat-sealed.
+- Stage 4 room 73: none combat-sealed.
+- Stage 4 room 73: none combat-sealed.
+- Stage 4 room 73: none combat-sealed.
+- Stage 4 room 73: none combat-sealed.
+- Stage 4 room 73: none combat-sealed.
+- Stage 4 room 73: none combat-sealed.
+- Loop mode on: stage 4 room 73 seq [70, 71, 72, 73, 66, 73, 66, 73, 66, 73, 66, 73, 66, 73, 66, 73]
+- Stage 4 room 73: none combat-sealed.
+- Stall 600f at stage 4 room 66 (6,94) hostiles=6 stale=True phase=pack hp=16.
+- Stage 4 room 65: phase_switch.
+- Stage 4 room 68: phase_gate.
+- Stage 4 room 82: none combat-sealed.
+- Stage 4 room 83: sun_lattice.
+- Entered a Colossus fight on stage 4.
+- Cleared stage 4 Colossus at t=504s.
+- Stage 5 room 87: none combat-sealed.
+- Stage 5 room 88: sun_lattice (locked).
+- Solved sun_lattice in stage 5 room 88.
+- Stage 5 room 89: none combat-sealed.
+- Stage 5 room 90: none combat-sealed.
+- Stage 5 room 90: none combat-sealed.
+- Stage 5 room 89: none combat-sealed.
+- Stage 5 room 90: none combat-sealed.
+- Stage 5 room 89: none combat-sealed.
+- Stage 5 room 93: prism_toggle (locked).
+- Solved prism_toggle in stage 5 room 93.
+- Stage 5 room 93: prism_toggle.
+- Stage 5 room 103: none combat-sealed.
+- Stage 5 room 93: prism_toggle.
+- Stage 5 room 93: prism_toggle.
+- Stage 5 room 93: prism_toggle.
+- Stage 5 room 93: prism_toggle.
+- Loop mode on: stage 5 room 104 seq [95, 94, 93, 104, 93, 104, 103, 104, 93, 104, 93, 104, 93, 104, 93, 104]
+- Stage 5 room 105: none combat-sealed.
+- Stage 5 room 106: none combat-sealed.
+- Stage 5 room 107: phase_switch.
+- Stage 5 room 93: prism_toggle.
+- Stage 5 room 103: none combat-sealed.
+- Stage 5 room 101: none combat-sealed.
+- Stage 5 room 100: phase_gate.
+- Stage 5 room 103: none combat-sealed.
+- Stage 5 room 93: prism_toggle.
+- Stage 5 room 107: phase_switch.
+- Entered a Colossus fight on stage 5.
+- Cleared stage 5 Colossus at t=618s.
+- Stage 6 room 114: none combat-sealed.
+- Solved sun_lattice in stage 6 room 115.
+- Stall 600f at stage 6 room 115 (38,59) hostiles=3 stale=False phase=pack hp=16.
+- Stall 1200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 1800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 2400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 3000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 3600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 4200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 4800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 5400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 6000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 6600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 7200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 7800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 8400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 9000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 9600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 10200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 10800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 11400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 12000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 12600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 13200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 13800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 14400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 15000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 15600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 16200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 16800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 17400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 18000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 18600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 19200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 19800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 20400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 21000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 21600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 22200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 22800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 23400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 24000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 24600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 25200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 25800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 26400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 27000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 27600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 28200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 28800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 29400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 30000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 30600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 31200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 31800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 32400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 33000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 33600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 34200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 34800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 35400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 36000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 36600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 37200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 37800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 38400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 39000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 39600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 40200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 40800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 41400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 42000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 42600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 43200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 43800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 44400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 45000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 45600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 46200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 46800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 47400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 48000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 48600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 49200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 49800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 50400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 51000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 51600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 52200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 52800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 53400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 54000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 54600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 55200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 55800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 56400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 57000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 57600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 58200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 58800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 59400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 60000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 60600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 61200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 61800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 62400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 63000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 63600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 64200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 64800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 65400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 66000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 66600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 67200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 67800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 68400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 69000f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 69600f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 70200f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 70800f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Stall 71400f at stage 6 room 115 (38,59) hostiles=3 stale=True phase=pack hp=16.
+- Timed out after 60.0 emulated minutes at stage 6 room 115.
+- Entered 227 room transitions.
+- Reached stage 3 (Cinder Rex wall). boss_seen=1 cleared=1 deaths=0 play_s=550.
+- Pathing stalls recorded: 120 (longest 71400 frames).
+- Hit the emulated time cap; not a cartridge game-over.
+
+## Boss attempts
+
+- {'type': 'boss', 'event': 'seen', 'stage': 1, 'frame': 10852}
+- {'type': 'boss', 'event': 'cleared', 'stage': 1, 'frame': 11048}
+- {'type': 'boss', 'event': 'seen', 'stage': 2, 'frame': 29730}
+- {'type': 'boss', 'event': 'cleared', 'stage': 2, 'frame': 34120}
+- {'type': 'boss', 'event': 'seen', 'stage': 3, 'frame': 65396}
+- {'type': 'boss', 'event': 'cleared', 'stage': 3, 'frame': 67760}
+- {'type': 'boss', 'event': 'seen', 'stage': 4, 'frame': 97496}
+- {'type': 'boss', 'event': 'cleared', 'stage': 4, 'frame': 98432}
+- {'type': 'boss', 'event': 'seen', 'stage': 5, 'frame': 134802}
+- {'type': 'boss', 'event': 'cleared', 'stage': 5, 'frame': 136032}
