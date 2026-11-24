@@ -1,0 +1,648 @@
+# 20261124-1200-87b8b9a0-easy-corvin-full-w8planb
+
+- Hero: **Corvin** (class_id 2)
+- Difficulty: **easy**
+- Player: machine / official-wrap-v13
+- Seed: `2064128588`
+- Build: `87b8b9a0`
+- Outcome: **won**
+- Play time: 10455s cartridge, 632210 frames, wall 371.68s
+- Furthest: stage 9, room 220, bosses beaten 8
+
+## What happened
+
+- Stage 1: 249s, 13 rooms, 14 hits / 14 dmg, deaths=0, boss seen=1 cleared=1, status={'bleed': 1}, outcome=cleared
+- Stage 2: 483s, 18 rooms, 15 hits / 15 dmg, deaths=0, boss seen=1 cleared=1, status={'regen': 1, 'haste': 3}, outcome=cleared
+- Stage 3: 2887s, 17 rooms, 33 hits / 33 dmg, deaths=0, boss seen=1 cleared=1, status={'haste': 6}, outcome=cleared
+- Stage 4: 547s, 21 rooms, 23 hits / 23 dmg, deaths=0, boss seen=1 cleared=1, status={'regen': 1, 'haste': 3, 'slow': 1}, outcome=cleared
+- Stage 5: 2790s, 18 rooms, 86 hits / 86 dmg, deaths=0, boss seen=1 cleared=1, status={'regen': 1, 'haste': 20, 'brittle': 5}, outcome=cleared
+- Stage 6: 535s, 21 rooms, 38 hits / 38 dmg, deaths=0, boss seen=1 cleared=1, status={'haste': 5, 'blind': 1}, outcome=cleared
+- Stage 7: 1220s, 20 rooms, 74 hits / 74 dmg, deaths=0, boss seen=1 cleared=1, status={'regen': 1, 'haste': 5, 'blind': 1}, outcome=cleared
+- Stage 8: 1054s, 25 rooms, 44 hits / 44 dmg, deaths=0, boss seen=1 cleared=1, status={'haste': 8, 'stop': 2, 'blind': 1, 'confusion': 1, 'mute': 2}, outcome=cleared
+- Stage 9: 690s, 25 rooms, 55 hits / 55 dmg, deaths=0, boss seen=1 cleared=1, status={'haste': 5, 'mute': 2}, outcome=won
+
+## Deaths
+
+- None.
+
+## Gameplay notes
+
+- Stage 1 room 1: rune_sequence (locked).
+- Solved rune_sequence in stage 1 room 1.
+- Stage 1 room 3: none combat-sealed.
+- Stage 1 room 2: none combat-sealed.
+- Stage 1 room 1: rune_sequence.
+- Stage 1 room 10: none combat-sealed.
+- Stage 1 room 9: none combat-sealed.
+- Stage 1 room 7: push_seal (locked).
+- Solved push_seal in stage 1 room 7.
+- Stage 1 room 16: none combat-sealed.
+- Stage 1 room 15: none combat-sealed.
+- Stage 1 room 14: phase_switch.
+- Stage 1 room 13: phase_gate.
+- Stage 1 room 14: phase_switch.
+- Stage 1 room 16: none combat-sealed.
+- Entered a Colossus fight on stage 1.
+- Cleared stage 1 Colossus at t=249s.
+- Stage 2 room 32: none combat-sealed.
+- Stage 2 room 33: prism_toggle (locked).
+- Solved prism_toggle in stage 2 room 33.
+- Stage 2 room 35: none combat-sealed.
+- Stage 2 room 36: none combat-sealed.
+- Stage 2 room 27: none combat-sealed.
+- Stage 2 room 28: none combat-sealed.
+- Stage 2 room 29: push_seal (locked).
+- Solved push_seal in stage 2 room 29.
+- Stage 2 room 30: none combat-sealed.
+- Stage 2 room 22: none combat-sealed.
+- Stage 2 room 23: phase_switch.
+- Stage 2 room 24: phase_gate.
+- Stage 2 room 23: phase_switch.
+- Stage 2 room 22: none combat-sealed.
+- Stall 600f at stage 2 room 22 (126,28) hostiles=0 stale=False phase=pack hp=16.
+- Stage 2 room 27: none combat-sealed.
+- Entered a Colossus fight on stage 2.
+- Cleared stage 2 Colossus at t=483s.
+- Stage 3 room 45: none combat-sealed.
+- Stage 3 room 44: sun_lattice (locked).
+- Solved sun_lattice in stage 3 room 44.
+- Stage 3 room 42: none combat-sealed.
+- Stage 3 room 43: none combat-sealed.
+- Stage 3 room 49: none combat-sealed.
+- Stage 3 room 48: none combat-sealed.
+- Stage 3 room 59: prism_toggle (locked).
+- Solved prism_toggle in stage 3 room 59.
+- Stage 3 room 57: none combat-sealed.
+- Stage 3 room 56: none combat-sealed.
+- Stage 3 room 55: phase_switch.
+- Stage 3 room 54: phase_gate.
+- Stage 3 room 55: phase_switch.
+- Stage 3 room 57: none combat-sealed.
+- Stage 3 room 59: prism_toggle.
+- Stage 3 room 59: prism_toggle.
+- Stage 3 room 59: prism_toggle.
+- Stage 3 room 59: prism_toggle.
+- Stage 3 room 59: prism_toggle.
+- Loop mode on: stage 3 room 58 seq [55, 56, 57, 58, 47, 58, 59, 58, 59, 58, 59, 58, 59, 58, 59, 58]
+- Stage 3 room 59: prism_toggle.
+- Stall 600f at stage 3 room 59 (64,8) hostiles=4 stale=False phase=pack hp=16.
+- Stall 1200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 1800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 2400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 3000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 3600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 4200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 4800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 5400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 6000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 6600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 7200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 7800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 8400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 9000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 9600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 10200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 10800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 11400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 12000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 12600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 13200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 13800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 14400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 15000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 15600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 16200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 16800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 17400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 18000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 18600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 19200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 19800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 20400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 21000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 21600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 22200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 22800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 23400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 24000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 24600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 25200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 25800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 26400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 27000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 27600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 28200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 28800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 29400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 30000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 30600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 31200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 31800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 32400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 33000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 33600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 34200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 34800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 35400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 36000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 36600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 37200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 37800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 38400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 39000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 39600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 40200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 40800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 41400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 42000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 42600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 43200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 43800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 44400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 45000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 45600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 46200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 46800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 47400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 48000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 48600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 49200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 49800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 50400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 51000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 51600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 52200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 52800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 53400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 54000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 54600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 55200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 55800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 56400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 57000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 57600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 58200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 58800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 59400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 60000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 60600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 61200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 61800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 62400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 63000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 63600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 64200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 64800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 65400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 66000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 66600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 67200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 67800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 68400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 69000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 69600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 70200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 70800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 71400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 72000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 72600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 73200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 73800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 74400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 75000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 75600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 76200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 76800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 77400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 78000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 78600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 79200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 79800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 80400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 81000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 81600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 82200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 82800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 83400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 84000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 84600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 85200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 85800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 86400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 87000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 87600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 88200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 88800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 89400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 90000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 90600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 91200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 91800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 92400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 93000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 93600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 94200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 94800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 95400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 96000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 96600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 97200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 97800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 98400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 99000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 99600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 100200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 100800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 101400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 102000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 102600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 103200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 103800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 104400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 105000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 105600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 106200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 106800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 107400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 108000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 108600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 109200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 109800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 110400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 111000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 111600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 112200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 112800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 113400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 114000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 114600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 115200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 115800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 116400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 117000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 117600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 118200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 118800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 119400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 120000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 120600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 121200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 121800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 122400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 123000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 123600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 124200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 124800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 125400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 126000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 126600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 127200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 127800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 128400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 129000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 129600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 130200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 130800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 131400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 132000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 132600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 133200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 133800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 134400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 135000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 135600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 136200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 136800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 137400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 138000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 138600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 139200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 139800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 140400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 141000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 141600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 142200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 142800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 143400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 144000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 144600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 145200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 145800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Stall 146400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.
+- Entered a Colossus fight on stage 3.
+- Cleared stage 3 Colossus at t=2887s.
+- Stage 4 room 67: none combat-sealed.
+- Stage 4 room 68: sun_lattice (locked).
+- Solved sun_lattice in stage 4 room 68.
+- Stage 4 room 67: none combat-sealed.
+- Stage 4 room 66: none combat-sealed.
+- Stage 4 room 74: none combat-sealed.
+- Stage 4 room 72: none combat-sealed.
+- Stage 4 room 70: prism_toggle (locked).
+- Solved prism_toggle in stage 4 room 70.
+- Stage 4 room 82: none combat-sealed.
+- Stage 4 room 83: phase_switch.
+- Stage 4 room 82: none combat-sealed.
+- Stage 4 room 80: none combat-sealed.
+- Stage 4 room 79: none combat-sealed.
+- Stage 4 room 78: none combat-sealed.
+- Sealed room 78 t=30s pos=(82,99) hp=16 hostiles=1.
+- Stage 4 room 77: phase_gate.
+- Stage 4 room 82: none combat-sealed.
+- Stage 4 room 83: phase_switch.
+- Entered a Colossus fight on stage 4.
+- Stall 600f at stage 4 room 86 (172,106) hostiles=1 stale=False phase=pack hp=14.
+- Stall 1200f at stage 4 room 86 (172,106) hostiles=1 stale=True phase=pack hp=14.
+- Stall 1800f at stage 4 room 86 (172,106) hostiles=1 stale=True phase=pack hp=14.
+- Stall 2400f at stage 4 room 86 (172,106) hostiles=1 stale=True phase=pack hp=14.
+- Stall 3000f at stage 4 room 86 (172,106) hostiles=1 stale=True phase=pack hp=14.
+- Cleared stage 4 Colossus at t=547s.
+- Stage 5 room 94: none combat-sealed.
+- Stall 600f at stage 5 room 94 (174,112) hostiles=6 stale=False phase=pack hp=16.
+- Sealed room 94 t=30s pos=(174,112) hp=16 hostiles=6.
+- Sealed room 94 t=60s pos=(167,112) hp=16 hostiles=6.
+- Sealed room 94 t=90s pos=(166,112) hp=16 hostiles=6.
+- Sealed room 94 t=120s pos=(168,112) hp=16 hostiles=6.
+- Sealed room 94 t=150s pos=(169,112) hp=16 hostiles=6.
+- Sealed room 94 t=180s pos=(166,105) hp=16 hostiles=6.
+- Sealed room 94 t=210s pos=(164,112) hp=16 hostiles=6.
+- Sealed room 94 t=240s pos=(165,112) hp=13 hostiles=6.
+- Sealed room 94 t=270s pos=(169,112) hp=11 hostiles=5.
+- Sealed room 94 t=300s pos=(166,112) hp=11 hostiles=5.
+- Sealed room 94 t=330s pos=(169,112) hp=11 hostiles=5.
+- Sealed room 94 t=360s pos=(170,112) hp=11 hostiles=5.
+- Sealed room 94 t=390s pos=(168,112) hp=11 hostiles=5.
+- Sealed room 94 t=420s pos=(167,112) hp=11 hostiles=5.
+- Sealed room 94 t=450s pos=(167,112) hp=11 hostiles=5.
+- Sealed room 94 t=480s pos=(167,112) hp=11 hostiles=5.
+- Sealed room 94 t=510s pos=(170,112) hp=11 hostiles=5.
+- Sealed room 94 t=540s pos=(166,112) hp=11 hostiles=5.
+- Sealed room 94 t=570s pos=(168,112) hp=11 hostiles=5.
+- Sealed room 94 t=600s pos=(177,112) hp=11 hostiles=5.
+- Sealed room 94 t=630s pos=(175,112) hp=11 hostiles=5.
+- Sealed room 94 t=660s pos=(176,112) hp=11 hostiles=5.
+- Sealed room 94 t=690s pos=(177,112) hp=11 hostiles=5.
+- Sealed room 94 t=720s pos=(177,112) hp=11 hostiles=5.
+- Sealed room 94 t=750s pos=(176,112) hp=11 hostiles=5.
+- Sealed room 94 t=780s pos=(178,112) hp=11 hostiles=5.
+- Sealed room 94 t=810s pos=(175,108) hp=11 hostiles=5.
+- Sealed room 94 t=840s pos=(178,112) hp=11 hostiles=5.
+- Sealed room 94 t=870s pos=(175,112) hp=11 hostiles=5.
+- Sealed room 94 t=900s pos=(178,112) hp=11 hostiles=5.
+- Sealed room 94 t=930s pos=(177,112) hp=11 hostiles=5.
+- Sealed room 94 t=960s pos=(177,112) hp=11 hostiles=5.
+- Sealed room 94 t=990s pos=(174,112) hp=11 hostiles=5.
+- Sealed room 94 t=1020s pos=(177,112) hp=11 hostiles=5.
+- Sealed room 94 t=1050s pos=(175,112) hp=11 hostiles=5.
+- Sealed room 94 t=1080s pos=(178,112) hp=11 hostiles=5.
+- Sealed room 94 t=1110s pos=(176,112) hp=11 hostiles=5.
+- Sealed room 94 t=1140s pos=(176,112) hp=11 hostiles=5.
+- Sealed room 94 t=1170s pos=(174,112) hp=11 hostiles=5.
+- Sealed room 94 t=1200s pos=(176,112) hp=11 hostiles=5.
+- Sealed room 94 t=1230s pos=(180,137) hp=11 hostiles=5.
+- Stage 5 room 93: sun_lattice (locked).
+- Solved sun_lattice in stage 5 room 93.
+- Stage 5 room 94: none combat-sealed.
+- Stage 5 room 94: none combat-sealed.
+- Stage 5 room 93: sun_lattice.
+- Stage 5 room 106: sun_lattice (locked).
+- Solved sun_lattice in stage 5 room 106.
+- Stage 5 room 107: none combat-sealed.
+- Stage 5 room 107: none combat-sealed.
+- Stage 5 room 106: sun_lattice.
+- Stage 5 room 105: none combat-sealed.
+- Sealed room 105 t=30s pos=(139,27) hp=16 hostiles=1.
+- Stage 5 room 93: sun_lattice.
+- Stage 5 room 94: none combat-sealed.
+- Stall 600f at stage 5 room 94 (172,112) hostiles=8 stale=True phase=pack hp=15.
+- Sealed room 94 t=30s pos=(165,112) hp=15 hostiles=8.
+- Sealed room 94 t=60s pos=(162,112) hp=15 hostiles=8.
+- Sealed room 94 t=90s pos=(170,108) hp=13 hostiles=8.
+- Sealed room 94 t=120s pos=(165,112) hp=13 hostiles=8.
+- Sealed room 94 t=150s pos=(169,112) hp=13 hostiles=8.
+- Sealed room 94 t=180s pos=(170,112) hp=13 hostiles=8.
+- Sealed room 94 t=210s pos=(168,112) hp=13 hostiles=8.
+- Sealed room 94 t=240s pos=(176,112) hp=13 hostiles=8.
+- Sealed room 94 t=270s pos=(168,112) hp=13 hostiles=8.
+- Sealed room 94 t=300s pos=(177,112) hp=13 hostiles=8.
+- Sealed room 94 t=330s pos=(166,112) hp=13 hostiles=8.
+- Sealed room 94 t=360s pos=(167,112) hp=13 hostiles=8.
+- Stage 5 room 97: none combat-sealed.
+- Stage 5 room 97: none combat-sealed.
+- Stage 5 room 94: none combat-sealed.
+- Sealed room 94 t=30s pos=(117,177) hp=16 hostiles=1.
+- Stage 5 room 93: sun_lattice.
+- Stage 5 room 93: sun_lattice.
+- Stage 5 room 94: none combat-sealed.
+- Stall 600f at stage 5 room 94 (138,139) hostiles=6 stale=False phase=pack hp=15.
+- Stall 1200f at stage 5 room 94 (138,139) hostiles=5 stale=False phase=pack hp=15.
+- Sealed room 94 t=30s pos=(138,139) hp=15 hostiles=5.
+- Sealed room 94 t=60s pos=(170,136) hp=12 hostiles=5.
+- Sealed room 94 t=90s pos=(167,152) hp=10 hostiles=5.
+- Sealed room 94 t=120s pos=(170,142) hp=9 hostiles=5.
+- Sealed room 94 t=150s pos=(167,152) hp=7 hostiles=5.
+- Stage 5 room 93: sun_lattice.
+- Stage 5 room 106: sun_lattice.
+- Stall 600f at stage 5 room 106 (110,110) hostiles=2 stale=True phase=pack hp=12.
+- Stall 1200f at stage 5 room 106 (110,110) hostiles=2 stale=True phase=pack hp=12.
+- Stall 1800f at stage 5 room 106 (110,110) hostiles=2 stale=True phase=pack hp=12.
+- Stall 2400f at stage 5 room 106 (110,110) hostiles=2 stale=True phase=pack hp=12.
+- Stall 3000f at stage 5 room 106 (110,110) hostiles=2 stale=True phase=pack hp=12.
+- Stall 3600f at stage 5 room 106 (110,110) hostiles=2 stale=True phase=pack hp=12.
+- Stall 600f at stage 5 room 105 (18,22) hostiles=12 stale=True phase=pack hp=13.
+- Stage 5 room 106: sun_lattice.
+- Stage 5 room 106: sun_lattice.
+- Stage 5 room 106: sun_lattice.
+- Stage 5 room 106: sun_lattice.
+- Loop mode on: stage 5 room 105 seq [94, 93, 104, 105, 106, 105, 104, 105, 106, 105, 106, 105, 106, 105, 106, 105]
+- Stage 5 room 93: sun_lattice.
+- Stage 5 room 94: none combat-sealed.
+- Stall 600f at stage 5 room 94 (110,180) hostiles=4 stale=False phase=pack hp=15.
+- Sealed room 94 t=30s pos=(85,76) hp=14 hostiles=4.
+- Stage 5 room 90: phase_switch.
+- Stage 5 room 91: phase_gate.
+- Stage 5 room 90: phase_switch.
+- Stage 5 room 94: none combat-sealed.
+- Stage 5 room 93: sun_lattice.
+- Stage 5 room 106: sun_lattice.
+- Stage 5 room 107: none combat-sealed.
+- Entered a Colossus fight on stage 5.
+- Cleared stage 5 Colossus at t=2790s.
+- Stage 6 room 111: none combat-sealed.
+- Solved sun_lattice in stage 6 room 112.
+- Stage 6 room 123: none combat-sealed.
+- Stage 6 room 124: none combat-sealed.
+- Stage 6 room 123: none combat-sealed.
+- Stage 6 room 112: sun_lattice.
+- Stage 6 room 113: none combat-sealed.
+- Stage 6 room 115: sun_lattice (locked).
+- Solved sun_lattice in stage 6 room 115.
+- Stage 6 room 113: none combat-sealed.
+- Stage 6 room 112: sun_lattice.
+- Stage 6 room 124: none combat-sealed.
+- Stage 6 room 124: none combat-sealed.
+- Stage 6 room 127: none combat-sealed.
+- Stage 6 room 124: none combat-sealed.
+- Stage 6 room 124: none combat-sealed.
+- Stage 6 room 127: none combat-sealed.
+- Stage 6 room 130: phase_switch.
+- Stage 6 room 131: none combat-sealed.
+- Stage 6 room 132: phase_gate.
+- Entered a Colossus fight on stage 6.
+- Cleared stage 6 Colossus at t=535s.
+- Stage 7 room 152: none combat-sealed.
+- Stage 7 room 153: sun_lattice.
+- Solved sun_lattice in stage 7 room 153.
+- Stage 7 room 152: none combat-sealed.
+- Stage 7 room 151: none combat-sealed.
+- Stage 7 room 150: none combat-sealed.
+- Stage 7 room 151: none combat-sealed.
+- Stage 7 room 152: none combat-sealed.
+- Stage 7 room 153: sun_lattice.
+- Stage 7 room 156: none combat-sealed.
+- Sealed room 156 t=30s pos=(80,212) hp=16 hostiles=2.
+- Sealed room 156 t=60s pos=(74,203) hp=16 hostiles=2.
+- Sealed room 156 t=90s pos=(79,218) hp=16 hostiles=2.
+- Stage 7 room 153: sun_lattice.
+- Stage 7 room 152: none combat-sealed.
+- Sealed room 152 t=30s pos=(73,150) hp=16 hostiles=4.
+- Stage 7 room 150: none combat-sealed.
+- Stage 7 room 150: none combat-sealed.
+- Stage 7 room 138: sun_lattice.
+- Solved sun_lattice in stage 7 room 138.
+- Stage 7 room 150: none combat-sealed.
+- Stage 7 room 150: none combat-sealed.
+- Stage 7 room 150: none combat-sealed.
+- Stage 7 room 150: none combat-sealed.
+- Loop mode on: stage 7 room 150 seq [151, 150, 147, 150, 147, 138, 147, 150, 151, 150, 151, 150, 151, 150, 151, 150]
+- Stage 7 room 150: none combat-sealed.
+- Stage 7 room 152: none combat-sealed.
+- Sealed room 152 t=30s pos=(218,60) hp=14 hostiles=5.
+- Stage 7 room 153: sun_lattice.
+- Stage 7 room 157: none combat-sealed.
+- Sealed room 157 t=30s pos=(215,112) hp=12 hostiles=5.
+- Sealed room 157 t=60s pos=(226,112) hp=11 hostiles=5.
+- Sealed room 157 t=90s pos=(226,112) hp=11 hostiles=5.
+- Sealed room 157 t=120s pos=(226,112) hp=11 hostiles=5.
+- Sealed room 157 t=150s pos=(138,78) hp=10 hostiles=3.
+- Stage 7 room 158: none combat-sealed.
+- Stage 7 room 159: phase_switch.
+- Stage 7 room 159: phase_switch.
+- Stage 7 room 158: none combat-sealed.
+- Stage 7 room 153: sun_lattice.
+- Stage 7 room 152: none combat-sealed.
+- Sealed room 152 t=30s pos=(177,97) hp=14 hostiles=8.
+- Sealed room 152 t=60s pos=(190,112) hp=14 hostiles=8.
+- Sealed room 152 t=90s pos=(159,104) hp=14 hostiles=8.
+- Sealed room 152 t=120s pos=(168,104) hp=14 hostiles=8.
+- Stage 7 room 150: none combat-sealed.
+- Stage 7 room 138: sun_lattice.
+- Stage 7 room 141: phase_gate.
+- Stage 7 room 138: sun_lattice.
+- Stage 7 room 150: none combat-sealed.
+- Stage 7 room 152: none combat-sealed.
+- Sealed room 152 t=30s pos=(46,122) hp=16 hostiles=2.
+- Stage 7 room 153: sun_lattice.
+- Stage 7 room 158: none combat-sealed.
+- Stage 7 room 159: phase_switch.
+- Entered a Colossus fight on stage 7.
+- Cleared stage 7 Colossus at t=1220s.
+- Stage 8 room 166: none combat-sealed.
+- Stage 8 room 167: sun_lattice (locked).
+- Solved sun_lattice in stage 8 room 167.
+- Stage 8 room 166: none combat-sealed.
+- Stage 8 room 165: none combat-sealed.
+- Stage 8 room 165: none combat-sealed.
+- Sealed room 165 t=30s pos=(54,159) hp=15 hostiles=3.
+- Stage 8 room 173: none combat-sealed.
+- Stage 8 room 172: none combat-sealed.
+- Sealed room 172 t=30s pos=(63,104) hp=16 hostiles=2.
+- Sealed room 172 t=60s pos=(79,189) hp=16 hostiles=1.
+- Sealed room 172 t=90s pos=(79,212) hp=16 hostiles=1.
+- Sealed room 172 t=120s pos=(79,211) hp=16 hostiles=1.
+- Sealed room 172 t=150s pos=(78,192) hp=16 hostiles=1.
+- Sealed room 172 t=180s pos=(78,216) hp=16 hostiles=1.
+- Sealed room 172 t=210s pos=(78,212) hp=16 hostiles=1.
+- Sealed room 172 t=240s pos=(78,220) hp=16 hostiles=1.
+- Sealed room 172 t=270s pos=(83,193) hp=16 hostiles=1.
+- Sealed room 172 t=300s pos=(83,191) hp=16 hostiles=1.
+- Sealed room 172 t=330s pos=(83,187) hp=16 hostiles=1.
+- Sealed room 172 t=360s pos=(83,194) hp=16 hostiles=1.
+- Stage 8 room 165: none combat-sealed.
+- Stage 8 room 175: none combat-sealed.
+- Stage 8 room 177: sun_lattice (locked).
+- Solved sun_lattice in stage 8 room 177.
+- Stage 8 room 178: none combat-sealed.
+- Stage 8 room 177: sun_lattice.
+- Stage 8 room 177: sun_lattice.
+- Stage 8 room 181: none combat-sealed.
+- Stage 8 room 181: none combat-sealed.
+- Stage 8 room 184: phase_switch.
+- Stage 8 room 185: none combat-sealed.
+- Stall 600f at stage 8 room 185 (179,112) hostiles=2 stale=True phase=pack hp=15.
+- Sealed room 185 t=30s pos=(174,112) hp=15 hostiles=2.
+- Sealed room 185 t=60s pos=(179,112) hp=15 hostiles=2.
+- Sealed room 185 t=90s pos=(174,112) hp=15 hostiles=2.
+- Sealed room 185 t=120s pos=(180,112) hp=15 hostiles=2.
+- Stage 8 room 184: phase_switch.
+- Stage 8 room 181: none combat-sealed.
+- Stage 8 room 181: none combat-sealed.
+- Stage 8 room 181: none combat-sealed.
+- Stage 8 room 181: none combat-sealed.
+- Stage 8 room 184: phase_switch.
+- Stage 8 room 187: phase_gate.
+- Entered a Colossus fight on stage 8.
+- Cleared stage 8 Colossus at t=1054s.
+- Stage 9 room 191: none combat-sealed.
+- Sealed room 191 t=30s pos=(79,164) hp=16 hostiles=1.
+- Stage 9 room 192: sun_lattice (locked).
+- Solved sun_lattice in stage 9 room 192.
+- Stage 9 room 201: none combat-sealed.
+- Stage 9 room 200: none combat-sealed.
+- Stage 9 room 199: none combat-sealed.
+- Sealed room 199 t=30s pos=(132,72) hp=16 hostiles=2.
+- Stage 9 room 200: none combat-sealed.
+- Stage 9 room 201: none combat-sealed.
+- Sealed room 201 t=30s pos=(126,34) hp=12 hostiles=1.
+- Stage 9 room 200: none combat-sealed.
+- Stage 9 room 198: none combat-sealed.
+- Stage 9 room 207: none combat-sealed.
+- Stage 9 room 210: none combat-sealed.
+- Stage 9 room 211: sun_lattice.
+- Solved sun_lattice in stage 9 room 211.
+- Stage 9 room 212: none combat-sealed.
+- Stage 9 room 211: sun_lattice.
+- Stage 9 room 206: none combat-sealed.
+- Stage 9 room 203: phase_switch.
+- Stage 9 room 211: sun_lattice.
+- Stage 9 room 212: none combat-sealed.
+- Stage 9 room 215: none combat-sealed.
+- Stage 9 room 217: phase_gate.
+- Entered a Colossus fight on stage 9.
+- Cleared stage 9 Colossus at t=690s.
+- Compressed gameplay.mp4 to stay under 50MB.
+- Entered 461 room transitions.
+- Reached stage 3 (Cinder Rex wall). boss_seen=1 cleared=1 deaths=0 play_s=2887.
+- Pathing stalls recorded: 263 (longest 146400 frames).
+- Cleared all nine Colossi — full run win.
+
+## Boss attempts
+
+- {'type': 'boss', 'event': 'seen', 'stage': 1, 'frame': 13218}
+- {'type': 'boss', 'event': 'cleared', 'stage': 1, 'frame': 15156}
+- {'type': 'boss', 'event': 'seen', 'stage': 2, 'frame': 41486}
+- {'type': 'boss', 'event': 'cleared', 'stage': 2, 'frame': 44786}
+- {'type': 'boss', 'event': 'seen', 'stage': 3, 'frame': 216358}
+- {'type': 'boss', 'event': 'cleared', 'stage': 3, 'frame': 218692}
+- {'type': 'boss', 'event': 'seen', 'stage': 4, 'frame': 244772}
+- {'type': 'boss', 'event': 'cleared', 'stage': 4, 'frame': 252008}
+- {'type': 'boss', 'event': 'seen', 'stage': 5, 'frame': 415156}
+- {'type': 'boss', 'event': 'cleared', 'stage': 5, 'frame': 420188}
+- {'type': 'boss', 'event': 'seen', 'stage': 6, 'frame': 450880}
+- {'type': 'boss', 'event': 'cleared', 'stage': 6, 'frame': 452818}
+- {'type': 'boss', 'event': 'seen', 'stage': 7, 'frame': 525292}
+- {'type': 'boss', 'event': 'cleared', 'stage': 7, 'frame': 526372}
+- {'type': 'boss', 'event': 'seen', 'stage': 8, 'frame': 585320}
+- {'type': 'boss', 'event': 'cleared', 'stage': 8, 'frame': 590398}
+- {'type': 'boss', 'event': 'seen', 'stage': 9, 'frame': 625110}
+- {'type': 'boss', 'event': 'cleared', 'stage': 9, 'frame': 632210}

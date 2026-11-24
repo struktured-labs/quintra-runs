@@ -1,6 +1,3466 @@
 [
   {
     "schema": 1,
+    "id": "20261124-1200-87b8b9a0-easy-corvin-full-w8planb",
+    "build_sha": "87b8b9a0",
+    "rom_sha256": "10f44990959f0a4a6aa5bb0033606009259bbd77e769839a61a464b29f6b7440",
+    "rom_size": 524288,
+    "emulator": {
+      "name": "pyboy",
+      "version": "2.7.0",
+      "window": "null",
+      "cgb": true
+    },
+    "hero": "Corvin",
+    "class_id": 2,
+    "player_type": "machine",
+    "player_policy": "official-wrap-v13",
+    "run_kind": "full",
+    "start_state": null,
+    "difficulty": "easy",
+    "seed": 2064128588,
+    "started": "2026-11-24T08:48:11-05:00",
+    "ended": "2026-11-24T08:54:23-05:00",
+    "timezone": "America/New_York",
+    "outcome": "won",
+    "timings": {
+      "wall_s": 371.68,
+      "play_s": 10455,
+      "emulated_frames": 632210,
+      "video_frames": 153059
+    },
+    "deaths": [],
+    "stages": [
+      {
+        "stage": 1,
+        "play_s": 249,
+        "wall_s": 8.27,
+        "frames": 15122,
+        "rooms": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          8,
+          9,
+          10,
+          13,
+          14,
+          15,
+          16,
+          19
+        ],
+        "room_count": 13,
+        "dmg": 14,
+        "hits": 14,
+        "deaths": 0,
+        "death_causes": [],
+        "boss_seen": 1,
+        "boss_cleared": 1,
+        "boss_s": 31.8,
+        "status": {
+          "bleed": 1
+        },
+        "hp_min": 9,
+        "outcome": "cleared"
+      },
+      {
+        "stage": 2,
+        "play_s": 483,
+        "wall_s": 16.6,
+        "frames": 44754,
+        "rooms": [
+          19,
+          21,
+          22,
+          23,
+          24,
+          27,
+          28,
+          29,
+          30,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "room_count": 18,
+        "dmg": 15,
+        "hits": 15,
+        "deaths": 0,
+        "death_causes": [],
+        "boss_seen": 1,
+        "boss_cleared": 1,
+        "boss_s": 54.53,
+        "status": {
+          "regen": 1,
+          "haste": 3
+        },
+        "hp_min": 9,
+        "outcome": "cleared"
+      },
+      {
+        "stage": 3,
+        "play_s": 2887,
+        "wall_s": 85.26,
+        "frames": 218658,
+        "rooms": [
+          40,
+          42,
+          43,
+          44,
+          45,
+          47,
+          48,
+          49,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "room_count": 17,
+        "dmg": 33,
+        "hits": 33,
+        "deaths": 0,
+        "death_causes": [],
+        "boss_seen": 1,
+        "boss_cleared": 1,
+        "boss_s": 38.4,
+        "status": {
+          "haste": 6
+        },
+        "hp_min": 9,
+        "outcome": "cleared"
+      },
+      {
+        "stage": 4,
+        "play_s": 547,
+        "wall_s": 23.0,
+        "frames": 251988,
+        "rooms": [
+          62,
+          63,
+          65,
+          66,
+          67,
+          68,
+          70,
+          71,
+          72,
+          73,
+          74,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86
+        ],
+        "room_count": 21,
+        "dmg": 23,
+        "hits": 23,
+        "deaths": 0,
+        "death_causes": [],
+        "boss_seen": 1,
+        "boss_cleared": 1,
+        "boss_s": 120.33,
+        "status": {
+          "regen": 1,
+          "haste": 3,
+          "slow": 1
+        },
+        "hp_min": 7,
+        "outcome": "cleared"
+      },
+      {
+        "stage": 5,
+        "play_s": 2790,
+        "wall_s": 93.04,
+        "frames": 420156,
+        "rooms": [
+          86,
+          89,
+          90,
+          91,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110
+        ],
+        "room_count": 18,
+        "dmg": 86,
+        "hits": 86,
+        "deaths": 0,
+        "death_causes": [],
+        "boss_seen": 1,
+        "boss_cleared": 1,
+        "boss_s": 83.4,
+        "status": {
+          "regen": 1,
+          "haste": 20,
+          "brittle": 5
+        },
+        "hp_min": 2,
+        "outcome": "cleared"
+      },
+      {
+        "stage": 6,
+        "play_s": 535,
+        "wall_s": 19.44,
+        "frames": 452784,
+        "rooms": [
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135
+        ],
+        "room_count": 21,
+        "dmg": 38,
+        "hits": 38,
+        "deaths": 0,
+        "death_causes": [],
+        "boss_seen": 1,
+        "boss_cleared": 1,
+        "boss_s": 31.8,
+        "status": {
+          "haste": 5,
+          "blind": 1
+        },
+        "hp_min": 2,
+        "outcome": "cleared"
+      },
+      {
+        "stage": 7,
+        "play_s": 1220,
+        "wall_s": 40.01,
+        "frames": 526340,
+        "rooms": [
+          135,
+          136,
+          138,
+          139,
+          140,
+          141,
+          147,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162
+        ],
+        "room_count": 20,
+        "dmg": 74,
+        "hits": 74,
+        "deaths": 0,
+        "death_causes": [],
+        "boss_seen": 1,
+        "boss_cleared": 1,
+        "boss_s": 17.53,
+        "status": {
+          "regen": 1,
+          "haste": 5,
+          "blind": 1
+        },
+        "hp_min": 4,
+        "outcome": "cleared"
+      },
+      {
+        "stage": 8,
+        "play_s": 1054,
+        "wall_s": 36.08,
+        "frames": 590368,
+        "rooms": [
+          162,
+          164,
+          165,
+          166,
+          167,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190
+        ],
+        "room_count": 25,
+        "dmg": 44,
+        "hits": 44,
+        "deaths": 0,
+        "death_causes": [],
+        "boss_seen": 1,
+        "boss_cleared": 1,
+        "boss_s": 84.2,
+        "status": {
+          "haste": 8,
+          "stop": 2,
+          "blind": 1,
+          "confusion": 1,
+          "mute": 2
+        },
+        "hp_min": 6,
+        "outcome": "cleared"
+      },
+      {
+        "stage": 9,
+        "play_s": 690,
+        "wall_s": 20.96,
+        "frames": 632210,
+        "rooms": [
+          190,
+          191,
+          192,
+          197,
+          198,
+          199,
+          200,
+          201,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220
+        ],
+        "room_count": 25,
+        "dmg": 55,
+        "hits": 55,
+        "deaths": 0,
+        "death_causes": [],
+        "boss_seen": 1,
+        "boss_cleared": 1,
+        "boss_s": 118.33,
+        "status": {
+          "haste": 5,
+          "mute": 2
+        },
+        "hp_min": 2,
+        "outcome": "won"
+      }
+    ],
+    "furthest": "stage 9, room 220, 9 bosses",
+    "end": {
+      "screen": 5,
+      "screen_name": "room",
+      "hp": 4,
+      "hp_max": 16,
+      "mp": 20,
+      "room": 220,
+      "stage": 9,
+      "score": 0,
+      "coins": 432,
+      "bosses": 9,
+      "x": 18,
+      "y": 33
+    },
+    "video": "gameplay.mp4",
+    "gif": "gameplay-open.gif",
+    "telemetry": "telemetry.json",
+    "commentary": "commentary.md",
+    "notes": [
+      "Stage 1 room 1: rune_sequence (locked).",
+      "Solved rune_sequence in stage 1 room 1.",
+      "Stage 1 room 3: none combat-sealed.",
+      "Stage 1 room 2: none combat-sealed.",
+      "Stage 1 room 1: rune_sequence.",
+      "Stage 1 room 10: none combat-sealed.",
+      "Stage 1 room 9: none combat-sealed.",
+      "Stage 1 room 7: push_seal (locked).",
+      "Solved push_seal in stage 1 room 7.",
+      "Stage 1 room 16: none combat-sealed.",
+      "Stage 1 room 15: none combat-sealed.",
+      "Stage 1 room 14: phase_switch.",
+      "Stage 1 room 13: phase_gate.",
+      "Stage 1 room 14: phase_switch.",
+      "Stage 1 room 16: none combat-sealed.",
+      "Entered a Colossus fight on stage 1.",
+      "Cleared stage 1 Colossus at t=249s.",
+      "Stage 2 room 32: none combat-sealed.",
+      "Stage 2 room 33: prism_toggle (locked).",
+      "Solved prism_toggle in stage 2 room 33.",
+      "Stage 2 room 35: none combat-sealed.",
+      "Stage 2 room 36: none combat-sealed.",
+      "Stage 2 room 27: none combat-sealed.",
+      "Stage 2 room 28: none combat-sealed.",
+      "Stage 2 room 29: push_seal (locked).",
+      "Solved push_seal in stage 2 room 29.",
+      "Stage 2 room 30: none combat-sealed.",
+      "Stage 2 room 22: none combat-sealed.",
+      "Stage 2 room 23: phase_switch.",
+      "Stage 2 room 24: phase_gate.",
+      "Stage 2 room 23: phase_switch.",
+      "Stage 2 room 22: none combat-sealed.",
+      "Stall 600f at stage 2 room 22 (126,28) hostiles=0 stale=False phase=pack hp=16.",
+      "Stage 2 room 27: none combat-sealed.",
+      "Entered a Colossus fight on stage 2.",
+      "Cleared stage 2 Colossus at t=483s.",
+      "Stage 3 room 45: none combat-sealed.",
+      "Stage 3 room 44: sun_lattice (locked).",
+      "Solved sun_lattice in stage 3 room 44.",
+      "Stage 3 room 42: none combat-sealed.",
+      "Stage 3 room 43: none combat-sealed.",
+      "Stage 3 room 49: none combat-sealed.",
+      "Stage 3 room 48: none combat-sealed.",
+      "Stage 3 room 59: prism_toggle (locked).",
+      "Solved prism_toggle in stage 3 room 59.",
+      "Stage 3 room 57: none combat-sealed.",
+      "Stage 3 room 56: none combat-sealed.",
+      "Stage 3 room 55: phase_switch.",
+      "Stage 3 room 54: phase_gate.",
+      "Stage 3 room 55: phase_switch.",
+      "Stage 3 room 57: none combat-sealed.",
+      "Stage 3 room 59: prism_toggle.",
+      "Stage 3 room 59: prism_toggle.",
+      "Stage 3 room 59: prism_toggle.",
+      "Stage 3 room 59: prism_toggle.",
+      "Stage 3 room 59: prism_toggle.",
+      "Loop mode on: stage 3 room 58 seq [55, 56, 57, 58, 47, 58, 59, 58, 59, 58, 59, 58, 59, 58, 59, 58]",
+      "Stage 3 room 59: prism_toggle.",
+      "Stall 600f at stage 3 room 59 (64,8) hostiles=4 stale=False phase=pack hp=16.",
+      "Stall 1200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 1800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 2400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 3000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 3600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 4200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 4800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 5400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 6000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 6600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 7200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 7800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 8400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 9000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 9600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 10200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 10800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 11400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 12000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 12600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 13200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 13800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 14400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 15000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 15600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 16200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 16800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 17400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 18000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 18600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 19200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 19800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 20400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 21000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 21600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 22200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 22800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 23400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 24000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 24600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 25200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 25800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 26400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 27000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 27600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 28200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 28800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 29400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 30000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 30600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 31200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 31800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 32400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 33000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 33600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 34200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 34800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 35400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 36000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 36600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 37200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 37800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 38400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 39000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 39600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 40200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 40800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 41400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 42000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 42600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 43200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 43800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 44400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 45000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 45600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 46200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 46800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 47400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 48000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 48600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 49200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 49800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 50400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 51000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 51600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 52200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 52800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 53400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 54000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 54600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 55200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 55800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 56400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 57000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 57600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 58200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 58800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 59400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 60000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 60600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 61200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 61800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 62400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 63000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 63600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 64200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 64800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 65400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 66000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 66600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 67200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 67800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 68400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 69000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 69600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 70200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 70800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 71400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 72000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 72600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 73200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 73800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 74400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 75000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 75600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 76200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 76800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 77400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 78000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 78600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 79200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 79800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 80400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 81000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 81600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 82200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 82800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 83400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 84000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 84600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 85200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 85800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 86400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 87000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 87600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 88200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 88800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 89400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 90000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 90600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 91200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 91800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 92400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 93000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 93600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 94200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 94800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 95400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 96000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 96600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 97200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 97800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 98400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 99000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 99600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 100200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 100800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 101400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 102000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 102600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 103200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 103800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 104400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 105000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 105600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 106200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 106800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 107400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 108000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 108600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 109200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 109800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 110400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 111000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 111600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 112200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 112800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 113400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 114000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 114600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 115200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 115800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 116400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 117000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 117600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 118200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 118800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 119400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 120000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 120600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 121200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 121800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 122400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 123000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 123600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 124200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 124800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 125400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 126000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 126600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 127200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 127800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 128400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 129000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 129600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 130200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 130800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 131400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 132000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 132600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 133200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 133800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 134400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 135000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 135600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 136200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 136800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 137400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 138000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 138600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 139200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 139800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 140400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 141000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 141600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 142200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 142800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 143400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 144000f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 144600f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 145200f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 145800f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Stall 146400f at stage 3 room 59 (64,8) hostiles=4 stale=True phase=pack hp=16.",
+      "Entered a Colossus fight on stage 3.",
+      "Cleared stage 3 Colossus at t=2887s.",
+      "Stage 4 room 67: none combat-sealed.",
+      "Stage 4 room 68: sun_lattice (locked).",
+      "Solved sun_lattice in stage 4 room 68.",
+      "Stage 4 room 67: none combat-sealed.",
+      "Stage 4 room 66: none combat-sealed.",
+      "Stage 4 room 74: none combat-sealed.",
+      "Stage 4 room 72: none combat-sealed.",
+      "Stage 4 room 70: prism_toggle (locked).",
+      "Solved prism_toggle in stage 4 room 70.",
+      "Stage 4 room 82: none combat-sealed.",
+      "Stage 4 room 83: phase_switch.",
+      "Stage 4 room 82: none combat-sealed.",
+      "Stage 4 room 80: none combat-sealed.",
+      "Stage 4 room 79: none combat-sealed.",
+      "Stage 4 room 78: none combat-sealed.",
+      "Sealed room 78 t=30s pos=(82,99) hp=16 hostiles=1.",
+      "Stage 4 room 77: phase_gate.",
+      "Stage 4 room 82: none combat-sealed.",
+      "Stage 4 room 83: phase_switch.",
+      "Entered a Colossus fight on stage 4.",
+      "Stall 600f at stage 4 room 86 (172,106) hostiles=1 stale=False phase=pack hp=14.",
+      "Stall 1200f at stage 4 room 86 (172,106) hostiles=1 stale=True phase=pack hp=14.",
+      "Stall 1800f at stage 4 room 86 (172,106) hostiles=1 stale=True phase=pack hp=14.",
+      "Stall 2400f at stage 4 room 86 (172,106) hostiles=1 stale=True phase=pack hp=14.",
+      "Stall 3000f at stage 4 room 86 (172,106) hostiles=1 stale=True phase=pack hp=14.",
+      "Cleared stage 4 Colossus at t=547s.",
+      "Stage 5 room 94: none combat-sealed.",
+      "Stall 600f at stage 5 room 94 (174,112) hostiles=6 stale=False phase=pack hp=16.",
+      "Sealed room 94 t=30s pos=(174,112) hp=16 hostiles=6.",
+      "Sealed room 94 t=60s pos=(167,112) hp=16 hostiles=6.",
+      "Sealed room 94 t=90s pos=(166,112) hp=16 hostiles=6.",
+      "Sealed room 94 t=120s pos=(168,112) hp=16 hostiles=6.",
+      "Sealed room 94 t=150s pos=(169,112) hp=16 hostiles=6.",
+      "Sealed room 94 t=180s pos=(166,105) hp=16 hostiles=6.",
+      "Sealed room 94 t=210s pos=(164,112) hp=16 hostiles=6.",
+      "Sealed room 94 t=240s pos=(165,112) hp=13 hostiles=6.",
+      "Sealed room 94 t=270s pos=(169,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=300s pos=(166,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=330s pos=(169,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=360s pos=(170,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=390s pos=(168,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=420s pos=(167,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=450s pos=(167,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=480s pos=(167,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=510s pos=(170,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=540s pos=(166,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=570s pos=(168,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=600s pos=(177,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=630s pos=(175,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=660s pos=(176,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=690s pos=(177,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=720s pos=(177,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=750s pos=(176,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=780s pos=(178,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=810s pos=(175,108) hp=11 hostiles=5.",
+      "Sealed room 94 t=840s pos=(178,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=870s pos=(175,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=900s pos=(178,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=930s pos=(177,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=960s pos=(177,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=990s pos=(174,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=1020s pos=(177,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=1050s pos=(175,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=1080s pos=(178,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=1110s pos=(176,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=1140s pos=(176,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=1170s pos=(174,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=1200s pos=(176,112) hp=11 hostiles=5.",
+      "Sealed room 94 t=1230s pos=(180,137) hp=11 hostiles=5.",
+      "Stage 5 room 93: sun_lattice (locked).",
+      "Solved sun_lattice in stage 5 room 93.",
+      "Stage 5 room 94: none combat-sealed.",
+      "Stage 5 room 94: none combat-sealed.",
+      "Stage 5 room 93: sun_lattice.",
+      "Stage 5 room 106: sun_lattice (locked).",
+      "Solved sun_lattice in stage 5 room 106.",
+      "Stage 5 room 107: none combat-sealed.",
+      "Stage 5 room 107: none combat-sealed.",
+      "Stage 5 room 106: sun_lattice.",
+      "Stage 5 room 105: none combat-sealed.",
+      "Sealed room 105 t=30s pos=(139,27) hp=16 hostiles=1.",
+      "Stage 5 room 93: sun_lattice.",
+      "Stage 5 room 94: none combat-sealed.",
+      "Stall 600f at stage 5 room 94 (172,112) hostiles=8 stale=True phase=pack hp=15.",
+      "Sealed room 94 t=30s pos=(165,112) hp=15 hostiles=8.",
+      "Sealed room 94 t=60s pos=(162,112) hp=15 hostiles=8.",
+      "Sealed room 94 t=90s pos=(170,108) hp=13 hostiles=8.",
+      "Sealed room 94 t=120s pos=(165,112) hp=13 hostiles=8.",
+      "Sealed room 94 t=150s pos=(169,112) hp=13 hostiles=8.",
+      "Sealed room 94 t=180s pos=(170,112) hp=13 hostiles=8.",
+      "Sealed room 94 t=210s pos=(168,112) hp=13 hostiles=8.",
+      "Sealed room 94 t=240s pos=(176,112) hp=13 hostiles=8.",
+      "Sealed room 94 t=270s pos=(168,112) hp=13 hostiles=8.",
+      "Sealed room 94 t=300s pos=(177,112) hp=13 hostiles=8.",
+      "Sealed room 94 t=330s pos=(166,112) hp=13 hostiles=8.",
+      "Sealed room 94 t=360s pos=(167,112) hp=13 hostiles=8.",
+      "Stage 5 room 97: none combat-sealed.",
+      "Stage 5 room 97: none combat-sealed.",
+      "Stage 5 room 94: none combat-sealed.",
+      "Sealed room 94 t=30s pos=(117,177) hp=16 hostiles=1.",
+      "Stage 5 room 93: sun_lattice.",
+      "Stage 5 room 93: sun_lattice.",
+      "Stage 5 room 94: none combat-sealed.",
+      "Stall 600f at stage 5 room 94 (138,139) hostiles=6 stale=False phase=pack hp=15.",
+      "Stall 1200f at stage 5 room 94 (138,139) hostiles=5 stale=False phase=pack hp=15.",
+      "Sealed room 94 t=30s pos=(138,139) hp=15 hostiles=5.",
+      "Sealed room 94 t=60s pos=(170,136) hp=12 hostiles=5.",
+      "Sealed room 94 t=90s pos=(167,152) hp=10 hostiles=5.",
+      "Sealed room 94 t=120s pos=(170,142) hp=9 hostiles=5.",
+      "Sealed room 94 t=150s pos=(167,152) hp=7 hostiles=5.",
+      "Stage 5 room 93: sun_lattice.",
+      "Stage 5 room 106: sun_lattice.",
+      "Stall 600f at stage 5 room 106 (110,110) hostiles=2 stale=True phase=pack hp=12.",
+      "Stall 1200f at stage 5 room 106 (110,110) hostiles=2 stale=True phase=pack hp=12.",
+      "Stall 1800f at stage 5 room 106 (110,110) hostiles=2 stale=True phase=pack hp=12.",
+      "Stall 2400f at stage 5 room 106 (110,110) hostiles=2 stale=True phase=pack hp=12.",
+      "Stall 3000f at stage 5 room 106 (110,110) hostiles=2 stale=True phase=pack hp=12.",
+      "Stall 3600f at stage 5 room 106 (110,110) hostiles=2 stale=True phase=pack hp=12.",
+      "Stall 600f at stage 5 room 105 (18,22) hostiles=12 stale=True phase=pack hp=13.",
+      "Stage 5 room 106: sun_lattice.",
+      "Stage 5 room 106: sun_lattice.",
+      "Stage 5 room 106: sun_lattice.",
+      "Stage 5 room 106: sun_lattice.",
+      "Loop mode on: stage 5 room 105 seq [94, 93, 104, 105, 106, 105, 104, 105, 106, 105, 106, 105, 106, 105, 106, 105]",
+      "Stage 5 room 93: sun_lattice.",
+      "Stage 5 room 94: none combat-sealed.",
+      "Stall 600f at stage 5 room 94 (110,180) hostiles=4 stale=False phase=pack hp=15.",
+      "Sealed room 94 t=30s pos=(85,76) hp=14 hostiles=4.",
+      "Stage 5 room 90: phase_switch.",
+      "Stage 5 room 91: phase_gate.",
+      "Stage 5 room 90: phase_switch.",
+      "Stage 5 room 94: none combat-sealed.",
+      "Stage 5 room 93: sun_lattice.",
+      "Stage 5 room 106: sun_lattice.",
+      "Stage 5 room 107: none combat-sealed.",
+      "Entered a Colossus fight on stage 5.",
+      "Cleared stage 5 Colossus at t=2790s.",
+      "Stage 6 room 111: none combat-sealed.",
+      "Solved sun_lattice in stage 6 room 112.",
+      "Stage 6 room 123: none combat-sealed.",
+      "Stage 6 room 124: none combat-sealed.",
+      "Stage 6 room 123: none combat-sealed.",
+      "Stage 6 room 112: sun_lattice.",
+      "Stage 6 room 113: none combat-sealed.",
+      "Stage 6 room 115: sun_lattice (locked).",
+      "Solved sun_lattice in stage 6 room 115.",
+      "Stage 6 room 113: none combat-sealed.",
+      "Stage 6 room 112: sun_lattice.",
+      "Stage 6 room 124: none combat-sealed.",
+      "Stage 6 room 124: none combat-sealed.",
+      "Stage 6 room 127: none combat-sealed.",
+      "Stage 6 room 124: none combat-sealed.",
+      "Stage 6 room 124: none combat-sealed.",
+      "Stage 6 room 127: none combat-sealed.",
+      "Stage 6 room 130: phase_switch.",
+      "Stage 6 room 131: none combat-sealed.",
+      "Stage 6 room 132: phase_gate.",
+      "Entered a Colossus fight on stage 6.",
+      "Cleared stage 6 Colossus at t=535s.",
+      "Stage 7 room 152: none combat-sealed.",
+      "Stage 7 room 153: sun_lattice.",
+      "Solved sun_lattice in stage 7 room 153.",
+      "Stage 7 room 152: none combat-sealed.",
+      "Stage 7 room 151: none combat-sealed.",
+      "Stage 7 room 150: none combat-sealed.",
+      "Stage 7 room 151: none combat-sealed.",
+      "Stage 7 room 152: none combat-sealed.",
+      "Stage 7 room 153: sun_lattice.",
+      "Stage 7 room 156: none combat-sealed.",
+      "Sealed room 156 t=30s pos=(80,212) hp=16 hostiles=2.",
+      "Sealed room 156 t=60s pos=(74,203) hp=16 hostiles=2.",
+      "Sealed room 156 t=90s pos=(79,218) hp=16 hostiles=2.",
+      "Stage 7 room 153: sun_lattice.",
+      "Stage 7 room 152: none combat-sealed.",
+      "Sealed room 152 t=30s pos=(73,150) hp=16 hostiles=4.",
+      "Stage 7 room 150: none combat-sealed.",
+      "Stage 7 room 150: none combat-sealed.",
+      "Stage 7 room 138: sun_lattice.",
+      "Solved sun_lattice in stage 7 room 138.",
+      "Stage 7 room 150: none combat-sealed.",
+      "Stage 7 room 150: none combat-sealed.",
+      "Stage 7 room 150: none combat-sealed.",
+      "Stage 7 room 150: none combat-sealed.",
+      "Loop mode on: stage 7 room 150 seq [151, 150, 147, 150, 147, 138, 147, 150, 151, 150, 151, 150, 151, 150, 151, 150]",
+      "Stage 7 room 150: none combat-sealed.",
+      "Stage 7 room 152: none combat-sealed.",
+      "Sealed room 152 t=30s pos=(218,60) hp=14 hostiles=5.",
+      "Stage 7 room 153: sun_lattice.",
+      "Stage 7 room 157: none combat-sealed.",
+      "Sealed room 157 t=30s pos=(215,112) hp=12 hostiles=5.",
+      "Sealed room 157 t=60s pos=(226,112) hp=11 hostiles=5.",
+      "Sealed room 157 t=90s pos=(226,112) hp=11 hostiles=5.",
+      "Sealed room 157 t=120s pos=(226,112) hp=11 hostiles=5.",
+      "Sealed room 157 t=150s pos=(138,78) hp=10 hostiles=3.",
+      "Stage 7 room 158: none combat-sealed.",
+      "Stage 7 room 159: phase_switch.",
+      "Stage 7 room 159: phase_switch.",
+      "Stage 7 room 158: none combat-sealed.",
+      "Stage 7 room 153: sun_lattice.",
+      "Stage 7 room 152: none combat-sealed.",
+      "Sealed room 152 t=30s pos=(177,97) hp=14 hostiles=8.",
+      "Sealed room 152 t=60s pos=(190,112) hp=14 hostiles=8.",
+      "Sealed room 152 t=90s pos=(159,104) hp=14 hostiles=8.",
+      "Sealed room 152 t=120s pos=(168,104) hp=14 hostiles=8.",
+      "Stage 7 room 150: none combat-sealed.",
+      "Stage 7 room 138: sun_lattice.",
+      "Stage 7 room 141: phase_gate.",
+      "Stage 7 room 138: sun_lattice.",
+      "Stage 7 room 150: none combat-sealed.",
+      "Stage 7 room 152: none combat-sealed.",
+      "Sealed room 152 t=30s pos=(46,122) hp=16 hostiles=2.",
+      "Stage 7 room 153: sun_lattice.",
+      "Stage 7 room 158: none combat-sealed.",
+      "Stage 7 room 159: phase_switch.",
+      "Entered a Colossus fight on stage 7.",
+      "Cleared stage 7 Colossus at t=1220s.",
+      "Stage 8 room 166: none combat-sealed.",
+      "Stage 8 room 167: sun_lattice (locked).",
+      "Solved sun_lattice in stage 8 room 167.",
+      "Stage 8 room 166: none combat-sealed.",
+      "Stage 8 room 165: none combat-sealed.",
+      "Stage 8 room 165: none combat-sealed.",
+      "Sealed room 165 t=30s pos=(54,159) hp=15 hostiles=3.",
+      "Stage 8 room 173: none combat-sealed.",
+      "Stage 8 room 172: none combat-sealed.",
+      "Sealed room 172 t=30s pos=(63,104) hp=16 hostiles=2.",
+      "Sealed room 172 t=60s pos=(79,189) hp=16 hostiles=1.",
+      "Sealed room 172 t=90s pos=(79,212) hp=16 hostiles=1.",
+      "Sealed room 172 t=120s pos=(79,211) hp=16 hostiles=1.",
+      "Sealed room 172 t=150s pos=(78,192) hp=16 hostiles=1.",
+      "Sealed room 172 t=180s pos=(78,216) hp=16 hostiles=1.",
+      "Sealed room 172 t=210s pos=(78,212) hp=16 hostiles=1.",
+      "Sealed room 172 t=240s pos=(78,220) hp=16 hostiles=1.",
+      "Sealed room 172 t=270s pos=(83,193) hp=16 hostiles=1.",
+      "Sealed room 172 t=300s pos=(83,191) hp=16 hostiles=1.",
+      "Sealed room 172 t=330s pos=(83,187) hp=16 hostiles=1.",
+      "Sealed room 172 t=360s pos=(83,194) hp=16 hostiles=1.",
+      "Stage 8 room 165: none combat-sealed.",
+      "Stage 8 room 175: none combat-sealed.",
+      "Stage 8 room 177: sun_lattice (locked).",
+      "Solved sun_lattice in stage 8 room 177.",
+      "Stage 8 room 178: none combat-sealed.",
+      "Stage 8 room 177: sun_lattice.",
+      "Stage 8 room 177: sun_lattice.",
+      "Stage 8 room 181: none combat-sealed.",
+      "Stage 8 room 181: none combat-sealed.",
+      "Stage 8 room 184: phase_switch.",
+      "Stage 8 room 185: none combat-sealed.",
+      "Stall 600f at stage 8 room 185 (179,112) hostiles=2 stale=True phase=pack hp=15.",
+      "Sealed room 185 t=30s pos=(174,112) hp=15 hostiles=2.",
+      "Sealed room 185 t=60s pos=(179,112) hp=15 hostiles=2.",
+      "Sealed room 185 t=90s pos=(174,112) hp=15 hostiles=2.",
+      "Sealed room 185 t=120s pos=(180,112) hp=15 hostiles=2.",
+      "Stage 8 room 184: phase_switch.",
+      "Stage 8 room 181: none combat-sealed.",
+      "Stage 8 room 181: none combat-sealed.",
+      "Stage 8 room 181: none combat-sealed.",
+      "Stage 8 room 181: none combat-sealed.",
+      "Stage 8 room 184: phase_switch.",
+      "Stage 8 room 187: phase_gate.",
+      "Entered a Colossus fight on stage 8.",
+      "Cleared stage 8 Colossus at t=1054s.",
+      "Stage 9 room 191: none combat-sealed.",
+      "Sealed room 191 t=30s pos=(79,164) hp=16 hostiles=1.",
+      "Stage 9 room 192: sun_lattice (locked).",
+      "Solved sun_lattice in stage 9 room 192.",
+      "Stage 9 room 201: none combat-sealed.",
+      "Stage 9 room 200: none combat-sealed.",
+      "Stage 9 room 199: none combat-sealed.",
+      "Sealed room 199 t=30s pos=(132,72) hp=16 hostiles=2.",
+      "Stage 9 room 200: none combat-sealed.",
+      "Stage 9 room 201: none combat-sealed.",
+      "Sealed room 201 t=30s pos=(126,34) hp=12 hostiles=1.",
+      "Stage 9 room 200: none combat-sealed.",
+      "Stage 9 room 198: none combat-sealed.",
+      "Stage 9 room 207: none combat-sealed.",
+      "Stage 9 room 210: none combat-sealed.",
+      "Stage 9 room 211: sun_lattice.",
+      "Solved sun_lattice in stage 9 room 211.",
+      "Stage 9 room 212: none combat-sealed.",
+      "Stage 9 room 211: sun_lattice.",
+      "Stage 9 room 206: none combat-sealed.",
+      "Stage 9 room 203: phase_switch.",
+      "Stage 9 room 211: sun_lattice.",
+      "Stage 9 room 212: none combat-sealed.",
+      "Stage 9 room 215: none combat-sealed.",
+      "Stage 9 room 217: phase_gate.",
+      "Entered a Colossus fight on stage 9.",
+      "Cleared stage 9 Colossus at t=690s.",
+      "Compressed gameplay.mp4 to stay under 50MB."
+    ],
+    "bugs": [],
+    "blank_shots": [
+      "screenshots/06-t297s.png"
+    ],
+    "screenshots": [
+      {
+        "file": "screenshots/01-title.png",
+        "colors": 17,
+        "note": "title (intro muted)",
+        "blank": false
+      },
+      {
+        "file": "screenshots/02-class-select.png",
+        "colors": 9,
+        "note": "Corvin highlighted, difficulty=easy",
+        "blank": false
+      },
+      {
+        "file": "screenshots/04-run-start.png",
+        "colors": 25,
+        "note": "screen=room",
+        "blank": false
+      },
+      {
+        "file": "screenshots/05-combat.png",
+        "colors": 27,
+        "note": "room=0 hp=16/16 hostiles=13",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s1-r1.png",
+        "colors": 19,
+        "note": "solved puzzle in room 1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t01s.png",
+        "colors": 18,
+        "note": "t=30s room=1 hp=14 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t02s.png",
+        "colors": 28,
+        "note": "t=60s room=2 hp=13 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-progress-s1-r10.png",
+        "colors": 27,
+        "note": "progress stage=1 room=10",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t03s.png",
+        "colors": 25,
+        "note": "t=90s room=10 hp=13 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t04s.png",
+        "colors": 25,
+        "note": "t=120s room=8 hp=12 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s1-r7.png",
+        "colors": 22,
+        "note": "solved puzzle in room 7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-progress-s1-r15.png",
+        "colors": 28,
+        "note": "progress stage=1 room=15",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t05s.png",
+        "colors": 30,
+        "note": "t=150s room=15 hp=14 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t06s.png",
+        "colors": 27,
+        "note": "t=180s room=14 hp=12 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t07s.png",
+        "colors": 26,
+        "note": "t=210s room=16 hp=11 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/11-boss-s1.png",
+        "colors": 16,
+        "note": "colossus stage 1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t08s.png",
+        "colors": 15,
+        "note": "t=240s room=19 hp=12 stage=1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-progress-s2-r19.png",
+        "colors": 22,
+        "note": "progress stage=2 room=19",
+        "blank": false
+      },
+      {
+        "file": "screenshots/10-boss-clear-s1.png",
+        "colors": 22,
+        "note": "cleared colossus stage 1",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t09s.png",
+        "colors": 20,
+        "note": "t=270s room=19 hp=13 stage=2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t10s.png",
+        "colors": 20,
+        "note": "t=300s room=19 hp=13 stage=2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t11s.png",
+        "colors": 20,
+        "note": "t=330s room=19 hp=13 stage=2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t12s.png",
+        "colors": 28,
+        "note": "t=360s room=19 hp=12 stage=2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-progress-s2-r32.png",
+        "colors": 27,
+        "note": "progress stage=2 room=32",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t13s.png",
+        "colors": 27,
+        "note": "t=397s room=32 hp=16 stage=2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t14s.png",
+        "colors": 30,
+        "note": "t=420s room=33 hp=15 stage=2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s2-r33.png",
+        "colors": 31,
+        "note": "solved puzzle in room 33",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t15s.png",
+        "colors": 31,
+        "note": "t=450s room=35 hp=16 stage=2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t16s.png",
+        "colors": 25,
+        "note": "t=480s room=36 hp=16 stage=2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t17s.png",
+        "colors": 27,
+        "note": "t=510s room=36 hp=15 stage=2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t18s.png",
+        "colors": 22,
+        "note": "t=540s room=28 hp=16 stage=2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s2-r29.png",
+        "colors": 19,
+        "note": "solved puzzle in room 29",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t19s.png",
+        "colors": 26,
+        "note": "t=570s room=30 hp=16 stage=2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t20s.png",
+        "colors": 28,
+        "note": "t=600s room=22 hp=16 stage=2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t21s.png",
+        "colors": 22,
+        "note": "t=630s room=22 hp=16 stage=2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t22s.png",
+        "colors": 32,
+        "note": "t=660s room=27 hp=16 stage=2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t23s.png",
+        "colors": 26,
+        "note": "t=690s room=39 hp=16 stage=2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/11-boss-s2.png",
+        "colors": 15,
+        "note": "colossus stage 2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t24s.png",
+        "colors": 17,
+        "note": "t=720s room=40 hp=14 stage=2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-progress-s3-r40.png",
+        "colors": 21,
+        "note": "progress stage=3 room=40",
+        "blank": false
+      },
+      {
+        "file": "screenshots/10-boss-clear-s2.png",
+        "colors": 21,
+        "note": "cleared colossus stage 2",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t25s.png",
+        "colors": 17,
+        "note": "t=750s room=40 hp=14 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t26s.png",
+        "colors": 21,
+        "note": "t=780s room=40 hp=14 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t27s.png",
+        "colors": 29,
+        "note": "t=810s room=40 hp=14 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t28s.png",
+        "colors": 26,
+        "note": "t=840s room=40 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t29s.png",
+        "colors": 21,
+        "note": "t=870s room=45 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s3-r44.png",
+        "colors": 28,
+        "note": "solved puzzle in room 44",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t30s.png",
+        "colors": 31,
+        "note": "t=900s room=43 hp=13 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t31s.png",
+        "colors": 28,
+        "note": "t=930s room=43 hp=13 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t32s.png",
+        "colors": 22,
+        "note": "t=960s room=49 hp=13 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t33s.png",
+        "colors": 27,
+        "note": "t=990s room=58 hp=14 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s3-r59.png",
+        "colors": 34,
+        "note": "solved puzzle in room 59",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t34s.png",
+        "colors": 23,
+        "note": "t=1020s room=57 hp=14 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t35s.png",
+        "colors": 28,
+        "note": "t=1050s room=55 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t36s.png",
+        "colors": 21,
+        "note": "t=1080s room=56 hp=15 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t37s.png",
+        "colors": 22,
+        "note": "t=1110s room=58 hp=15 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t38s.png",
+        "colors": 24,
+        "note": "t=1140s room=58 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t39s.png",
+        "colors": 34,
+        "note": "t=1170s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t40s.png",
+        "colors": 31,
+        "note": "t=1200s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t41s.png",
+        "colors": 31,
+        "note": "t=1230s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t42s.png",
+        "colors": 28,
+        "note": "t=1260s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t43s.png",
+        "colors": 31,
+        "note": "t=1290s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t44s.png",
+        "colors": 28,
+        "note": "t=1320s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t45s.png",
+        "colors": 31,
+        "note": "t=1350s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t46s.png",
+        "colors": 31,
+        "note": "t=1380s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t47s.png",
+        "colors": 28,
+        "note": "t=1410s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t48s.png",
+        "colors": 34,
+        "note": "t=1440s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t49s.png",
+        "colors": 31,
+        "note": "t=1470s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t50s.png",
+        "colors": 34,
+        "note": "t=1500s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t51s.png",
+        "colors": 34,
+        "note": "t=1530s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t52s.png",
+        "colors": 31,
+        "note": "t=1560s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t53s.png",
+        "colors": 34,
+        "note": "t=1590s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t54s.png",
+        "colors": 31,
+        "note": "t=1620s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t55s.png",
+        "colors": 34,
+        "note": "t=1650s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t56s.png",
+        "colors": 31,
+        "note": "t=1680s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t57s.png",
+        "colors": 34,
+        "note": "t=1710s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t58s.png",
+        "colors": 34,
+        "note": "t=1740s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t59s.png",
+        "colors": 31,
+        "note": "t=1770s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t60s.png",
+        "colors": 34,
+        "note": "t=1800s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t61s.png",
+        "colors": 31,
+        "note": "t=1830s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t62s.png",
+        "colors": 34,
+        "note": "t=1860s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t63s.png",
+        "colors": 34,
+        "note": "t=1890s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t64s.png",
+        "colors": 28,
+        "note": "t=1920s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t65s.png",
+        "colors": 31,
+        "note": "t=1950s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t66s.png",
+        "colors": 28,
+        "note": "t=1980s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t67s.png",
+        "colors": 31,
+        "note": "t=2010s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t68s.png",
+        "colors": 31,
+        "note": "t=2040s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t69s.png",
+        "colors": 28,
+        "note": "t=2070s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t70s.png",
+        "colors": 34,
+        "note": "t=2100s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t71s.png",
+        "colors": 31,
+        "note": "t=2130s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t72s.png",
+        "colors": 31,
+        "note": "t=2160s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t73s.png",
+        "colors": 28,
+        "note": "t=2190s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t74s.png",
+        "colors": 31,
+        "note": "t=2220s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t75s.png",
+        "colors": 31,
+        "note": "t=2250s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t76s.png",
+        "colors": 28,
+        "note": "t=2280s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t77s.png",
+        "colors": 34,
+        "note": "t=2310s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t78s.png",
+        "colors": 28,
+        "note": "t=2340s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t79s.png",
+        "colors": 31,
+        "note": "t=2370s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t80s.png",
+        "colors": 28,
+        "note": "t=2400s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t81s.png",
+        "colors": 31,
+        "note": "t=2430s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t82s.png",
+        "colors": 31,
+        "note": "t=2460s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t83s.png",
+        "colors": 28,
+        "note": "t=2490s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t84s.png",
+        "colors": 31,
+        "note": "t=2520s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t85s.png",
+        "colors": 28,
+        "note": "t=2550s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t86s.png",
+        "colors": 31,
+        "note": "t=2580s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t87s.png",
+        "colors": 28,
+        "note": "t=2610s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t88s.png",
+        "colors": 31,
+        "note": "t=2640s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t89s.png",
+        "colors": 31,
+        "note": "t=2670s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t90s.png",
+        "colors": 28,
+        "note": "t=2700s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t91s.png",
+        "colors": 31,
+        "note": "t=2730s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t92s.png",
+        "colors": 28,
+        "note": "t=2760s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t93s.png",
+        "colors": 31,
+        "note": "t=2790s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t94s.png",
+        "colors": 31,
+        "note": "t=2820s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t95s.png",
+        "colors": 34,
+        "note": "t=2850s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t96s.png",
+        "colors": 31,
+        "note": "t=2880s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t97s.png",
+        "colors": 28,
+        "note": "t=2910s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t98s.png",
+        "colors": 31,
+        "note": "t=2940s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t99s.png",
+        "colors": 28,
+        "note": "t=2970s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t100s.png",
+        "colors": 31,
+        "note": "t=3000s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t101s.png",
+        "colors": 31,
+        "note": "t=3030s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t102s.png",
+        "colors": 28,
+        "note": "t=3060s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t103s.png",
+        "colors": 31,
+        "note": "t=3090s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t104s.png",
+        "colors": 28,
+        "note": "t=3120s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t105s.png",
+        "colors": 31,
+        "note": "t=3150s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t106s.png",
+        "colors": 28,
+        "note": "t=3180s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t107s.png",
+        "colors": 31,
+        "note": "t=3210s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t108s.png",
+        "colors": 31,
+        "note": "t=3240s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t109s.png",
+        "colors": 28,
+        "note": "t=3270s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t110s.png",
+        "colors": 31,
+        "note": "t=3300s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t111s.png",
+        "colors": 28,
+        "note": "t=3330s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t112s.png",
+        "colors": 31,
+        "note": "t=3360s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t113s.png",
+        "colors": 28,
+        "note": "t=3390s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t114s.png",
+        "colors": 31,
+        "note": "t=3420s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t115s.png",
+        "colors": 31,
+        "note": "t=3450s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t116s.png",
+        "colors": 28,
+        "note": "t=3480s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t117s.png",
+        "colors": 31,
+        "note": "t=3510s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t118s.png",
+        "colors": 28,
+        "note": "t=3540s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t119s.png",
+        "colors": 34,
+        "note": "t=3570s room=59 hp=16 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t120s.png",
+        "colors": 31,
+        "note": "t=3600s room=59 hp=15 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/11-boss-s3.png",
+        "colors": 19,
+        "note": "colossus stage 3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t121s.png",
+        "colors": 18,
+        "note": "t=3630s room=62 hp=12 stage=3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-progress-s4-r62.png",
+        "colors": 18,
+        "note": "progress stage=4 room=62",
+        "blank": false
+      },
+      {
+        "file": "screenshots/10-boss-clear-s3.png",
+        "colors": 18,
+        "note": "cleared colossus stage 3",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t122s.png",
+        "colors": 20,
+        "note": "t=3660s room=62 hp=13 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t123s.png",
+        "colors": 19,
+        "note": "t=3690s room=62 hp=13 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t124s.png",
+        "colors": 28,
+        "note": "t=3720s room=62 hp=16 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t125s.png",
+        "colors": 28,
+        "note": "t=3750s room=63 hp=16 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s4-r68.png",
+        "colors": 32,
+        "note": "solved puzzle in room 68",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t126s.png",
+        "colors": 24,
+        "note": "t=3781s room=67 hp=16 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t127s.png",
+        "colors": 29,
+        "note": "t=3810s room=65 hp=16 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t128s.png",
+        "colors": 30,
+        "note": "t=3840s room=72 hp=15 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t129s.png",
+        "colors": 24,
+        "note": "t=3870s room=72 hp=16 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s4-r70.png",
+        "colors": 33,
+        "note": "solved puzzle in room 70",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t130s.png",
+        "colors": 27,
+        "note": "t=3900s room=70 hp=16 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t131s.png",
+        "colors": 24,
+        "note": "t=3930s room=83 hp=15 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t132s.png",
+        "colors": 28,
+        "note": "t=3960s room=80 hp=16 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t133s.png",
+        "colors": 28,
+        "note": "t=3990s room=78 hp=16 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t134s.png",
+        "colors": 28,
+        "note": "t=4020s room=78 hp=16 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t135s.png",
+        "colors": 29,
+        "note": "t=4050s room=80 hp=16 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/11-boss-s4.png",
+        "colors": 16,
+        "note": "colossus stage 4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t136s.png",
+        "colors": 15,
+        "note": "t=4080s room=86 hp=16 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t137s.png",
+        "colors": 19,
+        "note": "t=4110s room=86 hp=14 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t138s.png",
+        "colors": 19,
+        "note": "t=4140s room=86 hp=14 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t139s.png",
+        "colors": 16,
+        "note": "t=4170s room=86 hp=9 stage=4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-progress-s5-r86.png",
+        "colors": 18,
+        "note": "progress stage=5 room=86",
+        "blank": false
+      },
+      {
+        "file": "screenshots/10-boss-clear-s4.png",
+        "colors": 18,
+        "note": "cleared colossus stage 4",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t140s.png",
+        "colors": 18,
+        "note": "t=4200s room=86 hp=10 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t141s.png",
+        "colors": 20,
+        "note": "t=4230s room=86 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t142s.png",
+        "colors": 19,
+        "note": "t=4260s room=86 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t143s.png",
+        "colors": 18,
+        "note": "t=4290s room=94 hp=15 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t144s.png",
+        "colors": 22,
+        "note": "t=4320s room=94 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t145s.png",
+        "colors": 22,
+        "note": "t=4350s room=94 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t146s.png",
+        "colors": 22,
+        "note": "t=4380s room=94 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t147s.png",
+        "colors": 22,
+        "note": "t=4410s room=94 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t148s.png",
+        "colors": 22,
+        "note": "t=4440s room=94 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t149s.png",
+        "colors": 22,
+        "note": "t=4470s room=94 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t150s.png",
+        "colors": 22,
+        "note": "t=4500s room=94 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t151s.png",
+        "colors": 22,
+        "note": "t=4530s room=94 hp=12 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t152s.png",
+        "colors": 25,
+        "note": "t=4560s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t153s.png",
+        "colors": 19,
+        "note": "t=4590s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t154s.png",
+        "colors": 19,
+        "note": "t=4620s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t155s.png",
+        "colors": 22,
+        "note": "t=4650s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t156s.png",
+        "colors": 19,
+        "note": "t=4680s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t157s.png",
+        "colors": 22,
+        "note": "t=4710s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t158s.png",
+        "colors": 24,
+        "note": "t=4740s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t159s.png",
+        "colors": 22,
+        "note": "t=4770s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t160s.png",
+        "colors": 24,
+        "note": "t=4800s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t161s.png",
+        "colors": 25,
+        "note": "t=4830s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t162s.png",
+        "colors": 22,
+        "note": "t=4860s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t163s.png",
+        "colors": 19,
+        "note": "t=4890s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t164s.png",
+        "colors": 22,
+        "note": "t=4920s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t165s.png",
+        "colors": 22,
+        "note": "t=4950s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t166s.png",
+        "colors": 19,
+        "note": "t=4980s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t167s.png",
+        "colors": 19,
+        "note": "t=5010s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t168s.png",
+        "colors": 19,
+        "note": "t=5040s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t169s.png",
+        "colors": 19,
+        "note": "t=5070s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t170s.png",
+        "colors": 22,
+        "note": "t=5100s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t171s.png",
+        "colors": 22,
+        "note": "t=5130s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t172s.png",
+        "colors": 25,
+        "note": "t=5160s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t173s.png",
+        "colors": 22,
+        "note": "t=5190s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t174s.png",
+        "colors": 22,
+        "note": "t=5220s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t175s.png",
+        "colors": 22,
+        "note": "t=5250s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t176s.png",
+        "colors": 22,
+        "note": "t=5280s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t177s.png",
+        "colors": 22,
+        "note": "t=5310s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t178s.png",
+        "colors": 22,
+        "note": "t=5340s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t179s.png",
+        "colors": 22,
+        "note": "t=5370s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t180s.png",
+        "colors": 22,
+        "note": "t=5400s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t181s.png",
+        "colors": 22,
+        "note": "t=5430s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t182s.png",
+        "colors": 22,
+        "note": "t=5460s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t183s.png",
+        "colors": 22,
+        "note": "t=5490s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t184s.png",
+        "colors": 20,
+        "note": "t=5520s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t185s.png",
+        "colors": 28,
+        "note": "t=5550s room=93 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s5-r93.png",
+        "colors": 24,
+        "note": "solved puzzle in room 93",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t186s.png",
+        "colors": 40,
+        "note": "t=5580s room=95 hp=8 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t187s.png",
+        "colors": 23,
+        "note": "t=5610s room=104 hp=8 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s5-r106.png",
+        "colors": 27,
+        "note": "solved puzzle in room 106",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t188s.png",
+        "colors": 23,
+        "note": "t=5640s room=107 hp=9 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t189s.png",
+        "colors": 29,
+        "note": "t=5670s room=106 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t190s.png",
+        "colors": 25,
+        "note": "t=5700s room=105 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t191s.png",
+        "colors": 27,
+        "note": "t=5730s room=93 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t192s.png",
+        "colors": 25,
+        "note": "t=5760s room=94 hp=15 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t193s.png",
+        "colors": 25,
+        "note": "t=5790s room=94 hp=15 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t194s.png",
+        "colors": 25,
+        "note": "t=5820s room=94 hp=13 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t195s.png",
+        "colors": 27,
+        "note": "t=5850s room=94 hp=13 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t196s.png",
+        "colors": 25,
+        "note": "t=5880s room=94 hp=13 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t197s.png",
+        "colors": 25,
+        "note": "t=5910s room=94 hp=13 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t198s.png",
+        "colors": 25,
+        "note": "t=5940s room=94 hp=13 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t199s.png",
+        "colors": 25,
+        "note": "t=5970s room=94 hp=13 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t200s.png",
+        "colors": 25,
+        "note": "t=6000s room=94 hp=13 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t201s.png",
+        "colors": 25,
+        "note": "t=6030s room=94 hp=13 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t202s.png",
+        "colors": 25,
+        "note": "t=6060s room=94 hp=13 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t203s.png",
+        "colors": 25,
+        "note": "t=6090s room=94 hp=13 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t204s.png",
+        "colors": 23,
+        "note": "t=6120s room=94 hp=14 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t205s.png",
+        "colors": 28,
+        "note": "t=6150s room=96 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t206s.png",
+        "colors": 30,
+        "note": "t=6180s room=96 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t207s.png",
+        "colors": 31,
+        "note": "t=6210s room=95 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t208s.png",
+        "colors": 21,
+        "note": "t=6240s room=94 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t209s.png",
+        "colors": 27,
+        "note": "t=6270s room=104 hp=14 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t210s.png",
+        "colors": 30,
+        "note": "t=6300s room=104 hp=13 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t211s.png",
+        "colors": 27,
+        "note": "t=6330s room=94 hp=15 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t212s.png",
+        "colors": 28,
+        "note": "t=6360s room=94 hp=12 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t213s.png",
+        "colors": 26,
+        "note": "t=6390s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t214s.png",
+        "colors": 25,
+        "note": "t=6420s room=94 hp=9 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t215s.png",
+        "colors": 25,
+        "note": "t=6450s room=94 hp=7 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t216s.png",
+        "colors": 24,
+        "note": "t=6480s room=94 hp=7 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t217s.png",
+        "colors": 29,
+        "note": "t=6510s room=105 hp=10 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t218s.png",
+        "colors": 25,
+        "note": "t=6540s room=106 hp=12 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t219s.png",
+        "colors": 25,
+        "note": "t=6570s room=106 hp=12 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t220s.png",
+        "colors": 25,
+        "note": "t=6600s room=106 hp=12 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t221s.png",
+        "colors": 28,
+        "note": "t=6630s room=105 hp=12 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t222s.png",
+        "colors": 26,
+        "note": "t=6660s room=106 hp=13 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t223s.png",
+        "colors": 26,
+        "note": "t=6690s room=106 hp=12 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t224s.png",
+        "colors": 23,
+        "note": "t=6720s room=106 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t225s.png",
+        "colors": 22,
+        "note": "t=6750s room=94 hp=15 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t226s.png",
+        "colors": 26,
+        "note": "t=6780s room=94 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t227s.png",
+        "colors": 29,
+        "note": "t=6810s room=95 hp=15 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t228s.png",
+        "colors": 35,
+        "note": "t=6840s room=90 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t229s.png",
+        "colors": 24,
+        "note": "t=6870s room=94 hp=15 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t230s.png",
+        "colors": 34,
+        "note": "t=6900s room=105 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/11-boss-s5.png",
+        "colors": 17,
+        "note": "colossus stage 5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t231s.png",
+        "colors": 24,
+        "note": "t=6930s room=110 hp=16 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t232s.png",
+        "colors": 15,
+        "note": "t=6960s room=110 hp=11 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t233s.png",
+        "colors": 19,
+        "note": "t=6990s room=110 hp=6 stage=5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-progress-s6-r110.png",
+        "colors": 19,
+        "note": "progress stage=6 room=110",
+        "blank": false
+      },
+      {
+        "file": "screenshots/10-boss-clear-s5.png",
+        "colors": 19,
+        "note": "cleared colossus stage 5",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t234s.png",
+        "colors": 26,
+        "note": "t=7020s room=110 hp=6 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t235s.png",
+        "colors": 21,
+        "note": "t=7050s room=110 hp=14 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t236s.png",
+        "colors": 24,
+        "note": "t=7080s room=111 hp=16 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s6-r112.png",
+        "colors": 23,
+        "note": "solved puzzle in room 112",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t237s.png",
+        "colors": 21,
+        "note": "t=7110s room=122 hp=16 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t238s.png",
+        "colors": 24,
+        "note": "t=7140s room=124 hp=16 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t239s.png",
+        "colors": 29,
+        "note": "t=7170s room=123 hp=16 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t240s.png",
+        "colors": 26,
+        "note": "t=7200s room=113 hp=16 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t241s.png",
+        "colors": 23,
+        "note": "t=7230s room=114 hp=16 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s6-r115.png",
+        "colors": 26,
+        "note": "solved puzzle in room 115",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t242s.png",
+        "colors": 26,
+        "note": "t=7260s room=112 hp=16 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t243s.png",
+        "colors": 25,
+        "note": "t=7290s room=125 hp=16 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t244s.png",
+        "colors": 30,
+        "note": "t=7320s room=126 hp=15 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t245s.png",
+        "colors": 21,
+        "note": "t=7350s room=127 hp=16 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t246s.png",
+        "colors": 26,
+        "note": "t=7380s room=124 hp=16 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t247s.png",
+        "colors": 23,
+        "note": "t=7410s room=123 hp=16 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t248s.png",
+        "colors": 21,
+        "note": "t=7440s room=126 hp=16 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t249s.png",
+        "colors": 21,
+        "note": "t=7470s room=128 hp=15 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t250s.png",
+        "colors": 20,
+        "note": "t=7500s room=131 hp=16 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/11-boss-s6.png",
+        "colors": 21,
+        "note": "colossus stage 6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t251s.png",
+        "colors": 16,
+        "note": "t=7530s room=135 hp=12 stage=6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-progress-s7-r135.png",
+        "colors": 24,
+        "note": "progress stage=7 room=135",
+        "blank": false
+      },
+      {
+        "file": "screenshots/10-boss-clear-s6.png",
+        "colors": 24,
+        "note": "cleared colossus stage 6",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t252s.png",
+        "colors": 20,
+        "note": "t=7560s room=135 hp=13 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t253s.png",
+        "colors": 22,
+        "note": "t=7590s room=152 hp=16 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s7-r153.png",
+        "colors": 27,
+        "note": "solved puzzle in room 153",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t254s.png",
+        "colors": 30,
+        "note": "t=7620s room=151 hp=15 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t255s.png",
+        "colors": 33,
+        "note": "t=7650s room=151 hp=15 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t256s.png",
+        "colors": 27,
+        "note": "t=7680s room=152 hp=16 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t257s.png",
+        "colors": 25,
+        "note": "t=7710s room=156 hp=16 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t258s.png",
+        "colors": 17,
+        "note": "t=7740s room=156 hp=16 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t259s.png",
+        "colors": 22,
+        "note": "t=7770s room=156 hp=16 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t260s.png",
+        "colors": 18,
+        "note": "t=7800s room=156 hp=16 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t261s.png",
+        "colors": 30,
+        "note": "t=7830s room=152 hp=16 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t262s.png",
+        "colors": 25,
+        "note": "t=7860s room=152 hp=16 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t263s.png",
+        "colors": 20,
+        "note": "t=7890s room=151 hp=16 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t264s.png",
+        "colors": 31,
+        "note": "t=7920s room=150 hp=10 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s7-r138.png",
+        "colors": 27,
+        "note": "solved puzzle in room 138",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t265s.png",
+        "colors": 31,
+        "note": "t=7950s room=147 hp=16 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t266s.png",
+        "colors": 26,
+        "note": "t=7980s room=150 hp=11 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t267s.png",
+        "colors": 26,
+        "note": "t=8010s room=150 hp=15 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t268s.png",
+        "colors": 27,
+        "note": "t=8040s room=152 hp=15 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t269s.png",
+        "colors": 31,
+        "note": "t=8070s room=152 hp=14 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t270s.png",
+        "colors": 30,
+        "note": "t=8100s room=153 hp=12 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t271s.png",
+        "colors": 24,
+        "note": "t=8130s room=155 hp=13 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t272s.png",
+        "colors": 30,
+        "note": "t=8160s room=157 hp=12 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t273s.png",
+        "colors": 28,
+        "note": "t=8190s room=157 hp=12 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t274s.png",
+        "colors": 28,
+        "note": "t=8220s room=157 hp=11 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t275s.png",
+        "colors": 28,
+        "note": "t=8250s room=157 hp=11 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t276s.png",
+        "colors": 25,
+        "note": "t=8280s room=157 hp=11 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t277s.png",
+        "colors": 31,
+        "note": "t=8310s room=157 hp=6 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t278s.png",
+        "colors": 34,
+        "note": "t=8340s room=160 hp=8 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t279s.png",
+        "colors": 26,
+        "note": "t=8370s room=157 hp=15 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t280s.png",
+        "colors": 21,
+        "note": "t=8400s room=154 hp=14 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t281s.png",
+        "colors": 30,
+        "note": "t=8430s room=152 hp=14 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t282s.png",
+        "colors": 31,
+        "note": "t=8460s room=152 hp=14 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t283s.png",
+        "colors": 32,
+        "note": "t=8490s room=152 hp=14 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t284s.png",
+        "colors": 35,
+        "note": "t=8520s room=152 hp=14 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t285s.png",
+        "colors": 27,
+        "note": "t=8550s room=152 hp=15 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t286s.png",
+        "colors": 28,
+        "note": "t=8580s room=150 hp=15 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t287s.png",
+        "colors": 32,
+        "note": "t=8610s room=140 hp=16 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t288s.png",
+        "colors": 26,
+        "note": "t=8640s room=150 hp=16 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t289s.png",
+        "colors": 32,
+        "note": "t=8670s room=152 hp=16 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t290s.png",
+        "colors": 26,
+        "note": "t=8700s room=152 hp=16 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t291s.png",
+        "colors": 35,
+        "note": "t=8730s room=157 hp=16 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/11-boss-s7.png",
+        "colors": 17,
+        "note": "colossus stage 7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t292s.png",
+        "colors": 22,
+        "note": "t=8760s room=162 hp=14 stage=7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-progress-s8-r162.png",
+        "colors": 20,
+        "note": "progress stage=8 room=162",
+        "blank": false
+      },
+      {
+        "file": "screenshots/10-boss-clear-s7.png",
+        "colors": 20,
+        "note": "cleared colossus stage 7",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t293s.png",
+        "colors": 26,
+        "note": "t=8790s room=162 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t294s.png",
+        "colors": 28,
+        "note": "t=8820s room=166 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s8-r167.png",
+        "colors": 26,
+        "note": "solved puzzle in room 167",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t295s.png",
+        "colors": 25,
+        "note": "t=8850s room=166 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t296s.png",
+        "colors": 23,
+        "note": "t=8880s room=165 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t297s.png",
+        "colors": 5,
+        "note": "t=8910s room=164 hp=15 stage=8",
+        "blank": true
+      },
+      {
+        "file": "screenshots/06-t298s.png",
+        "colors": 37,
+        "note": "t=8940s room=172 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t299s.png",
+        "colors": 27,
+        "note": "t=8970s room=172 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t300s.png",
+        "colors": 20,
+        "note": "t=9000s room=172 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t301s.png",
+        "colors": 24,
+        "note": "t=9030s room=172 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t302s.png",
+        "colors": 20,
+        "note": "t=9060s room=172 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t303s.png",
+        "colors": 21,
+        "note": "t=9090s room=172 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t304s.png",
+        "colors": 20,
+        "note": "t=9120s room=172 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t305s.png",
+        "colors": 24,
+        "note": "t=9150s room=172 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t306s.png",
+        "colors": 20,
+        "note": "t=9180s room=172 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t307s.png",
+        "colors": 25,
+        "note": "t=9210s room=172 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t308s.png",
+        "colors": 23,
+        "note": "t=9240s room=172 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t309s.png",
+        "colors": 24,
+        "note": "t=9270s room=172 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t310s.png",
+        "colors": 25,
+        "note": "t=9300s room=172 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t311s.png",
+        "colors": 29,
+        "note": "t=9330s room=165 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t312s.png",
+        "colors": 24,
+        "note": "t=9360s room=175 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s8-r177.png",
+        "colors": 26,
+        "note": "solved puzzle in room 177",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t313s.png",
+        "colors": 27,
+        "note": "t=9390s room=178 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t314s.png",
+        "colors": 25,
+        "note": "t=9420s room=178 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t315s.png",
+        "colors": 30,
+        "note": "t=9450s room=182 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t316s.png",
+        "colors": 29,
+        "note": "t=9480s room=185 hp=15 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t317s.png",
+        "colors": 28,
+        "note": "t=9510s room=185 hp=15 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t318s.png",
+        "colors": 28,
+        "note": "t=9540s room=185 hp=15 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t319s.png",
+        "colors": 28,
+        "note": "t=9570s room=185 hp=15 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t320s.png",
+        "colors": 27,
+        "note": "t=9600s room=185 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t321s.png",
+        "colors": 28,
+        "note": "t=9630s room=183 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t322s.png",
+        "colors": 24,
+        "note": "t=9660s room=181 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t323s.png",
+        "colors": 31,
+        "note": "t=9690s room=182 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t324s.png",
+        "colors": 22,
+        "note": "t=9721s room=184 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t325s.png",
+        "colors": 37,
+        "note": "t=9750s room=188 hp=16 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/11-boss-s8.png",
+        "colors": 15,
+        "note": "colossus stage 8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t326s.png",
+        "colors": 19,
+        "note": "t=9780s room=190 hp=15 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t327s.png",
+        "colors": 16,
+        "note": "t=9810s room=190 hp=11 stage=8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/07-progress-s9-r190.png",
+        "colors": 25,
+        "note": "progress stage=9 room=190",
+        "blank": false
+      },
+      {
+        "file": "screenshots/10-boss-clear-s8.png",
+        "colors": 25,
+        "note": "cleared colossus stage 8",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t328s.png",
+        "colors": 21,
+        "note": "t=9840s room=190 hp=8 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t329s.png",
+        "colors": 21,
+        "note": "t=9870s room=190 hp=11 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t330s.png",
+        "colors": 34,
+        "note": "t=9900s room=191 hp=11 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t331s.png",
+        "colors": 28,
+        "note": "t=9930s room=191 hp=15 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s9-r192.png",
+        "colors": 27,
+        "note": "solved puzzle in room 192",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t332s.png",
+        "colors": 33,
+        "note": "t=9960s room=201 hp=16 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t333s.png",
+        "colors": 23,
+        "note": "t=9990s room=199 hp=16 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t334s.png",
+        "colors": 28,
+        "note": "t=10020s room=200 hp=16 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t335s.png",
+        "colors": 26,
+        "note": "t=10050s room=201 hp=12 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t336s.png",
+        "colors": 26,
+        "note": "t=10080s room=198 hp=15 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t337s.png",
+        "colors": 26,
+        "note": "t=10110s room=207 hp=15 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t338s.png",
+        "colors": 25,
+        "note": "t=10140s room=210 hp=16 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/08-puzzle-s9-r211.png",
+        "colors": 24,
+        "note": "solved puzzle in room 211",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t339s.png",
+        "colors": 25,
+        "note": "t=10170s room=211 hp=16 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t340s.png",
+        "colors": 27,
+        "note": "t=10200s room=207 hp=16 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t341s.png",
+        "colors": 28,
+        "note": "t=10231s room=205 hp=15 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t342s.png",
+        "colors": 27,
+        "note": "t=10260s room=203 hp=15 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t343s.png",
+        "colors": 26,
+        "note": "t=10290s room=206 hp=16 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t344s.png",
+        "colors": 22,
+        "note": "t=10320s room=211 hp=15 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t345s.png",
+        "colors": 33,
+        "note": "t=10350s room=213 hp=15 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t346s.png",
+        "colors": 19,
+        "note": "t=10380s room=215 hp=14 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t347s.png",
+        "colors": 26,
+        "note": "t=10410s room=217 hp=16 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/11-boss-s9.png",
+        "colors": 16,
+        "note": "colossus stage 9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t348s.png",
+        "colors": 19,
+        "note": "t=10440s room=220 hp=16 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t349s.png",
+        "colors": 21,
+        "note": "t=10470s room=220 hp=16 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t350s.png",
+        "colors": 16,
+        "note": "t=10500s room=220 hp=11 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/06-t351s.png",
+        "colors": 25,
+        "note": "t=10530s room=220 hp=4 stage=9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/10-boss-clear-s9.png",
+        "colors": 22,
+        "note": "cleared colossus stage 9",
+        "blank": false
+      },
+      {
+        "file": "screenshots/09-victory.png",
+        "colors": 22,
+        "note": "victory",
+        "blank": false
+      },
+      {
+        "file": "screenshots/09-final.png",
+        "colors": 22,
+        "note": "outcome=won screen=room",
+        "blank": false
+      }
+    ],
+    "href": "runs/20261124-1200-87b8b9a0-easy-corvin-full-w8planb/"
+  },
+  {
+    "schema": 1,
     "id": "20261124-1145-87b8b9a0-easy-vespine-full-w3t8",
     "build_sha": "87b8b9a0",
     "rom_sha256": "10f44990959f0a4a6aa5bb0033606009259bbd77e769839a61a464b29f6b7440",
