@@ -1,0 +1,2314 @@
+{
+  "schema": 1,
+  "id": "20261123-2035-805476ea-easy-corvin-full",
+  "build_sha": "805476ea",
+  "rom_sha256": "533aac4f5e339d8801fc90b1873ebcd7866eeab3dfa381a1610e1c1ae6b3351d",
+  "rom_size": 524288,
+  "emulator": {
+    "name": "pyboy",
+    "version": "2.7.0",
+    "window": "null",
+    "cgb": true
+  },
+  "hero": "Corvin",
+  "class_id": 2,
+  "player_type": "machine",
+  "player_policy": "official-wrap-v13",
+  "run_kind": "full",
+  "start_state": null,
+  "difficulty": "easy",
+  "seed": 2064128948,
+  "started": "2026-11-23T20:32:13-05:00",
+  "ended": "2026-11-23T20:36:14-05:00",
+  "timezone": "America/New_York",
+  "outcome": "timeout",
+  "timings": {
+    "wall_s": 241.0,
+    "play_s": 8964,
+    "emulated_frames": 540000,
+    "video_frames": 133019
+  },
+  "deaths": [],
+  "stages": [
+    {
+      "stage": 1,
+      "play_s": 319,
+      "wall_s": 9.71,
+      "frames": 19358,
+      "rooms": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "room_count": 16,
+      "dmg": 17,
+      "hits": 17,
+      "deaths": 0,
+      "death_causes": [],
+      "boss_seen": 1,
+      "boss_cleared": 1,
+      "boss_s": 45.4,
+      "status": {
+        "haste": 3
+      },
+      "hp_min": 11,
+      "outcome": "cleared"
+    },
+    {
+      "stage": 2,
+      "play_s": 542,
+      "wall_s": 15.84,
+      "frames": 52330,
+      "rooms": [
+        19,
+        21,
+        22,
+        23,
+        24,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "room_count": 19,
+      "dmg": 13,
+      "hits": 13,
+      "deaths": 0,
+      "death_causes": [],
+      "boss_seen": 1,
+      "boss_cleared": 1,
+      "boss_s": 3.47,
+      "status": {
+        "haste": 9
+      },
+      "hp_min": 14,
+      "outcome": "cleared"
+    },
+    {
+      "stage": 3,
+      "play_s": 657,
+      "wall_s": 18.95,
+      "frames": 92366,
+      "rooms": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "room_count": 18,
+      "dmg": 49,
+      "hits": 48,
+      "deaths": 0,
+      "death_causes": [],
+      "boss_seen": 1,
+      "boss_cleared": 1,
+      "boss_s": 31.6,
+      "status": {
+        "haste": 6,
+        "stop": 1
+      },
+      "hp_min": 10,
+      "outcome": "cleared"
+    },
+    {
+      "stage": 4,
+      "play_s": 327,
+      "wall_s": 9.66,
+      "frames": 112364,
+      "rooms": [
+        62,
+        63,
+        66,
+        67,
+        68,
+        70,
+        71,
+        72,
+        73,
+        74,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        83,
+        84,
+        85,
+        86
+      ],
+      "room_count": 20,
+      "dmg": 5,
+      "hits": 5,
+      "deaths": 0,
+      "death_causes": [],
+      "boss_seen": 1,
+      "boss_cleared": 1,
+      "boss_s": 4.6,
+      "status": {
+        "regen": 1,
+        "haste": 3
+      },
+      "hp_min": 10,
+      "outcome": "cleared"
+    },
+    {
+      "stage": 5,
+      "play_s": 7119,
+      "wall_s": 186.69,
+      "frames": 540000,
+      "rooms": [
+        86,
+        102
+      ],
+      "room_count": 2,
+      "dmg": 2,
+      "hits": 2,
+      "deaths": 0,
+      "death_causes": [],
+      "boss_seen": 0,
+      "boss_cleared": 0,
+      "boss_s": 0.0,
+      "status": {
+        "haste": 1
+      },
+      "hp_min": 12,
+      "outcome": "timeout"
+    }
+  ],
+  "furthest": {
+    "stage": 5,
+    "room": 102,
+    "bosses": 4
+  },
+  "end": {
+    "screen": 5,
+    "screen_name": "room",
+    "hp": 14,
+    "hp_max": 14,
+    "mp": 12,
+    "room": 102,
+    "stage": 5,
+    "score": 0,
+    "coins": 42,
+    "bosses": 4,
+    "x": 101,
+    "y": 51
+  },
+  "screenshots": [
+    {
+      "file": "screenshots/01-title.png",
+      "colors": 17,
+      "note": "title (intro muted)",
+      "blank": false
+    },
+    {
+      "file": "screenshots/02-class-select.png",
+      "colors": 9,
+      "note": "Corvin highlighted, difficulty=easy",
+      "blank": false
+    },
+    {
+      "file": "screenshots/04-run-start.png",
+      "colors": 28,
+      "note": "screen=room",
+      "blank": false
+    },
+    {
+      "file": "screenshots/05-combat.png",
+      "colors": 33,
+      "note": "room=12 hp=16/16 hostiles=11",
+      "blank": false
+    },
+    {
+      "file": "screenshots/08-puzzle-s1-r13.png",
+      "colors": 23,
+      "note": "solved puzzle in room 13",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t01s.png",
+      "colors": 25,
+      "note": "t=30s room=14 hp=15 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t02s.png",
+      "colors": 27,
+      "note": "t=60s room=15 hp=14 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/07-progress-s1-r16.png",
+      "colors": 28,
+      "note": "progress stage=1 room=16",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t03s.png",
+      "colors": 25,
+      "note": "t=90s room=8 hp=15 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/08-puzzle-s1-r9.png",
+      "colors": 20,
+      "note": "solved puzzle in room 9",
+      "blank": false
+    },
+    {
+      "file": "screenshots/07-progress-s1-r1.png",
+      "colors": 24,
+      "note": "progress stage=1 room=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t04s.png",
+      "colors": 21,
+      "note": "t=120s room=1 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t05s.png",
+      "colors": 26,
+      "note": "t=150s room=2 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t06s.png",
+      "colors": 21,
+      "note": "t=180s room=3 hp=14 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t07s.png",
+      "colors": 25,
+      "note": "t=210s room=2 hp=16 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t08s.png",
+      "colors": 31,
+      "note": "t=240s room=8 hp=14 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t09s.png",
+      "colors": 36,
+      "note": "t=270s room=17 hp=15 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/11-boss-s1.png",
+      "colors": 16,
+      "note": "colossus stage 1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t10s.png",
+      "colors": 18,
+      "note": "t=300s room=19 hp=15 stage=1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/07-progress-s2-r19.png",
+      "colors": 21,
+      "note": "progress stage=2 room=19",
+      "blank": false
+    },
+    {
+      "file": "screenshots/10-boss-clear-s1.png",
+      "colors": 21,
+      "note": "cleared colossus stage 1",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t11s.png",
+      "colors": 22,
+      "note": "t=330s room=19 hp=16 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/07-progress-s2-r19.png",
+      "colors": 30,
+      "note": "progress stage=2 room=19",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t12s.png",
+      "colors": 21,
+      "note": "t=360s room=19 hp=16 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t13s.png",
+      "colors": 23,
+      "note": "t=390s room=29 hp=16 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t14s.png",
+      "colors": 28,
+      "note": "t=420s room=30 hp=16 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/08-puzzle-s2-r30.png",
+      "colors": 26,
+      "note": "solved puzzle in room 30",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t15s.png",
+      "colors": 20,
+      "note": "t=450s room=28 hp=16 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t16s.png",
+      "colors": 30,
+      "note": "t=480s room=27 hp=16 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t17s.png",
+      "colors": 20,
+      "note": "t=510s room=29 hp=16 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t18s.png",
+      "colors": 31,
+      "note": "t=540s room=28 hp=16 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/08-puzzle-s2-r26.png",
+      "colors": 23,
+      "note": "solved puzzle in room 26",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t19s.png",
+      "colors": 22,
+      "note": "t=570s room=27 hp=15 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t20s.png",
+      "colors": 23,
+      "note": "t=600s room=29 hp=16 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t21s.png",
+      "colors": 28,
+      "note": "t=630s room=31 hp=15 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t22s.png",
+      "colors": 24,
+      "note": "t=660s room=33 hp=16 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t23s.png",
+      "colors": 27,
+      "note": "t=690s room=22 hp=15 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t24s.png",
+      "colors": 28,
+      "note": "t=720s room=23 hp=15 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t25s.png",
+      "colors": 27,
+      "note": "t=750s room=23 hp=16 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t26s.png",
+      "colors": 23,
+      "note": "t=780s room=21 hp=16 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t27s.png",
+      "colors": 22,
+      "note": "t=811s room=34 hp=16 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t28s.png",
+      "colors": 23,
+      "note": "t=840s room=35 hp=16 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/11-boss-s2.png",
+      "colors": 13,
+      "note": "colossus stage 2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t29s.png",
+      "colors": 24,
+      "note": "t=870s room=40 hp=16 stage=2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/07-progress-s3-r40.png",
+      "colors": 19,
+      "note": "progress stage=3 room=40",
+      "blank": false
+    },
+    {
+      "file": "screenshots/10-boss-clear-s2.png",
+      "colors": 19,
+      "note": "cleared colossus stage 2",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t30s.png",
+      "colors": 20,
+      "note": "t=900s room=40 hp=16 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t31s.png",
+      "colors": 26,
+      "note": "t=931s room=40 hp=16 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t32s.png",
+      "colors": 28,
+      "note": "t=960s room=40 hp=14 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t33s.png",
+      "colors": 26,
+      "note": "t=990s room=53 hp=13 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/08-puzzle-s3-r54.png",
+      "colors": 29,
+      "note": "solved puzzle in room 54",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t34s.png",
+      "colors": 33,
+      "note": "t=1020s room=54 hp=16 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t35s.png",
+      "colors": 22,
+      "note": "t=1050s room=52 hp=16 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t36s.png",
+      "colors": 18,
+      "note": "t=1080s room=42 hp=15 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t37s.png",
+      "colors": 26,
+      "note": "t=1110s room=53 hp=16 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t38s.png",
+      "colors": 25,
+      "note": "t=1141s room=55 hp=16 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t39s.png",
+      "colors": 28,
+      "note": "t=1170s room=56 hp=12 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/08-puzzle-s3-r57.png",
+      "colors": 30,
+      "note": "solved puzzle in room 57",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t40s.png",
+      "colors": 24,
+      "note": "t=1200s room=54 hp=13 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t41s.png",
+      "colors": 25,
+      "note": "t=1230s room=53 hp=15 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t42s.png",
+      "colors": 27,
+      "note": "t=1260s room=41 hp=12 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t43s.png",
+      "colors": 29,
+      "note": "t=1290s room=43 hp=12 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t44s.png",
+      "colors": 20,
+      "note": "t=1320s room=44 hp=14 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t45s.png",
+      "colors": 22,
+      "note": "t=1350s room=44 hp=14 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t46s.png",
+      "colors": 19,
+      "note": "t=1380s room=42 hp=15 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t47s.png",
+      "colors": 28,
+      "note": "t=1410s room=53 hp=15 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t48s.png",
+      "colors": 30,
+      "note": "t=1440s room=54 hp=15 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t49s.png",
+      "colors": 33,
+      "note": "t=1470s room=56 hp=15 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t50s.png",
+      "colors": 26,
+      "note": "t=1500s room=59 hp=16 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/11-boss-s3.png",
+      "colors": 18,
+      "note": "colossus stage 3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t51s.png",
+      "colors": 18,
+      "note": "t=1530s room=62 hp=13 stage=3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/07-progress-s4-r62.png",
+      "colors": 21,
+      "note": "progress stage=4 room=62",
+      "blank": false
+    },
+    {
+      "file": "screenshots/10-boss-clear-s3.png",
+      "colors": 21,
+      "note": "cleared colossus stage 3",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t52s.png",
+      "colors": 22,
+      "note": "t=1560s room=62 hp=13 stage=4",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t53s.png",
+      "colors": 25,
+      "note": "t=1590s room=62 hp=14 stage=4",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t54s.png",
+      "colors": 29,
+      "note": "t=1620s room=63 hp=14 stage=4",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t55s.png",
+      "colors": 21,
+      "note": "t=1650s room=67 hp=13 stage=4",
+      "blank": false
+    },
+    {
+      "file": "screenshots/08-puzzle-s4-r68.png",
+      "colors": 28,
+      "note": "solved puzzle in room 68",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t56s.png",
+      "colors": 24,
+      "note": "t=1680s room=72 hp=14 stage=4",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t57s.png",
+      "colors": 28,
+      "note": "t=1710s room=73 hp=14 stage=4",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t58s.png",
+      "colors": 28,
+      "note": "t=1740s room=71 hp=14 stage=4",
+      "blank": false
+    },
+    {
+      "file": "screenshots/08-puzzle-s4-r70.png",
+      "colors": 30,
+      "note": "solved puzzle in room 70",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t59s.png",
+      "colors": 33,
+      "note": "t=1770s room=83 hp=14 stage=4",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t60s.png",
+      "colors": 27,
+      "note": "t=1800s room=78 hp=13 stage=4",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t61s.png",
+      "colors": 25,
+      "note": "t=1830s room=77 hp=14 stage=4",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t62s.png",
+      "colors": 34,
+      "note": "t=1860s room=83 hp=14 stage=4",
+      "blank": false
+    },
+    {
+      "file": "screenshots/11-boss-s4.png",
+      "colors": 17,
+      "note": "colossus stage 4",
+      "blank": false
+    },
+    {
+      "file": "screenshots/07-progress-s5-r86.png",
+      "colors": 21,
+      "note": "progress stage=5 room=86",
+      "blank": false
+    },
+    {
+      "file": "screenshots/10-boss-clear-s4.png",
+      "colors": 21,
+      "note": "cleared colossus stage 4",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t63s.png",
+      "colors": 21,
+      "note": "t=1890s room=86 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t64s.png",
+      "colors": 30,
+      "note": "t=1920s room=86 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t65s.png",
+      "colors": 26,
+      "note": "t=1950s room=86 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t66s.png",
+      "colors": 19,
+      "note": "t=1980s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t67s.png",
+      "colors": 20,
+      "note": "t=2010s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t68s.png",
+      "colors": 20,
+      "note": "t=2040s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t69s.png",
+      "colors": 20,
+      "note": "t=2070s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t70s.png",
+      "colors": 20,
+      "note": "t=2100s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t71s.png",
+      "colors": 20,
+      "note": "t=2130s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t72s.png",
+      "colors": 20,
+      "note": "t=2160s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t73s.png",
+      "colors": 20,
+      "note": "t=2190s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t74s.png",
+      "colors": 20,
+      "note": "t=2220s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t75s.png",
+      "colors": 20,
+      "note": "t=2250s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t76s.png",
+      "colors": 20,
+      "note": "t=2280s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t77s.png",
+      "colors": 20,
+      "note": "t=2310s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t78s.png",
+      "colors": 20,
+      "note": "t=2340s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t79s.png",
+      "colors": 20,
+      "note": "t=2370s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t80s.png",
+      "colors": 20,
+      "note": "t=2400s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t81s.png",
+      "colors": 20,
+      "note": "t=2430s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t82s.png",
+      "colors": 20,
+      "note": "t=2460s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t83s.png",
+      "colors": 20,
+      "note": "t=2490s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t84s.png",
+      "colors": 20,
+      "note": "t=2520s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t85s.png",
+      "colors": 20,
+      "note": "t=2550s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t86s.png",
+      "colors": 20,
+      "note": "t=2580s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t87s.png",
+      "colors": 20,
+      "note": "t=2610s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t88s.png",
+      "colors": 20,
+      "note": "t=2640s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t89s.png",
+      "colors": 20,
+      "note": "t=2670s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t90s.png",
+      "colors": 20,
+      "note": "t=2700s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t91s.png",
+      "colors": 20,
+      "note": "t=2730s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t92s.png",
+      "colors": 20,
+      "note": "t=2760s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t93s.png",
+      "colors": 20,
+      "note": "t=2790s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t94s.png",
+      "colors": 20,
+      "note": "t=2820s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t95s.png",
+      "colors": 20,
+      "note": "t=2850s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t96s.png",
+      "colors": 20,
+      "note": "t=2880s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t97s.png",
+      "colors": 20,
+      "note": "t=2910s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t98s.png",
+      "colors": 20,
+      "note": "t=2940s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t99s.png",
+      "colors": 20,
+      "note": "t=2970s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t100s.png",
+      "colors": 20,
+      "note": "t=3000s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t101s.png",
+      "colors": 20,
+      "note": "t=3030s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t102s.png",
+      "colors": 20,
+      "note": "t=3060s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t103s.png",
+      "colors": 20,
+      "note": "t=3090s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t104s.png",
+      "colors": 20,
+      "note": "t=3120s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t105s.png",
+      "colors": 20,
+      "note": "t=3150s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t106s.png",
+      "colors": 20,
+      "note": "t=3180s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t107s.png",
+      "colors": 20,
+      "note": "t=3210s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t108s.png",
+      "colors": 20,
+      "note": "t=3240s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t109s.png",
+      "colors": 20,
+      "note": "t=3270s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t110s.png",
+      "colors": 20,
+      "note": "t=3300s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t111s.png",
+      "colors": 20,
+      "note": "t=3330s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t112s.png",
+      "colors": 20,
+      "note": "t=3360s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t113s.png",
+      "colors": 20,
+      "note": "t=3390s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t114s.png",
+      "colors": 20,
+      "note": "t=3420s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t115s.png",
+      "colors": 20,
+      "note": "t=3450s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t116s.png",
+      "colors": 20,
+      "note": "t=3480s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t117s.png",
+      "colors": 20,
+      "note": "t=3510s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t118s.png",
+      "colors": 20,
+      "note": "t=3540s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t119s.png",
+      "colors": 20,
+      "note": "t=3570s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t120s.png",
+      "colors": 20,
+      "note": "t=3600s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t121s.png",
+      "colors": 20,
+      "note": "t=3630s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t122s.png",
+      "colors": 20,
+      "note": "t=3660s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t123s.png",
+      "colors": 20,
+      "note": "t=3690s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t124s.png",
+      "colors": 20,
+      "note": "t=3720s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t125s.png",
+      "colors": 20,
+      "note": "t=3750s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t126s.png",
+      "colors": 20,
+      "note": "t=3780s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t127s.png",
+      "colors": 20,
+      "note": "t=3810s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t128s.png",
+      "colors": 20,
+      "note": "t=3840s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t129s.png",
+      "colors": 20,
+      "note": "t=3870s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t130s.png",
+      "colors": 20,
+      "note": "t=3900s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t131s.png",
+      "colors": 20,
+      "note": "t=3930s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t132s.png",
+      "colors": 20,
+      "note": "t=3960s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t133s.png",
+      "colors": 20,
+      "note": "t=3990s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t134s.png",
+      "colors": 20,
+      "note": "t=4020s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t135s.png",
+      "colors": 20,
+      "note": "t=4050s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t136s.png",
+      "colors": 20,
+      "note": "t=4080s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t137s.png",
+      "colors": 20,
+      "note": "t=4110s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t138s.png",
+      "colors": 20,
+      "note": "t=4140s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t139s.png",
+      "colors": 20,
+      "note": "t=4170s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t140s.png",
+      "colors": 20,
+      "note": "t=4200s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t141s.png",
+      "colors": 20,
+      "note": "t=4230s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t142s.png",
+      "colors": 20,
+      "note": "t=4260s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t143s.png",
+      "colors": 20,
+      "note": "t=4290s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t144s.png",
+      "colors": 20,
+      "note": "t=4320s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t145s.png",
+      "colors": 20,
+      "note": "t=4350s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t146s.png",
+      "colors": 20,
+      "note": "t=4380s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t147s.png",
+      "colors": 20,
+      "note": "t=4410s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t148s.png",
+      "colors": 20,
+      "note": "t=4440s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t149s.png",
+      "colors": 20,
+      "note": "t=4470s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t150s.png",
+      "colors": 20,
+      "note": "t=4500s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t151s.png",
+      "colors": 20,
+      "note": "t=4530s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t152s.png",
+      "colors": 20,
+      "note": "t=4560s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t153s.png",
+      "colors": 20,
+      "note": "t=4590s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t154s.png",
+      "colors": 20,
+      "note": "t=4620s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t155s.png",
+      "colors": 20,
+      "note": "t=4650s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t156s.png",
+      "colors": 20,
+      "note": "t=4680s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t157s.png",
+      "colors": 20,
+      "note": "t=4710s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t158s.png",
+      "colors": 20,
+      "note": "t=4740s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t159s.png",
+      "colors": 20,
+      "note": "t=4770s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t160s.png",
+      "colors": 20,
+      "note": "t=4800s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t161s.png",
+      "colors": 20,
+      "note": "t=4830s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t162s.png",
+      "colors": 20,
+      "note": "t=4860s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t163s.png",
+      "colors": 20,
+      "note": "t=4890s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t164s.png",
+      "colors": 20,
+      "note": "t=4920s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t165s.png",
+      "colors": 20,
+      "note": "t=4950s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t166s.png",
+      "colors": 20,
+      "note": "t=4980s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t167s.png",
+      "colors": 20,
+      "note": "t=5010s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t168s.png",
+      "colors": 20,
+      "note": "t=5040s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t169s.png",
+      "colors": 20,
+      "note": "t=5070s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t170s.png",
+      "colors": 20,
+      "note": "t=5100s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t171s.png",
+      "colors": 20,
+      "note": "t=5130s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t172s.png",
+      "colors": 20,
+      "note": "t=5160s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t173s.png",
+      "colors": 20,
+      "note": "t=5190s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t174s.png",
+      "colors": 20,
+      "note": "t=5220s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t175s.png",
+      "colors": 20,
+      "note": "t=5250s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t176s.png",
+      "colors": 20,
+      "note": "t=5280s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t177s.png",
+      "colors": 20,
+      "note": "t=5310s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t178s.png",
+      "colors": 20,
+      "note": "t=5340s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t179s.png",
+      "colors": 20,
+      "note": "t=5370s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t180s.png",
+      "colors": 20,
+      "note": "t=5400s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t181s.png",
+      "colors": 20,
+      "note": "t=5430s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t182s.png",
+      "colors": 20,
+      "note": "t=5460s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t183s.png",
+      "colors": 20,
+      "note": "t=5490s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t184s.png",
+      "colors": 20,
+      "note": "t=5520s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t185s.png",
+      "colors": 20,
+      "note": "t=5550s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t186s.png",
+      "colors": 20,
+      "note": "t=5580s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t187s.png",
+      "colors": 20,
+      "note": "t=5610s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t188s.png",
+      "colors": 20,
+      "note": "t=5640s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t189s.png",
+      "colors": 20,
+      "note": "t=5670s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t190s.png",
+      "colors": 20,
+      "note": "t=5700s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t191s.png",
+      "colors": 20,
+      "note": "t=5730s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t192s.png",
+      "colors": 20,
+      "note": "t=5760s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t193s.png",
+      "colors": 20,
+      "note": "t=5790s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t194s.png",
+      "colors": 20,
+      "note": "t=5820s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t195s.png",
+      "colors": 20,
+      "note": "t=5850s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t196s.png",
+      "colors": 20,
+      "note": "t=5880s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t197s.png",
+      "colors": 20,
+      "note": "t=5910s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t198s.png",
+      "colors": 20,
+      "note": "t=5940s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t199s.png",
+      "colors": 20,
+      "note": "t=5970s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t200s.png",
+      "colors": 20,
+      "note": "t=6000s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t201s.png",
+      "colors": 20,
+      "note": "t=6030s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t202s.png",
+      "colors": 20,
+      "note": "t=6060s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t203s.png",
+      "colors": 20,
+      "note": "t=6090s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t204s.png",
+      "colors": 20,
+      "note": "t=6120s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t205s.png",
+      "colors": 20,
+      "note": "t=6150s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t206s.png",
+      "colors": 20,
+      "note": "t=6180s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t207s.png",
+      "colors": 20,
+      "note": "t=6210s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t208s.png",
+      "colors": 20,
+      "note": "t=6240s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t209s.png",
+      "colors": 20,
+      "note": "t=6270s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t210s.png",
+      "colors": 20,
+      "note": "t=6300s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t211s.png",
+      "colors": 20,
+      "note": "t=6330s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t212s.png",
+      "colors": 20,
+      "note": "t=6360s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t213s.png",
+      "colors": 20,
+      "note": "t=6390s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t214s.png",
+      "colors": 20,
+      "note": "t=6420s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t215s.png",
+      "colors": 20,
+      "note": "t=6450s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t216s.png",
+      "colors": 20,
+      "note": "t=6480s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t217s.png",
+      "colors": 20,
+      "note": "t=6510s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t218s.png",
+      "colors": 20,
+      "note": "t=6540s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t219s.png",
+      "colors": 20,
+      "note": "t=6570s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t220s.png",
+      "colors": 20,
+      "note": "t=6600s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t221s.png",
+      "colors": 20,
+      "note": "t=6630s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t222s.png",
+      "colors": 20,
+      "note": "t=6660s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t223s.png",
+      "colors": 20,
+      "note": "t=6690s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t224s.png",
+      "colors": 20,
+      "note": "t=6720s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t225s.png",
+      "colors": 20,
+      "note": "t=6750s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t226s.png",
+      "colors": 20,
+      "note": "t=6780s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t227s.png",
+      "colors": 20,
+      "note": "t=6810s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t228s.png",
+      "colors": 20,
+      "note": "t=6840s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t229s.png",
+      "colors": 20,
+      "note": "t=6870s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t230s.png",
+      "colors": 20,
+      "note": "t=6900s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t231s.png",
+      "colors": 20,
+      "note": "t=6930s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t232s.png",
+      "colors": 20,
+      "note": "t=6960s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t233s.png",
+      "colors": 20,
+      "note": "t=6990s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t234s.png",
+      "colors": 20,
+      "note": "t=7020s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t235s.png",
+      "colors": 20,
+      "note": "t=7050s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t236s.png",
+      "colors": 20,
+      "note": "t=7080s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t237s.png",
+      "colors": 20,
+      "note": "t=7110s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t238s.png",
+      "colors": 20,
+      "note": "t=7140s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t239s.png",
+      "colors": 20,
+      "note": "t=7170s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t240s.png",
+      "colors": 20,
+      "note": "t=7200s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t241s.png",
+      "colors": 20,
+      "note": "t=7230s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t242s.png",
+      "colors": 20,
+      "note": "t=7260s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t243s.png",
+      "colors": 20,
+      "note": "t=7290s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t244s.png",
+      "colors": 20,
+      "note": "t=7320s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t245s.png",
+      "colors": 20,
+      "note": "t=7350s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t246s.png",
+      "colors": 20,
+      "note": "t=7380s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t247s.png",
+      "colors": 20,
+      "note": "t=7410s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t248s.png",
+      "colors": 20,
+      "note": "t=7440s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t249s.png",
+      "colors": 20,
+      "note": "t=7470s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t250s.png",
+      "colors": 20,
+      "note": "t=7500s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t251s.png",
+      "colors": 20,
+      "note": "t=7530s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t252s.png",
+      "colors": 20,
+      "note": "t=7560s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t253s.png",
+      "colors": 20,
+      "note": "t=7590s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t254s.png",
+      "colors": 20,
+      "note": "t=7620s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t255s.png",
+      "colors": 20,
+      "note": "t=7650s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t256s.png",
+      "colors": 20,
+      "note": "t=7680s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t257s.png",
+      "colors": 20,
+      "note": "t=7710s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t258s.png",
+      "colors": 20,
+      "note": "t=7740s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t259s.png",
+      "colors": 20,
+      "note": "t=7770s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t260s.png",
+      "colors": 20,
+      "note": "t=7800s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t261s.png",
+      "colors": 20,
+      "note": "t=7830s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t262s.png",
+      "colors": 20,
+      "note": "t=7860s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t263s.png",
+      "colors": 20,
+      "note": "t=7890s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t264s.png",
+      "colors": 20,
+      "note": "t=7920s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t265s.png",
+      "colors": 20,
+      "note": "t=7950s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t266s.png",
+      "colors": 20,
+      "note": "t=7980s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t267s.png",
+      "colors": 20,
+      "note": "t=8010s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t268s.png",
+      "colors": 20,
+      "note": "t=8040s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t269s.png",
+      "colors": 20,
+      "note": "t=8070s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t270s.png",
+      "colors": 20,
+      "note": "t=8100s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t271s.png",
+      "colors": 20,
+      "note": "t=8130s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t272s.png",
+      "colors": 20,
+      "note": "t=8160s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t273s.png",
+      "colors": 20,
+      "note": "t=8190s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t274s.png",
+      "colors": 20,
+      "note": "t=8220s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t275s.png",
+      "colors": 20,
+      "note": "t=8250s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t276s.png",
+      "colors": 20,
+      "note": "t=8280s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t277s.png",
+      "colors": 20,
+      "note": "t=8310s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t278s.png",
+      "colors": 20,
+      "note": "t=8340s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t279s.png",
+      "colors": 20,
+      "note": "t=8370s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t280s.png",
+      "colors": 20,
+      "note": "t=8400s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t281s.png",
+      "colors": 20,
+      "note": "t=8430s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t282s.png",
+      "colors": 20,
+      "note": "t=8460s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t283s.png",
+      "colors": 20,
+      "note": "t=8490s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t284s.png",
+      "colors": 20,
+      "note": "t=8520s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t285s.png",
+      "colors": 20,
+      "note": "t=8550s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t286s.png",
+      "colors": 20,
+      "note": "t=8580s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t287s.png",
+      "colors": 20,
+      "note": "t=8610s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t288s.png",
+      "colors": 20,
+      "note": "t=8640s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t289s.png",
+      "colors": 20,
+      "note": "t=8670s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t290s.png",
+      "colors": 20,
+      "note": "t=8700s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t291s.png",
+      "colors": 20,
+      "note": "t=8730s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t292s.png",
+      "colors": 20,
+      "note": "t=8760s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t293s.png",
+      "colors": 20,
+      "note": "t=8790s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t294s.png",
+      "colors": 20,
+      "note": "t=8820s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t295s.png",
+      "colors": 20,
+      "note": "t=8850s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t296s.png",
+      "colors": 20,
+      "note": "t=8880s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t297s.png",
+      "colors": 20,
+      "note": "t=8910s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t298s.png",
+      "colors": 20,
+      "note": "t=8940s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t299s.png",
+      "colors": 20,
+      "note": "t=8970s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/06-t300s.png",
+      "colors": 20,
+      "note": "t=9000s room=102 hp=14 stage=5",
+      "blank": false
+    },
+    {
+      "file": "screenshots/07-timeout.png",
+      "colors": 20,
+      "note": "reached 150.0 emulated minutes",
+      "blank": false
+    },
+    {
+      "file": "screenshots/09-final.png",
+      "colors": 20,
+      "note": "outcome=timeout screen=room",
+      "blank": false
+    }
+  ],
+  "video": "gameplay.mp4",
+  "gif": "gameplay-open.gif",
+  "telemetry": "telemetry.json",
+  "commentary": "commentary.md",
+  "notes": [
+    "Stage 1 room 13: rune_sequence (locked).",
+    "Solved rune_sequence in stage 1 room 13.",
+    "Stage 1 room 14: none combat-sealed.",
+    "Stage 1 room 15: none combat-sealed.",
+    "Stage 1 room 7: none combat-sealed.",
+    "Stage 1 room 9: push_seal (locked).",
+    "Solved push_seal in stage 1 room 9.",
+    "Stage 1 room 10: none combat-sealed.",
+    "Stage 1 room 1: none combat-sealed.",
+    "Stall 600f at stage 1 room 2 (146,27) hostiles=8 stale=True phase=pack hp=16.",
+    "Stage 1 room 3: phase_switch.",
+    "Stage 1 room 4: phase_gate.",
+    "Stage 1 room 3: phase_switch.",
+    "Stage 1 room 9: push_seal.",
+    "Stage 1 room 7: none combat-sealed.",
+    "Entered a Colossus fight on stage 1.",
+    "Cleared stage 1 Colossus at t=319s.",
+    "Stage 2 room 29: none combat-sealed.",
+    "Stage 2 room 30: rune_sequence (locked).",
+    "Solved rune_sequence in stage 2 room 30.",
+    "Stage 2 room 29: none combat-sealed.",
+    "Stage 2 room 28: none combat-sealed.",
+    "Sealed room 28 t=30s pos=(166,180) hp=16 hostiles=2.",
+    "Stage 2 room 27: none combat-sealed.",
+    "Stage 2 room 28: none combat-sealed.",
+    "Stage 2 room 29: none combat-sealed.",
+    "Stage 2 room 30: rune_sequence.",
+    "Stage 2 room 30: rune_sequence.",
+    "Stage 2 room 29: none combat-sealed.",
+    "Stage 2 room 27: none combat-sealed.",
+    "Stage 2 room 26: push_seal (locked).",
+    "Solved push_seal in stage 2 room 26.",
+    "Stage 2 room 27: none combat-sealed.",
+    "Stage 2 room 29: none combat-sealed.",
+    "Stage 2 room 30: rune_sequence.",
+    "Stage 2 room 30: rune_sequence.",
+    "Stage 2 room 34: none combat-sealed.",
+    "Stage 2 room 30: rune_sequence.",
+    "Stage 2 room 22: none combat-sealed.",
+    "Stage 2 room 24: phase_switch.",
+    "Stage 2 room 22: none combat-sealed.",
+    "Stage 2 room 30: rune_sequence.",
+    "Stage 2 room 34: none combat-sealed.",
+    "Stage 2 room 35: none combat-sealed.",
+    "Stage 2 room 36: phase_gate.",
+    "Entered a Colossus fight on stage 2.",
+    "Cleared stage 2 Colossus at t=542s.",
+    "Stage 3 room 53: none combat-sealed.",
+    "Stage 3 room 54: sun_lattice (locked).",
+    "Solved sun_lattice in stage 3 room 54.",
+    "Stage 3 room 54: sun_lattice.",
+    "Stage 3 room 53: none combat-sealed.",
+    "Stage 3 room 42: none combat-sealed.",
+    "Stage 3 room 51: none combat-sealed.",
+    "Stage 3 room 53: none combat-sealed.",
+    "Stage 3 room 54: sun_lattice.",
+    "Stage 3 room 55: none combat-sealed.",
+    "Stage 3 room 56: none combat-sealed.",
+    "Stage 3 room 57: sun_lattice (locked).",
+    "Solved sun_lattice in stage 3 room 57.",
+    "Stage 3 room 54: sun_lattice.",
+    "Stage 3 room 53: none combat-sealed.",
+    "Sealed room 53 t=30s pos=(190,118) hp=14 hostiles=3.",
+    "Stage 3 room 42: none combat-sealed.",
+    "Stage 3 room 44: none combat-sealed.",
+    "Stage 3 room 45: phase_switch.",
+    "Stage 3 room 44: none combat-sealed.",
+    "Stage 3 room 42: none combat-sealed.",
+    "Stage 3 room 53: none combat-sealed.",
+    "Stage 3 room 54: sun_lattice.",
+    "Stage 3 room 57: sun_lattice.",
+    "Stage 3 room 59: phase_gate.",
+    "Entered a Colossus fight on stage 3.",
+    "Cleared stage 3 Colossus at t=657s.",
+    "Stage 4 room 67: none combat-sealed.",
+    "Stage 4 room 68: sun_lattice (locked).",
+    "Solved sun_lattice in stage 4 room 68.",
+    "Stage 4 room 67: none combat-sealed.",
+    "Stage 4 room 66: none combat-sealed.",
+    "Stage 4 room 72: none combat-sealed.",
+    "Stage 4 room 74: none combat-sealed.",
+    "Stage 4 room 73: none combat-sealed.",
+    "Stage 4 room 70: sun_lattice (locked).",
+    "Solved sun_lattice in stage 4 room 70.",
+    "Stage 4 room 80: none combat-sealed.",
+    "Stage 4 room 83: none combat-sealed.",
+    "Stage 4 room 78: phase_switch.",
+    "Stage 4 room 76: phase_gate.",
+    "Stage 4 room 78: phase_switch.",
+    "Stage 4 room 83: none combat-sealed.",
+    "Entered a Colossus fight on stage 4.",
+    "Cleared stage 4 Colossus at t=327s.",
+    "Stage 5 room 102: none combat-sealed.",
+    "Sealed room 102 t=30s pos=(91,101) hp=14 hostiles=2.",
+    "Timed out after 150.0 emulated minutes at stage 5 room 102."
+  ],
+  "bugs": [],
+  "blank_shots": []
+}
