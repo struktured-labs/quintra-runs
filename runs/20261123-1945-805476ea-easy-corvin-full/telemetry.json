@@ -1,0 +1,5923 @@
+{
+  "schema": "quintra-player-telemetry-v1",
+  "build": "805476ea",
+  "seed": 2064128948,
+  "hero": "Corvin",
+  "difficulty": "easy",
+  "started": "2026-11-23T19:45:18-05:00",
+  "outcome": "timeout",
+  "stages": [
+    {
+      "stage": 1,
+      "play_s": 331,
+      "wall_s": 9.56,
+      "frames": 20066,
+      "rooms": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "room_count": 16,
+      "dmg": 28,
+      "hits": 28,
+      "deaths": 0,
+      "death_causes": [],
+      "boss_seen": 1,
+      "boss_cleared": 1,
+      "boss_s": 39.93,
+      "status": {
+        "bleed": 3,
+        "haste": 2
+      },
+      "hp_min": 8,
+      "outcome": "cleared"
+    },
+    {
+      "stage": 2,
+      "play_s": 706,
+      "wall_s": 19.71,
+      "frames": 62920,
+      "rooms": [
+        19,
+        21,
+        22,
+        23,
+        24,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "room_count": 19,
+      "dmg": 26,
+      "hits": 26,
+      "deaths": 0,
+      "death_causes": [],
+      "boss_seen": 1,
+      "boss_cleared": 1,
+      "boss_s": 39.8,
+      "status": {
+        "haste": 6
+      },
+      "hp_min": 6,
+      "outcome": "cleared"
+    },
+    {
+      "stage": 3,
+      "play_s": 6151,
+      "wall_s": 146.0,
+      "frames": 432000,
+      "rooms": [
+        40
+      ],
+      "room_count": 1,
+      "dmg": 0,
+      "hits": 0,
+      "deaths": 0,
+      "death_causes": [],
+      "boss_seen": 0,
+      "boss_cleared": 0,
+      "boss_s": 0.0,
+      "status": {},
+      "hp_min": 6,
+      "outcome": "timeout"
+    }
+  ],
+  "death": null,
+  "events": [
+    {
+      "type": "room",
+      "frame": 0,
+      "stage": 1,
+      "room": 12,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 852,
+      "stage": 1,
+      "room": 13,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        12
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 888,
+      "stage": 1,
+      "room": 13,
+      "local": 13,
+      "target": [
+        "trial",
+        13
+      ],
+      "route_edge": null,
+      "done": {
+        "trial": false,
+        "sigil": false,
+        "warden": false,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 888,
+      "stage": 1,
+      "room": 13,
+      "kind": "rune_sequence",
+      "locked": true,
+      "combat_sealed": false,
+      "runes": [
+        {
+          "i": 0,
+          "x": 5,
+          "y": 8,
+          "pitch": 2,
+          "lit": false
+        },
+        {
+          "i": 1,
+          "x": 10,
+          "y": 5,
+          "pitch": 0,
+          "lit": false
+        },
+        {
+          "i": 2,
+          "x": 14,
+          "y": 10,
+          "pitch": 1,
+          "lit": false
+        }
+      ],
+      "socket": null,
+      "hostiles": 3,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "hit",
+      "frame": 1116,
+      "stage": 1,
+      "room": 13,
+      "dmg": 1,
+      "hp": 15,
+      "x": 72,
+      "y": 32,
+      "act": 0,
+      "near": [
+        [
+          176,
+          2
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "puzzle-solved",
+      "frame": 1404,
+      "stage": 1,
+      "room": 13,
+      "kind": "rune_sequence"
+    },
+    {
+      "type": "room",
+      "frame": 1724,
+      "stage": 1,
+      "room": 14,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        13
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 1758,
+      "stage": 1,
+      "room": 14,
+      "local": 14,
+      "target": [
+        "sigil",
+        16
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": false,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 1758,
+      "stage": 1,
+      "room": 14,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 2,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "room",
+      "frame": 2890,
+      "stage": 1,
+      "room": 15,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        14
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 2944,
+      "stage": 1,
+      "room": 15,
+      "local": 15,
+      "target": [
+        "sigil",
+        16
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": false,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 2944,
+      "stage": 1,
+      "room": 15,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 1,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "hit",
+      "frame": 3048,
+      "stage": 1,
+      "room": 15,
+      "dmg": 1,
+      "hp": 15,
+      "x": 38,
+      "y": 80,
+      "act": 4,
+      "near": [
+        [
+          66,
+          34
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": true,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 3092,
+      "stage": 1,
+      "room": 15,
+      "dmg": 1,
+      "hp": 14,
+      "x": 46,
+      "y": 89,
+      "act": 4,
+      "near": [
+        [
+          60,
+          34
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": true,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 3212,
+      "stage": 1,
+      "room": 15,
+      "dmg": 1,
+      "hp": 13,
+      "x": 60,
+      "y": 107,
+      "act": 1,
+      "near": [
+        [
+          4,
+          2
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          30,
+          2
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": true,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 3908,
+      "stage": 1,
+      "room": 16,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        15
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 3958,
+      "stage": 1,
+      "room": 16,
+      "local": 16,
+      "target": [
+        "sigil",
+        16
+      ],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": false,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "room",
+      "frame": 4346,
+      "stage": 1,
+      "room": 7,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        16
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 4410,
+      "stage": 1,
+      "room": 7,
+      "local": 7,
+      "target": [
+        "warden",
+        7
+      ],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": false,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 4410,
+      "stage": 1,
+      "room": 7,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 2,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ],
+        [
+          9,
+          30,
+          2
+        ],
+        [
+          10,
+          30,
+          2
+        ]
+      ],
+      "entered_from": 0
+    },
+    {
+      "type": "room",
+      "frame": 4786,
+      "stage": 1,
+      "room": 8,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        7
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 4820,
+      "stage": 1,
+      "room": 8,
+      "local": 8,
+      "target": [
+        "waystone",
+        9
+      ],
+      "route_edge": 3,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "hit",
+      "frame": 4976,
+      "stage": 1,
+      "room": 8,
+      "dmg": 1,
+      "hp": 15,
+      "x": 218,
+      "y": 56,
+      "act": 1,
+      "near": [
+        [
+          8,
+          33
+        ],
+        [
+          16,
+          12
+        ],
+        [
+          46,
+          12
+        ]
+      ],
+      "shots": [
+        44
+      ],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 5120,
+      "stage": 1,
+      "room": 8,
+      "dmg": 1,
+      "hp": 14,
+      "x": 225,
+      "y": 60,
+      "act": 1,
+      "near": [
+        [
+          5,
+          33
+        ],
+        [
+          45,
+          12
+        ],
+        [
+          88,
+          33
+        ]
+      ],
+      "shots": [
+        152
+      ],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "status",
+      "kind": "bleed",
+      "frame": 5124,
+      "stage": 1,
+      "room": 8
+    },
+    {
+      "type": "hit",
+      "frame": 5272,
+      "stage": 1,
+      "room": 8,
+      "dmg": 1,
+      "hp": 13,
+      "x": 187,
+      "y": 57,
+      "act": 20,
+      "near": [
+        [
+          12,
+          33
+        ],
+        [
+          36,
+          12
+        ],
+        [
+          97,
+          33
+        ]
+      ],
+      "shots": [],
+      "status": 9,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 5308,
+      "stage": 1,
+      "room": 8,
+      "dmg": 1,
+      "hp": 12,
+      "x": 190,
+      "y": 67,
+      "act": 24,
+      "near": [
+        [
+          12,
+          33
+        ],
+        [
+          39,
+          12
+        ],
+        [
+          99,
+          33
+        ]
+      ],
+      "shots": [],
+      "status": 9,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 5624,
+      "stage": 1,
+      "room": 8,
+      "dmg": 1,
+      "hp": 13,
+      "x": 121,
+      "y": 126,
+      "act": 22,
+      "near": [
+        [
+          26,
+          33
+        ],
+        [
+          139,
+          9
+        ],
+        [
+          159,
+          12
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 5748,
+      "stage": 1,
+      "room": 8,
+      "dmg": 1,
+      "hp": 12,
+      "x": 133,
+      "y": 115,
+      "act": 1,
+      "near": [
+        [
+          11,
+          33
+        ],
+        [
+          136,
+          9
+        ],
+        [
+          160,
+          12
+        ]
+      ],
+      "shots": [],
+      "status": 9,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "status",
+      "kind": "bleed",
+      "frame": 5748,
+      "stage": 1,
+      "room": 8
+    },
+    {
+      "type": "hit",
+      "frame": 5920,
+      "stage": 1,
+      "room": 8,
+      "dmg": 1,
+      "hp": 11,
+      "x": 95,
+      "y": 55,
+      "act": 25,
+      "near": [
+        [
+          36,
+          33
+        ],
+        [
+          72,
+          12
+        ],
+        [
+          158,
+          9
+        ]
+      ],
+      "shots": [],
+      "status": 9,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 5932,
+      "stage": 1,
+      "room": 8,
+      "dmg": 1,
+      "hp": 10,
+      "x": 85,
+      "y": 45,
+      "act": 25,
+      "near": [
+        [
+          12,
+          33
+        ],
+        [
+          78,
+          12
+        ],
+        [
+          158,
+          9
+        ]
+      ],
+      "shots": [],
+      "status": 9,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 6080,
+      "stage": 1,
+      "room": 8,
+      "dmg": 1,
+      "hp": 9,
+      "x": 104,
+      "y": 62,
+      "act": 2,
+      "near": [
+        [
+          10,
+          33
+        ],
+        [
+          76,
+          12
+        ],
+        [
+          160,
+          9
+        ]
+      ],
+      "shots": [],
+      "status": 9,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "status",
+      "kind": "bleed",
+      "frame": 6080,
+      "stage": 1,
+      "room": 8
+    },
+    {
+      "type": "hit",
+      "frame": 6240,
+      "stage": 1,
+      "room": 8,
+      "dmg": 1,
+      "hp": 8,
+      "x": 86,
+      "y": 47,
+      "act": 2,
+      "near": [
+        [
+          59,
+          33
+        ],
+        [
+          67,
+          12
+        ],
+        [
+          157,
+          9
+        ]
+      ],
+      "shots": [
+        14
+      ],
+      "status": 9,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 6380,
+      "stage": 1,
+      "room": 9,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        8
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 6412,
+      "stage": 1,
+      "room": 9,
+      "local": 9,
+      "target": [
+        "waystone",
+        9
+      ],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 6412,
+      "stage": 1,
+      "room": 9,
+      "kind": "push_seal",
+      "locked": true,
+      "combat_sealed": false,
+      "runes": [],
+      "socket": [
+        10,
+        8
+      ],
+      "hostiles": 3,
+      "exits": [
+        [
+          9,
+          0,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 3
+    },
+    {
+      "type": "puzzle-solved",
+      "frame": 7308,
+      "stage": 1,
+      "room": 9,
+      "kind": "push_seal"
+    },
+    {
+      "type": "room",
+      "frame": 7416,
+      "stage": 1,
+      "room": 10,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        9
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 7482,
+      "stage": 1,
+      "room": 10,
+      "local": 10,
+      "target": [
+        "deep_warden",
+        10
+      ],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 7482,
+      "stage": 1,
+      "room": 10,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 2,
+      "exits": [
+        [
+          9,
+          0,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 3
+    },
+    {
+      "type": "room",
+      "frame": 8042,
+      "stage": 1,
+      "room": 1,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        10
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 8078,
+      "stage": 1,
+      "room": 1,
+      "local": 1,
+      "target": [
+        "deep_switch",
+        3
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 8078,
+      "stage": 1,
+      "room": 1,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 13,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ],
+        [
+          9,
+          30,
+          2
+        ],
+        [
+          10,
+          30,
+          2
+        ]
+      ],
+      "entered_from": 0
+    },
+    {
+      "type": "hit",
+      "frame": 9014,
+      "stage": 1,
+      "room": 1,
+      "dmg": 1,
+      "hp": 11,
+      "x": 206,
+      "y": 194,
+      "act": 4,
+      "near": [],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 9454,
+      "stage": 1,
+      "room": 2,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        1
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 9490,
+      "stage": 1,
+      "room": 2,
+      "local": 2,
+      "target": [
+        "deep_switch",
+        3
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "osc-break",
+      "frame": 10602,
+      "room": 2,
+      "x": 146,
+      "y": 27
+    },
+    {
+      "type": "room",
+      "frame": 11122,
+      "stage": 1,
+      "room": 3,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        2
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 11156,
+      "stage": 1,
+      "room": 3,
+      "local": 3,
+      "target": [
+        "deep_switch",
+        3
+      ],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 11156,
+      "stage": 1,
+      "room": 3,
+      "kind": "phase_switch",
+      "locked": false,
+      "combat_sealed": false,
+      "runes": [
+        {
+          "i": 0,
+          "x": 4,
+          "y": 7,
+          "pitch": 0,
+          "lit": false
+        },
+        {
+          "i": 1,
+          "x": 8,
+          "y": 9,
+          "pitch": 1,
+          "lit": false
+        },
+        {
+          "i": 2,
+          "x": 12,
+          "y": 7,
+          "pitch": 2,
+          "lit": false
+        },
+        {
+          "i": 3,
+          "x": 16,
+          "y": 9,
+          "pitch": 3,
+          "lit": false
+        }
+      ],
+      "socket": null,
+      "hostiles": 3,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "hit",
+      "frame": 11592,
+      "stage": 1,
+      "room": 3,
+      "dmg": 1,
+      "hp": 13,
+      "x": 84,
+      "y": 60,
+      "act": 1,
+      "near": [
+        [
+          10,
+          30
+        ],
+        [
+          138,
+          0
+        ],
+        [
+          160,
+          0
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 11772,
+      "stage": 1,
+      "room": 3,
+      "dmg": 1,
+      "hp": 12,
+      "x": 61,
+      "y": 48,
+      "act": 2,
+      "near": [
+        [
+          17,
+          30
+        ],
+        [
+          173,
+          0
+        ],
+        [
+          195,
+          0
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 12228,
+      "stage": 1,
+      "room": 4,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 12262,
+      "stage": 1,
+      "room": 4,
+      "local": 4,
+      "target": [
+        "boss",
+        19
+      ],
+      "route_edge": 3,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 12262,
+      "stage": 1,
+      "room": 4,
+      "kind": "phase_gate",
+      "locked": false,
+      "combat_sealed": false,
+      "runes": [],
+      "socket": null,
+      "hostiles": 3,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "room",
+      "frame": 12298,
+      "stage": 1,
+      "room": 3,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        4
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 12332,
+      "stage": 1,
+      "room": 3,
+      "local": 3,
+      "target": [
+        "boss",
+        19
+      ],
+      "route_edge": 3,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 12332,
+      "stage": 1,
+      "room": 3,
+      "kind": "phase_switch",
+      "locked": false,
+      "combat_sealed": false,
+      "runes": [
+        {
+          "i": 0,
+          "x": 4,
+          "y": 7,
+          "pitch": 0,
+          "lit": true
+        },
+        {
+          "i": 1,
+          "x": 8,
+          "y": 9,
+          "pitch": 1,
+          "lit": true
+        },
+        {
+          "i": 2,
+          "x": 12,
+          "y": 7,
+          "pitch": 2,
+          "lit": true
+        },
+        {
+          "i": 3,
+          "x": 16,
+          "y": 9,
+          "pitch": 3,
+          "lit": true
+        }
+      ],
+      "socket": null,
+      "hostiles": 3,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 3
+    },
+    {
+      "type": "room",
+      "frame": 12756,
+      "stage": 1,
+      "room": 2,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 12790,
+      "stage": 1,
+      "room": 2,
+      "local": 2,
+      "target": [
+        "boss",
+        19
+      ],
+      "route_edge": 2,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "room",
+      "frame": 13358,
+      "stage": 1,
+      "room": 9,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        2
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 13394,
+      "stage": 1,
+      "room": 9,
+      "local": 9,
+      "target": [
+        "boss",
+        19
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 13394,
+      "stage": 1,
+      "room": 9,
+      "kind": "push_seal",
+      "locked": false,
+      "combat_sealed": false,
+      "runes": [],
+      "socket": null,
+      "hostiles": 3,
+      "exits": [
+        [
+          9,
+          0,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 2
+    },
+    {
+      "type": "room",
+      "frame": 13802,
+      "stage": 1,
+      "room": 8,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        9
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 13836,
+      "stage": 1,
+      "room": 8,
+      "local": 8,
+      "target": [
+        "boss",
+        19
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "hit",
+      "frame": 14112,
+      "stage": 1,
+      "room": 8,
+      "dmg": 1,
+      "hp": 15,
+      "x": 51,
+      "y": 40,
+      "act": 8,
+      "near": [
+        [
+          5,
+          33
+        ],
+        [
+          68,
+          33
+        ],
+        [
+          125,
+          12
+        ]
+      ],
+      "shots": [
+        27,
+        65
+      ],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 14604,
+      "stage": 1,
+      "room": 8,
+      "dmg": 1,
+      "hp": 14,
+      "x": 71,
+      "y": 51,
+      "act": 22,
+      "near": [
+        [
+          23,
+          33
+        ],
+        [
+          150,
+          9
+        ],
+        [
+          150,
+          12
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 14848,
+      "stage": 1,
+      "room": 8,
+      "dmg": 1,
+      "hp": 13,
+      "x": 75,
+      "y": 4,
+      "act": 22,
+      "near": [
+        [
+          26,
+          33
+        ],
+        [
+          165,
+          12
+        ],
+        [
+          177,
+          12
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 15176,
+      "stage": 1,
+      "room": 8,
+      "dmg": 1,
+      "hp": 13,
+      "x": 170,
+      "y": 46,
+      "act": 4,
+      "near": [
+        [
+          16,
+          33
+        ],
+        [
+          156,
+          12
+        ],
+        [
+          252,
+          9
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 15328,
+      "stage": 1,
+      "room": 8,
+      "dmg": 1,
+      "hp": 12,
+      "x": 150,
+      "y": 65,
+      "act": 2,
+      "near": [
+        [
+          17,
+          33
+        ],
+        [
+          113,
+          12
+        ],
+        [
+          213,
+          9
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 15444,
+      "stage": 1,
+      "room": 7,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        8
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 15508,
+      "stage": 1,
+      "room": 7,
+      "local": 7,
+      "target": [
+        "boss",
+        19
+      ],
+      "route_edge": 2,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 15508,
+      "stage": 1,
+      "room": 7,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 2,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ],
+        [
+          9,
+          30,
+          2
+        ],
+        [
+          10,
+          30,
+          2
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "hit",
+      "frame": 15612,
+      "stage": 1,
+      "room": 7,
+      "dmg": 1,
+      "hp": 11,
+      "x": 40,
+      "y": 49,
+      "act": 1,
+      "near": [
+        [
+          32,
+          1
+        ]
+      ],
+      "shots": [
+        21,
+        33
+      ],
+      "status": 0,
+      "sealed": true,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 16484,
+      "stage": 1,
+      "room": 16,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        7
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 16520,
+      "stage": 1,
+      "room": 16,
+      "local": 16,
+      "target": [
+        "boss",
+        19
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "room",
+      "frame": 17192,
+      "stage": 1,
+      "room": 17,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        16
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 17220,
+      "stage": 1,
+      "room": 17,
+      "local": 17,
+      "target": [
+        "boss",
+        19
+      ],
+      "route_edge": 2,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "room",
+      "frame": 17456,
+      "stage": 1,
+      "room": 18,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        17
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 17482,
+      "stage": 1,
+      "room": 18,
+      "local": 18,
+      "target": [
+        "boss",
+        19
+      ],
+      "route_edge": 3,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "room",
+      "frame": 17646,
+      "stage": 1,
+      "room": 19,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        18
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 17674,
+      "stage": 1,
+      "room": 19,
+      "local": 19,
+      "target": [
+        "boss",
+        19
+      ],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "boss",
+      "event": "seen",
+      "stage": 1,
+      "frame": 17674
+    },
+    {
+      "type": "hit",
+      "frame": 17842,
+      "stage": 1,
+      "room": 19,
+      "dmg": 1,
+      "hp": 15,
+      "x": 189,
+      "y": 64,
+      "act": 1,
+      "near": [
+        [
+          21,
+          1
+        ]
+      ],
+      "shots": [
+        15,
+        15
+      ],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 19486,
+      "stage": 1,
+      "room": 19,
+      "dmg": 1,
+      "hp": 14,
+      "x": 71,
+      "y": 52,
+      "act": 2,
+      "near": [
+        [
+          45,
+          1
+        ]
+      ],
+      "shots": [
+        8,
+        22
+      ],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 19818,
+      "stage": 1,
+      "room": 19,
+      "dmg": 1,
+      "hp": 13,
+      "x": 114,
+      "y": 81,
+      "act": 16,
+      "near": [
+        [
+          83,
+          1
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 19878,
+      "stage": 1,
+      "room": 19,
+      "dmg": 1,
+      "hp": 12,
+      "x": 111,
+      "y": 90,
+      "act": 8,
+      "near": [
+        [
+          129,
+          1
+        ]
+      ],
+      "shots": [
+        10,
+        10
+      ],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 20034,
+      "stage": 1,
+      "room": 19,
+      "dmg": 1,
+      "hp": 11,
+      "x": 102,
+      "y": 29,
+      "act": 17,
+      "near": [
+        [
+          12,
+          1
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 20070,
+      "stage": 2,
+      "room": 19,
+      "world": false,
+      "from": [
+        1,
+        false,
+        0,
+        19
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 20098,
+      "stage": 2,
+      "room": 19,
+      "local": 0,
+      "target": [],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "boss",
+      "event": "cleared",
+      "stage": 1,
+      "frame": 20098
+    },
+    {
+      "type": "room",
+      "frame": 25522,
+      "stage": 2,
+      "room": 19,
+      "world": true,
+      "from": [
+        2,
+        false,
+        0,
+        19
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 25608,
+      "stage": 2,
+      "room": 19,
+      "local": 0,
+      "target": [],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "room",
+      "frame": 25620,
+      "stage": 2,
+      "room": 19,
+      "world": true,
+      "from": [
+        2,
+        true,
+        0,
+        19
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 25650,
+      "stage": 2,
+      "room": 19,
+      "local": 0,
+      "target": [],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "room",
+      "frame": 26018,
+      "stage": 2,
+      "room": 19,
+      "world": true,
+      "from": [
+        2,
+        true,
+        1,
+        19
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 26050,
+      "stage": 2,
+      "room": 19,
+      "local": 0,
+      "target": [],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "room",
+      "frame": 26418,
+      "stage": 2,
+      "room": 19,
+      "world": true,
+      "from": [
+        2,
+        true,
+        2,
+        19
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 26454,
+      "stage": 2,
+      "room": 19,
+      "local": 0,
+      "target": [],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "hit",
+      "frame": 26598,
+      "stage": 2,
+      "room": 19,
+      "dmg": 1,
+      "hp": 15,
+      "x": 40,
+      "y": 59,
+      "act": 8,
+      "near": [
+        [
+          15,
+          1
+        ]
+      ],
+      "shots": [
+        65,
+        71
+      ],
+      "status": 0,
+      "sealed": false,
+      "world": true
+    },
+    {
+      "type": "room",
+      "frame": 26666,
+      "stage": 2,
+      "room": 19,
+      "world": true,
+      "from": [
+        2,
+        true,
+        3,
+        19
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 26696,
+      "stage": 2,
+      "room": 19,
+      "local": 0,
+      "target": [],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "room",
+      "frame": 27236,
+      "stage": 2,
+      "room": 19,
+      "world": true,
+      "from": [
+        2,
+        true,
+        2,
+        19
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 27264,
+      "stage": 2,
+      "room": 19,
+      "local": 0,
+      "target": [],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "room",
+      "frame": 27436,
+      "stage": 2,
+      "room": 29,
+      "world": false,
+      "from": [
+        2,
+        true,
+        8,
+        19
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 27676,
+      "stage": 2,
+      "room": 29,
+      "local": 9,
+      "target": [
+        "trial",
+        10
+      ],
+      "route_edge": 3,
+      "done": {
+        "trial": false,
+        "sigil": false,
+        "warden": false,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 27676,
+      "stage": 2,
+      "room": 29,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 11,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 255
+    },
+    {
+      "type": "room",
+      "frame": 29316,
+      "stage": 2,
+      "room": 30,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        29
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 29352,
+      "stage": 2,
+      "room": 30,
+      "local": 10,
+      "target": [
+        "trial",
+        10
+      ],
+      "route_edge": null,
+      "done": {
+        "trial": false,
+        "sigil": false,
+        "warden": false,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 29352,
+      "stage": 2,
+      "room": 30,
+      "kind": "rune_sequence",
+      "locked": true,
+      "combat_sealed": false,
+      "runes": [
+        {
+          "i": 0,
+          "x": 3,
+          "y": 4,
+          "pitch": 2,
+          "lit": false
+        },
+        {
+          "i": 1,
+          "x": 16,
+          "y": 4,
+          "pitch": 3,
+          "lit": false
+        },
+        {
+          "i": 2,
+          "x": 4,
+          "y": 12,
+          "pitch": 0,
+          "lit": false
+        },
+        {
+          "i": 3,
+          "x": 15,
+          "y": 12,
+          "pitch": 1,
+          "lit": false
+        }
+      ],
+      "socket": null,
+      "hostiles": 3,
+      "exits": [
+        [
+          9,
+          0,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ],
+        [
+          9,
+          30,
+          2
+        ],
+        [
+          10,
+          30,
+          2
+        ]
+      ],
+      "entered_from": 3
+    },
+    {
+      "type": "puzzle-solved",
+      "frame": 30164,
+      "stage": 2,
+      "room": 30,
+      "kind": "rune_sequence"
+    },
+    {
+      "type": "room",
+      "frame": 30396,
+      "stage": 2,
+      "room": 29,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        30
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 30434,
+      "stage": 2,
+      "room": 29,
+      "local": 9,
+      "target": [
+        "warden",
+        7
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": false,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 30434,
+      "stage": 2,
+      "room": 29,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 0,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "room",
+      "frame": 30750,
+      "stage": 2,
+      "room": 28,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        29
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 30788,
+      "stage": 2,
+      "room": 28,
+      "local": 8,
+      "target": [
+        "warden",
+        7
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": false,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 30788,
+      "stage": 2,
+      "room": 28,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 7,
+      "exits": [
+        [
+          14,
+          4,
+          0
+        ],
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "osc-break",
+      "frame": 32452,
+      "room": 28,
+      "x": 126,
+      "y": 73
+    },
+    {
+      "type": "sealed-heartbeat",
+      "frame": 32552,
+      "stage": 2,
+      "room": 28,
+      "x": 114,
+      "y": 139,
+      "hp": 16,
+      "hostiles": [
+        {
+          "x": 189,
+          "y": 221,
+          "kind": 2,
+          "hp": 8,
+          "giant": false
+        },
+        {
+          "x": 224,
+          "y": 224,
+          "kind": 2,
+          "hp": 16,
+          "giant": false
+        }
+      ],
+      "sealed": true
+    },
+    {
+      "type": "hit",
+      "frame": 32724,
+      "stage": 2,
+      "room": 28,
+      "dmg": 1,
+      "hp": 15,
+      "x": 178,
+      "y": 183,
+      "act": 22,
+      "near": [
+        [
+          26,
+          2
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": true,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 33524,
+      "stage": 2,
+      "room": 27,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        28
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 33588,
+      "stage": 2,
+      "room": 27,
+      "local": 7,
+      "target": [
+        "warden",
+        7
+      ],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": false,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 33588,
+      "stage": 2,
+      "room": 27,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 2,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "hit",
+      "frame": 33692,
+      "stage": 2,
+      "room": 27,
+      "dmg": 1,
+      "hp": 15,
+      "x": 47,
+      "y": 39,
+      "act": 19,
+      "near": [
+        [
+          15,
+          1
+        ]
+      ],
+      "shots": [
+        104
+      ],
+      "status": 0,
+      "sealed": true,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 33860,
+      "stage": 2,
+      "room": 28,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        27
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 33916,
+      "stage": 2,
+      "room": 28,
+      "local": 8,
+      "target": [
+        "sigil",
+        13
+      ],
+      "route_edge": 3,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": true,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 33916,
+      "stage": 2,
+      "room": 28,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 1,
+      "exits": [
+        [
+          14,
+          4,
+          0
+        ],
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 3
+    },
+    {
+      "type": "room",
+      "frame": 34916,
+      "stage": 2,
+      "room": 29,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        28
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 34954,
+      "stage": 2,
+      "room": 29,
+      "local": 9,
+      "target": [
+        "sigil",
+        13
+      ],
+      "route_edge": 3,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": true,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 34954,
+      "stage": 2,
+      "room": 29,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 11,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 3
+    },
+    {
+      "type": "room",
+      "frame": 36314,
+      "stage": 2,
+      "room": 30,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        29
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 36348,
+      "stage": 2,
+      "room": 30,
+      "local": 10,
+      "target": [
+        "sigil",
+        13
+      ],
+      "route_edge": 2,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": true,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 36348,
+      "stage": 2,
+      "room": 30,
+      "kind": "rune_sequence",
+      "locked": false,
+      "combat_sealed": false,
+      "runes": [],
+      "socket": null,
+      "hostiles": 3,
+      "exits": [
+        [
+          9,
+          0,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ],
+        [
+          9,
+          30,
+          2
+        ],
+        [
+          10,
+          30,
+          2
+        ]
+      ],
+      "entered_from": 3
+    },
+    {
+      "type": "room",
+      "frame": 36880,
+      "stage": 2,
+      "room": 33,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        30
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 36930,
+      "stage": 2,
+      "room": 33,
+      "local": 13,
+      "target": [
+        "sigil",
+        13
+      ],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": true,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "hit",
+      "frame": 37182,
+      "stage": 2,
+      "room": 33,
+      "dmg": 1,
+      "hp": 15,
+      "x": 77,
+      "y": 39,
+      "act": 1,
+      "near": [
+        [
+          4,
+          2
+        ],
+        [
+          51,
+          9
+        ],
+        [
+          72,
+          9
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 37566,
+      "stage": 2,
+      "room": 30,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        33
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 37600,
+      "stage": 2,
+      "room": 30,
+      "local": 10,
+      "target": [
+        "waystone",
+        6
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 37600,
+      "stage": 2,
+      "room": 30,
+      "kind": "rune_sequence",
+      "locked": false,
+      "combat_sealed": false,
+      "runes": [],
+      "socket": null,
+      "hostiles": 3,
+      "exits": [
+        [
+          9,
+          0,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ],
+        [
+          9,
+          30,
+          2
+        ],
+        [
+          10,
+          30,
+          2
+        ]
+      ],
+      "entered_from": 0
+    },
+    {
+      "type": "room",
+      "frame": 38104,
+      "stage": 2,
+      "room": 29,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        30
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 38140,
+      "stage": 2,
+      "room": 29,
+      "local": 9,
+      "target": [
+        "waystone",
+        6
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 38140,
+      "stage": 2,
+      "room": 29,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 0,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "room",
+      "frame": 38476,
+      "stage": 2,
+      "room": 28,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        29
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 38512,
+      "stage": 2,
+      "room": 28,
+      "local": 8,
+      "target": [
+        "waystone",
+        6
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "hit",
+      "frame": 38708,
+      "stage": 2,
+      "room": 28,
+      "dmg": 1,
+      "hp": 15,
+      "x": 84,
+      "y": 31,
+      "act": 4,
+      "near": [
+        [
+          10,
+          2
+        ],
+        [
+          96,
+          2
+        ],
+        [
+          141,
+          2
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 39064,
+      "stage": 2,
+      "room": 27,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        28
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 39126,
+      "stage": 2,
+      "room": 27,
+      "local": 7,
+      "target": [
+        "waystone",
+        6
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 39126,
+      "stage": 2,
+      "room": 27,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 2,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "room",
+      "frame": 39426,
+      "stage": 2,
+      "room": 26,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        27
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 39460,
+      "stage": 2,
+      "room": 26,
+      "local": 6,
+      "target": [
+        "waystone",
+        6
+      ],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": false,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 39460,
+      "stage": 2,
+      "room": 26,
+      "kind": "push_seal",
+      "locked": true,
+      "combat_sealed": false,
+      "runes": [],
+      "socket": [
+        10,
+        8
+      ],
+      "hostiles": 3,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          0,
+          9,
+          3
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "osc-break",
+      "frame": 40508,
+      "room": 26,
+      "x": 96,
+      "y": 39
+    },
+    {
+      "type": "osc-break",
+      "frame": 41408,
+      "room": 26,
+      "x": 96,
+      "y": 39
+    },
+    {
+      "type": "hit",
+      "frame": 41660,
+      "stage": 2,
+      "room": 26,
+      "dmg": 1,
+      "hp": 15,
+      "x": 96,
+      "y": 40,
+      "act": 4,
+      "near": [
+        [
+          7,
+          4
+        ],
+        [
+          184,
+          4
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "puzzle-solved",
+      "frame": 41804,
+      "stage": 2,
+      "room": 26,
+      "kind": "push_seal"
+    },
+    {
+      "type": "room",
+      "frame": 41972,
+      "stage": 2,
+      "room": 27,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        26
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 42036,
+      "stage": 2,
+      "room": 27,
+      "local": 7,
+      "target": [
+        "deep_warden",
+        14
+      ],
+      "route_edge": 3,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 42036,
+      "stage": 2,
+      "room": 27,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 2,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 3
+    },
+    {
+      "type": "hit",
+      "frame": 42244,
+      "stage": 2,
+      "room": 27,
+      "dmg": 1,
+      "hp": 14,
+      "x": 96,
+      "y": 37,
+      "act": 25,
+      "near": [
+        [
+          14,
+          1
+        ],
+        [
+          124,
+          9
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": true,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 42496,
+      "stage": 2,
+      "room": 28,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        27
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 42532,
+      "stage": 2,
+      "room": 28,
+      "local": 8,
+      "target": [
+        "deep_warden",
+        14
+      ],
+      "route_edge": 3,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "room",
+      "frame": 43068,
+      "stage": 2,
+      "room": 29,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        28
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 43104,
+      "stage": 2,
+      "room": 29,
+      "local": 9,
+      "target": [
+        "deep_warden",
+        14
+      ],
+      "route_edge": 3,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 43104,
+      "stage": 2,
+      "room": 29,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 11,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 3
+    },
+    {
+      "type": "room",
+      "frame": 44456,
+      "stage": 2,
+      "room": 30,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        29
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 44490,
+      "stage": 2,
+      "room": 30,
+      "local": 10,
+      "target": [
+        "deep_warden",
+        14
+      ],
+      "route_edge": 2,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 44490,
+      "stage": 2,
+      "room": 30,
+      "kind": "rune_sequence",
+      "locked": false,
+      "combat_sealed": false,
+      "runes": [],
+      "socket": null,
+      "hostiles": 3,
+      "exits": [
+        [
+          9,
+          0,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ],
+        [
+          9,
+          30,
+          2
+        ],
+        [
+          10,
+          30,
+          2
+        ]
+      ],
+      "entered_from": 3
+    },
+    {
+      "type": "room",
+      "frame": 44814,
+      "stage": 2,
+      "room": 31,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        30
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 44850,
+      "stage": 2,
+      "room": 31,
+      "local": 11,
+      "target": [
+        "deep_warden",
+        14
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "room",
+      "frame": 45546,
+      "stage": 2,
+      "room": 30,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        31
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 45580,
+      "stage": 2,
+      "room": 30,
+      "local": 10,
+      "target": [
+        "deep_warden",
+        14
+      ],
+      "route_edge": 2,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 45580,
+      "stage": 2,
+      "room": 30,
+      "kind": "rune_sequence",
+      "locked": false,
+      "combat_sealed": false,
+      "runes": [],
+      "socket": null,
+      "hostiles": 3,
+      "exits": [
+        [
+          9,
+          0,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ],
+        [
+          9,
+          30,
+          2
+        ],
+        [
+          10,
+          30,
+          2
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "hit",
+      "frame": 45964,
+      "stage": 2,
+      "room": 30,
+      "dmg": 1,
+      "hp": 15,
+      "x": 78,
+      "y": 204,
+      "act": 20,
+      "near": [
+        [
+          15,
+          39
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 46112,
+      "stage": 2,
+      "room": 33,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        30
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 46150,
+      "stage": 2,
+      "room": 33,
+      "local": 13,
+      "target": [
+        "deep_warden",
+        14
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "room",
+      "frame": 46718,
+      "stage": 2,
+      "room": 34,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        33
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 46780,
+      "stage": 2,
+      "room": 34,
+      "local": 14,
+      "target": [
+        "deep_warden",
+        14
+      ],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": false,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 46780,
+      "stage": 2,
+      "room": 34,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 2,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "room",
+      "frame": 47064,
+      "stage": 2,
+      "room": 33,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        34
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 47102,
+      "stage": 2,
+      "room": 33,
+      "local": 13,
+      "target": [
+        "deep_switch",
+        4
+      ],
+      "route_edge": 0,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "room",
+      "frame": 47386,
+      "stage": 2,
+      "room": 30,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        33
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 47420,
+      "stage": 2,
+      "room": 30,
+      "local": 10,
+      "target": [
+        "deep_switch",
+        4
+      ],
+      "route_edge": 0,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 47420,
+      "stage": 2,
+      "room": 30,
+      "kind": "rune_sequence",
+      "locked": false,
+      "combat_sealed": false,
+      "runes": [],
+      "socket": null,
+      "hostiles": 3,
+      "exits": [
+        [
+          9,
+          0,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ],
+        [
+          9,
+          30,
+          2
+        ],
+        [
+          10,
+          30,
+          2
+        ]
+      ],
+      "entered_from": 0
+    },
+    {
+      "type": "room",
+      "frame": 47652,
+      "stage": 2,
+      "room": 21,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        30
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 47690,
+      "stage": 2,
+      "room": 21,
+      "local": 1,
+      "target": [
+        "deep_switch",
+        4
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "room",
+      "frame": 48318,
+      "stage": 2,
+      "room": 22,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        21
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 48356,
+      "stage": 2,
+      "room": 22,
+      "local": 2,
+      "target": [
+        "deep_switch",
+        4
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 48356,
+      "stage": 2,
+      "room": 22,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 10,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ],
+        [
+          14,
+          12,
+          0
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "room",
+      "frame": 49604,
+      "stage": 2,
+      "room": 23,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        22
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 49642,
+      "stage": 2,
+      "room": 23,
+      "local": 3,
+      "target": [
+        "deep_switch",
+        4
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "hit",
+      "frame": 50238,
+      "stage": 2,
+      "room": 23,
+      "dmg": 1,
+      "hp": 15,
+      "x": 130,
+      "y": 135,
+      "act": 20,
+      "near": [
+        [
+          23,
+          4
+        ],
+        [
+          24,
+          39
+        ],
+        [
+          126,
+          12
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 50686,
+      "stage": 2,
+      "room": 24,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        23
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 50720,
+      "stage": 2,
+      "room": 24,
+      "local": 4,
+      "target": [
+        "deep_switch",
+        4
+      ],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": false,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 50720,
+      "stage": 2,
+      "room": 24,
+      "kind": "phase_switch",
+      "locked": false,
+      "combat_sealed": false,
+      "runes": [
+        {
+          "i": 0,
+          "x": 4,
+          "y": 7,
+          "pitch": 0,
+          "lit": false
+        },
+        {
+          "i": 1,
+          "x": 8,
+          "y": 9,
+          "pitch": 1,
+          "lit": false
+        },
+        {
+          "i": 2,
+          "x": 12,
+          "y": 7,
+          "pitch": 2,
+          "lit": false
+        },
+        {
+          "i": 3,
+          "x": 16,
+          "y": 9,
+          "pitch": 3,
+          "lit": false
+        }
+      ],
+      "socket": null,
+      "hostiles": 3,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "hit",
+      "frame": 51076,
+      "stage": 2,
+      "room": 24,
+      "dmg": 1,
+      "hp": 15,
+      "x": 98,
+      "y": 65,
+      "act": 2,
+      "near": [
+        [
+          5,
+          13
+        ],
+        [
+          99,
+          13
+        ],
+        [
+          253,
+          13
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 51344,
+      "stage": 2,
+      "room": 23,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        24
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 51380,
+      "stage": 2,
+      "room": 23,
+      "local": 3,
+      "target": [
+        "deep_gate",
+        16
+      ],
+      "route_edge": 3,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "hit",
+      "frame": 52408,
+      "stage": 2,
+      "room": 23,
+      "dmg": 1,
+      "hp": 15,
+      "x": 58,
+      "y": 57,
+      "act": 18,
+      "near": [
+        [
+          13,
+          4
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 52504,
+      "stage": 2,
+      "room": 22,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        23
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 52540,
+      "stage": 2,
+      "room": 22,
+      "local": 2,
+      "target": [
+        "deep_gate",
+        16
+      ],
+      "route_edge": 3,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 52540,
+      "stage": 2,
+      "room": 22,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 0,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ],
+        [
+          14,
+          12,
+          0
+        ]
+      ],
+      "entered_from": 3
+    },
+    {
+      "type": "room",
+      "frame": 52808,
+      "stage": 2,
+      "room": 21,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        22
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 52844,
+      "stage": 2,
+      "room": 21,
+      "local": 1,
+      "target": [
+        "deep_gate",
+        16
+      ],
+      "route_edge": 2,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "hit",
+      "frame": 53316,
+      "stage": 2,
+      "room": 21,
+      "dmg": 1,
+      "hp": 15,
+      "x": 74,
+      "y": 67,
+      "act": 2,
+      "near": [
+        [
+          13,
+          4
+        ],
+        [
+          45,
+          9
+        ],
+        [
+          116,
+          4
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 53572,
+      "stage": 2,
+      "room": 21,
+      "dmg": 1,
+      "hp": 15,
+      "x": 63,
+      "y": 110,
+      "act": 22,
+      "near": [
+        [
+          20,
+          4
+        ],
+        [
+          155,
+          4
+        ],
+        [
+          173,
+          9
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 53880,
+      "stage": 2,
+      "room": 30,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        21
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 53914,
+      "stage": 2,
+      "room": 30,
+      "local": 10,
+      "target": [
+        "deep_gate",
+        16
+      ],
+      "route_edge": 2,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 53914,
+      "stage": 2,
+      "room": 30,
+      "kind": "rune_sequence",
+      "locked": false,
+      "combat_sealed": false,
+      "runes": [],
+      "socket": null,
+      "hostiles": 3,
+      "exits": [
+        [
+          9,
+          0,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ],
+        [
+          9,
+          30,
+          2
+        ],
+        [
+          10,
+          30,
+          2
+        ]
+      ],
+      "entered_from": 2
+    },
+    {
+      "type": "room",
+      "frame": 54434,
+      "stage": 2,
+      "room": 21,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        30
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 54470,
+      "stage": 2,
+      "room": 21,
+      "local": 1,
+      "target": [
+        "deep_gate",
+        16
+      ],
+      "route_edge": 2,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "hit",
+      "frame": 54886,
+      "stage": 2,
+      "room": 21,
+      "dmg": 1,
+      "hp": 15,
+      "x": 90,
+      "y": 148,
+      "act": 22,
+      "near": [
+        [
+          23,
+          9
+        ],
+        [
+          24,
+          4
+        ],
+        [
+          142,
+          4
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 56034,
+      "stage": 2,
+      "room": 30,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        21
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 56068,
+      "stage": 2,
+      "room": 30,
+      "local": 10,
+      "target": [
+        "deep_gate",
+        16
+      ],
+      "route_edge": 2,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 56068,
+      "stage": 2,
+      "room": 30,
+      "kind": "rune_sequence",
+      "locked": false,
+      "combat_sealed": false,
+      "runes": [],
+      "socket": null,
+      "hostiles": 3,
+      "exits": [
+        [
+          9,
+          0,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ],
+        [
+          9,
+          30,
+          2
+        ],
+        [
+          10,
+          30,
+          2
+        ]
+      ],
+      "entered_from": 2
+    },
+    {
+      "type": "hit",
+      "frame": 56572,
+      "stage": 2,
+      "room": 30,
+      "dmg": 1,
+      "hp": 15,
+      "x": 77,
+      "y": 206,
+      "act": 20,
+      "near": [
+        [
+          14,
+          39
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 56972,
+      "stage": 2,
+      "room": 33,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        30
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 57010,
+      "stage": 2,
+      "room": 33,
+      "local": 13,
+      "target": [
+        "deep_gate",
+        16
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "room",
+      "frame": 57126,
+      "stage": 2,
+      "room": 30,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        33
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 57160,
+      "stage": 2,
+      "room": 30,
+      "local": 10,
+      "target": [
+        "deep_gate",
+        16
+      ],
+      "route_edge": 2,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 57160,
+      "stage": 2,
+      "room": 30,
+      "kind": "rune_sequence",
+      "locked": false,
+      "combat_sealed": false,
+      "runes": [],
+      "socket": null,
+      "hostiles": 3,
+      "exits": [
+        [
+          9,
+          0,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ],
+        [
+          9,
+          30,
+          2
+        ],
+        [
+          10,
+          30,
+          2
+        ]
+      ],
+      "entered_from": 0
+    },
+    {
+      "type": "room",
+      "frame": 57284,
+      "stage": 2,
+      "room": 33,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        30
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 57320,
+      "stage": 2,
+      "room": 33,
+      "local": 13,
+      "target": [
+        "deep_gate",
+        16
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "room",
+      "frame": 57852,
+      "stage": 2,
+      "room": 34,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        33
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 57916,
+      "stage": 2,
+      "room": 34,
+      "local": 14,
+      "target": [
+        "deep_gate",
+        16
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 57916,
+      "stage": 2,
+      "room": 34,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 2,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "room",
+      "frame": 58256,
+      "stage": 2,
+      "room": 35,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        34
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 58290,
+      "stage": 2,
+      "room": 35,
+      "local": 15,
+      "target": [
+        "deep_gate",
+        16
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": false
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 58290,
+      "stage": 2,
+      "room": 35,
+      "kind": "none",
+      "locked": false,
+      "combat_sealed": true,
+      "runes": [],
+      "socket": null,
+      "hostiles": 2,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "hit",
+      "frame": 58458,
+      "stage": 2,
+      "room": 35,
+      "dmg": 1,
+      "hp": 15,
+      "x": 106,
+      "y": 49,
+      "act": 22,
+      "near": [
+        [
+          23,
+          4
+        ],
+        [
+          201,
+          13
+        ],
+        [
+          253,
+          13
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": true,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 59266,
+      "stage": 2,
+      "room": 36,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        35
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 59300,
+      "stage": 2,
+      "room": 36,
+      "local": 16,
+      "target": [
+        "boss",
+        20
+      ],
+      "route_edge": 1,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "puzzle",
+      "frame": 59300,
+      "stage": 2,
+      "room": 36,
+      "kind": "phase_gate",
+      "locked": false,
+      "combat_sealed": false,
+      "runes": [],
+      "socket": null,
+      "hostiles": 3,
+      "exits": [
+        [
+          0,
+          8,
+          3
+        ],
+        [
+          30,
+          8,
+          1
+        ],
+        [
+          0,
+          9,
+          3
+        ],
+        [
+          30,
+          9,
+          1
+        ]
+      ],
+      "entered_from": 1
+    },
+    {
+      "type": "room",
+      "frame": 59700,
+      "stage": 2,
+      "room": 37,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        36
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 59736,
+      "stage": 2,
+      "room": 37,
+      "local": 17,
+      "target": [
+        "boss",
+        20
+      ],
+      "route_edge": 2,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "room",
+      "frame": 60136,
+      "stage": 2,
+      "room": 38,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        37
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 60166,
+      "stage": 2,
+      "room": 38,
+      "local": 18,
+      "target": [
+        "boss",
+        20
+      ],
+      "route_edge": 3,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "room",
+      "frame": 60322,
+      "stage": 2,
+      "room": 39,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        38
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 60348,
+      "stage": 2,
+      "room": 39,
+      "local": 19,
+      "target": [
+        "boss",
+        20
+      ],
+      "route_edge": 3,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "room",
+      "frame": 60508,
+      "stage": 2,
+      "room": 40,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        39
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 60536,
+      "stage": 2,
+      "room": 40,
+      "local": 20,
+      "target": [
+        "boss",
+        20
+      ],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": true,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "boss",
+      "event": "seen",
+      "stage": 2,
+      "frame": 60536
+    },
+    {
+      "type": "hit",
+      "frame": 60748,
+      "stage": 2,
+      "room": 40,
+      "dmg": 1,
+      "hp": 15,
+      "x": 199,
+      "y": 32,
+      "act": 1,
+      "near": [
+        [
+          72,
+          1
+        ]
+      ],
+      "shots": [
+        14,
+        29
+      ],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 61332,
+      "stage": 2,
+      "room": 40,
+      "dmg": 1,
+      "hp": 14,
+      "x": 169,
+      "y": 34,
+      "act": 4,
+      "near": [
+        [
+          59,
+          1
+        ]
+      ],
+      "shots": [
+        9,
+        15
+      ],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 61648,
+      "stage": 2,
+      "room": 40,
+      "dmg": 1,
+      "hp": 13,
+      "x": 144,
+      "y": 42,
+      "act": 4,
+      "near": [
+        [
+          33,
+          1
+        ]
+      ],
+      "shots": [
+        6,
+        23
+      ],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 61692,
+      "stage": 2,
+      "room": 40,
+      "dmg": 1,
+      "hp": 12,
+      "x": 140,
+      "y": 40,
+      "act": 1,
+      "near": [
+        [
+          54,
+          1
+        ]
+      ],
+      "shots": [
+        4,
+        19
+      ],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 61740,
+      "stage": 2,
+      "room": 40,
+      "dmg": 1,
+      "hp": 11,
+      "x": 141,
+      "y": 45,
+      "act": 1,
+      "near": [
+        [
+          67,
+          1
+        ]
+      ],
+      "shots": [
+        10,
+        16
+      ],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 61896,
+      "stage": 2,
+      "room": 40,
+      "dmg": 1,
+      "hp": 10,
+      "x": 141,
+      "y": 5,
+      "act": 1,
+      "near": [
+        [
+          32,
+          1
+        ]
+      ],
+      "shots": [
+        12,
+        40
+      ],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 62160,
+      "stage": 2,
+      "room": 40,
+      "dmg": 1,
+      "hp": 9,
+      "x": 132,
+      "y": 41,
+      "act": 8,
+      "near": [
+        [
+          59,
+          1
+        ]
+      ],
+      "shots": [
+        26,
+        27
+      ],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 62216,
+      "stage": 2,
+      "room": 40,
+      "dmg": 1,
+      "hp": 8,
+      "x": 104,
+      "y": 40,
+      "act": 8,
+      "near": [
+        [
+          59,
+          1
+        ]
+      ],
+      "shots": [
+        15,
+        15
+      ],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 62524,
+      "stage": 2,
+      "room": 40,
+      "dmg": 1,
+      "hp": 7,
+      "x": 43,
+      "y": 7,
+      "act": 20,
+      "near": [
+        [
+          72,
+          1
+        ]
+      ],
+      "shots": [
+        20,
+        67
+      ],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "hit",
+      "frame": 62764,
+      "stage": 2,
+      "room": 40,
+      "dmg": 1,
+      "hp": 6,
+      "x": 28,
+      "y": 33,
+      "act": 17,
+      "near": [
+        [
+          9,
+          1
+        ]
+      ],
+      "shots": [],
+      "status": 0,
+      "sealed": false,
+      "world": false
+    },
+    {
+      "type": "room",
+      "frame": 62924,
+      "stage": 3,
+      "room": 40,
+      "world": false,
+      "from": [
+        2,
+        false,
+        8,
+        40
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 62952,
+      "stage": 3,
+      "room": 40,
+      "local": 0,
+      "target": [],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "boss",
+      "event": "cleared",
+      "stage": 2,
+      "frame": 62952
+    },
+    {
+      "type": "room",
+      "frame": 64124,
+      "stage": 3,
+      "room": 40,
+      "world": true,
+      "from": [
+        3,
+        false,
+        8,
+        40
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 64192,
+      "stage": 3,
+      "room": 40,
+      "local": 0,
+      "target": [],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    },
+    {
+      "type": "room",
+      "frame": 64524,
+      "stage": 3,
+      "room": 40,
+      "world": true,
+      "from": [
+        3,
+        true,
+        8,
+        40
+      ]
+    },
+    {
+      "type": "mission",
+      "frame": 64568,
+      "stage": 3,
+      "room": 40,
+      "local": 0,
+      "target": [],
+      "route_edge": null,
+      "done": {
+        "trial": true,
+        "sigil": false,
+        "warden": true,
+        "waystone": true,
+        "deep_warden": true,
+        "deep_switch": true,
+        "deep_gate": true
+      }
+    }
+  ]
+}
