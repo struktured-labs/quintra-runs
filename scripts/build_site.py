@@ -546,7 +546,7 @@ def run_html(run: dict) -> str:
 
 
 SCAN_SKIP_DIRS = {".git", "__pycache__", ".venv", "node_modules"}
-SCAN_ALLOWED_EXT = ALLOWED_EXT | {".html", ".css", ".txt", ".py", ".yml", ".yaml", ".toml", ".in", ""}
+SCAN_ALLOWED_EXT = ALLOWED_EXT | {".html", ".css", ".txt", ".py", ".yml", ".yaml", ".toml", ".in", "", ".csv"}  # balance harness CSVs are numeric fight logs, not ROMs
 
 # Credential-shaped values only — documentation may mention the words "itch password".
 SECRET_CONTENT_RE = re.compile(
