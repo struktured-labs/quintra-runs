@@ -1,0 +1,481 @@
+skill,seed,hero,class,stage,difficulty,room_id,fixture,enemy_kinds,cinder,outcome,frames,hits,dmg_taken,dot_dmg,hp_start,hp_end,hp_min,hp_max,lands,harmful,unreachable,exposed5,exposed10,death_kind,death_age,death_chain
+bot,1,corvin,2,3,normal,53,room-s03-corvin-normal-01.pyboy,0 4,0,left_room,97,0,0,0,14,14,14,14,0,0,0,0,0,,-1,
+bot,2,corvin,2,3,normal,53,room-s03-corvin-normal-01.pyboy,0 4,0,left_room,94,0,0,0,14,14,14,14,0,0,0,0,0,,-1,
+average,1,corvin,2,3,normal,53,room-s03-corvin-normal-00.pyboy,39,0,cleared,181,0,0,0,14,14,14,14,0,0,0,0,0,,-1,
+skilled,2,corvin,2,3,normal,53,room-s03-corvin-normal-00.pyboy,39,0,cleared,182,0,0,0,14,14,14,14,0,0,0,0,0,,-1,
+bot,1,corvin,2,3,normal,53,room-s03-corvin-normal-00.pyboy,39,0,cleared,171,0,0,0,14,14,14,14,0,0,0,0,0,,-1,
+bot,2,corvin,2,3,normal,53,room-s03-corvin-normal-00.pyboy,39,0,cleared,171,0,0,0,14,14,14,14,0,0,0,0,0,,-1,
+skilled,1,corvin,2,3,normal,53,room-s03-corvin-normal-00.pyboy,39,0,cleared,172,0,0,0,14,14,14,14,0,0,0,0,0,,-1,
+average,1,corvin,2,3,normal,53,room-s03-corvin-normal-02.pyboy,11 25,1,died,1251,14,14,0,14,0,0,14,6,6,8,564,651,stop,33,stop_then_hit
+average,2,corvin,2,3,normal,54,room-s03-corvin-normal-03.pyboy,4 6 11 14 25 39 40 41,1,left_room,59,0,0,0,14,14,14,14,0,0,0,0,0,,-1,
+average,2,corvin,2,3,normal,53,room-s03-corvin-normal-02.pyboy,11 25,1,died,2203,9,9,6,14,0,0,14,4,4,0,839,1216,burn,0,dot_pinned_then_hit
+average,2,corvin,2,3,normal,53,room-s03-corvin-normal-00.pyboy,39,0,cleared,577,1,1,0,14,14,13,14,0,0,0,0,0,,-1,
+skilled,2,corvin,2,3,normal,53,room-s03-corvin-normal-02.pyboy,11 25,1,died,2745,6,6,8,14,0,0,14,4,4,0,893,1271,burn,1458,
+average,2,corvin,2,3,normal,53,room-s03-corvin-normal-01.pyboy,0 4,0,died,1902,12,14,0,14,0,0,14,0,0,0,0,0,,-1,
+bot,1,corvin,2,3,normal,47,room-s03-corvin-normal-04.pyboy,25,1,died,1190,13,13,1,14,0,0,14,1,1,0,300,551,burn,551,
+bot,2,corvin,2,3,normal,54,room-s03-corvin-normal-03.pyboy,4 6 11 14 25 39 40 41,1,died,2366,9,9,5,14,0,0,14,2,2,0,504,804,burn,204,dot_pinned_then_hit
+skilled,1,corvin,2,3,normal,54,room-s03-corvin-normal-03.pyboy,4 6 11 14 25 39 40 41,1,died,1880,9,9,5,14,0,0,14,2,2,0,515,815,burn,215,dot_pinned_then_hit
+skilled,2,corvin,2,3,normal,47,room-s03-corvin-normal-04.pyboy,25,1,cleared,1740,4,4,1,14,9,9,14,1,1,8,245,245,,-1,
+skilled,2,corvin,2,3,normal,53,room-s03-corvin-normal-01.pyboy,0 4,0,cleared,2583,10,11,0,14,3,3,14,0,0,0,0,0,,-1,
+bot,1,corvin,2,3,normal,54,room-s03-corvin-normal-03.pyboy,4 6 11 14 25 39 40 41,1,died,2979,11,11,3,14,0,0,14,2,2,0,482,756,burn,574,
+skilled,1,corvin,2,3,normal,53,room-s03-corvin-normal-01.pyboy,0 4,0,died,2507,13,14,0,14,0,0,14,0,0,0,0,0,,-1,
+average,1,corvin,2,3,normal,54,room-s03-corvin-normal-03.pyboy,4 6 11 14 25 39 40 41,1,died,2371,14,14,0,14,0,0,14,1,1,0,300,600,stop,1919,
+skilled,2,corvin,2,3,normal,54,room-s03-corvin-normal-03.pyboy,4 6 11 14 25 39 40 41,1,died,2161,11,11,3,14,0,0,14,4,4,0,766,1066,burn,0,
+bot,1,corvin,2,3,normal,53,room-s03-corvin-normal-02.pyboy,11 25,1,died,4064,10,10,4,14,0,0,14,2,2,0,300,600,burn,0,
+bot,1,corvin,2,3,normal,47,room-s03-corvin-normal-06.pyboy,15 25,1,died,1193,11,11,3,14,0,0,14,1,1,0,300,600,burn,748,
+average,1,corvin,2,3,normal,53,room-s03-corvin-normal-01.pyboy,0 4,0,died,3173,21,23,0,14,0,0,14,0,0,0,0,0,,-1,
+skilled,2,corvin,2,3,normal,47,room-s03-corvin-normal-06.pyboy,15 25,1,died,1283,9,9,5,14,0,0,14,3,3,0,650,1141,burn,50,
+average,1,corvin,2,3,normal,57,room-s03-corvin-normal-05.pyboy,39 41,0,cleared,2147,11,11,0,14,3,3,14,0,0,1,0,0,,-1,
+bot,2,corvin,2,3,normal,47,room-s03-corvin-normal-06.pyboy,15 25,1,died,1886,5,5,9,14,0,0,14,3,3,0,770,1342,burn,572,dot_pinned_then_hit
+bot,1,corvin,2,3,normal,53,room-s03-corvin-normal-07.pyboy,4 6 14 15 39 41,1,left_room,59,0,0,0,14,14,14,14,0,0,0,0,0,,-1,
+skilled,1,corvin,2,3,normal,53,room-s03-corvin-normal-07.pyboy,4 6 14 15 39 41,1,left_room,27,0,0,0,14,14,14,14,0,0,0,0,0,,-1,
+average,1,corvin,2,3,normal,47,room-s03-corvin-normal-04.pyboy,25,1,died,2310,7,7,7,14,0,0,14,4,3,0,900,1429,burn,376,
+skilled,1,corvin,2,3,normal,47,room-s03-corvin-normal-06.pyboy,15 25,1,died,2229,9,9,5,14,0,0,14,3,3,0,753,1075,burn,322,
+average,2,corvin,2,3,normal,57,room-s03-corvin-normal-05.pyboy,39 41,0,died,1838,14,14,0,14,0,0,14,0,0,0,0,0,,-1,
+bot,1,corvin,2,3,normal,57,room-s03-corvin-normal-05.pyboy,39 41,0,died,2347,14,14,0,14,0,0,14,0,0,0,0,0,,-1,
+skilled,1,corvin,2,3,normal,57,room-s03-corvin-normal-05.pyboy,39 41,0,cleared,2779,10,10,0,14,5,4,14,0,0,0,0,0,,-1,
+bot,2,corvin,2,3,normal,57,room-s03-corvin-normal-05.pyboy,39 41,0,cleared,2638,9,9,0,14,6,6,14,0,0,1,0,0,,-1,
+skilled,2,corvin,2,3,normal,53,room-s03-corvin-normal-07.pyboy,4 6 14 15 39 41,1,died,2754,11,11,3,14,0,0,14,2,2,0,600,1200,burn,905,
+average,2,corvin,2,3,normal,53,room-s03-corvin-normal-07.pyboy,4 6 14 15 39 41,1,died,1943,11,11,5,14,0,0,14,3,3,0,505,805,burn,0,dot_pinned_then_hit
+bot,1,corvin,2,3,normal,54,room-s03-corvin-normal-08.pyboy,4 25,1,cleared,1681,9,9,4,14,1,1,14,1,1,2,300,600,,-1,
+bot,2,corvin,2,3,normal,53,room-s03-corvin-normal-02.pyboy,11 25,1,cleared,6307,8,8,7,14,1,1,14,3,2,0,600,1200,,-1,
+skilled,2,corvin,2,3,normal,54,room-s03-corvin-normal-08.pyboy,4 25,1,cleared,1040,7,7,0,14,8,7,14,0,0,0,0,0,,-1,
+average,1,corvin,2,3,normal,47,room-s03-corvin-normal-06.pyboy,15 25,1,died,4036,12,12,5,14,0,0,16,3,3,0,900,1570,burn,1318,
+bot,2,corvin,2,3,normal,47,room-s03-corvin-normal-04.pyboy,25,1,cleared,4971,8,8,6,14,1,1,14,2,2,0,600,922,,-1,
+skilled,2,corvin,2,3,normal,57,room-s03-corvin-normal-05.pyboy,39 41,0,died,2779,14,14,0,14,0,0,14,0,0,0,0,0,,-1,
+skilled,1,corvin,2,3,normal,53,room-s03-corvin-normal-02.pyboy,11 25,1,died,6763,11,11,3,14,0,0,14,1,1,0,300,600,burn,5015,
+skilled,1,corvin,2,3,normal,54,room-s03-corvin-normal-08.pyboy,4 25,1,cleared,2123,11,11,0,14,3,3,14,1,0,2,0,0,,-1,
+skilled,1,corvin,2,3,normal,47,room-s03-corvin-normal-04.pyboy,25,1,died,5294,8,8,6,14,0,0,14,3,3,0,600,1200,burn,0,dot_pinned_then_hit
+average,2,corvin,2,3,normal,47,room-s03-corvin-normal-04.pyboy,25,1,died,5269,10,10,4,14,0,0,14,1,1,0,300,600,burn,4691,
+bot,2,corvin,2,3,normal,53,room-s03-corvin-normal-07.pyboy,4 6 14 15 39 41,1,died,3352,12,12,2,14,0,0,14,1,1,0,300,600,burn,2263,
+average,2,corvin,2,3,normal,54,room-s03-corvin-normal-08.pyboy,4 25,1,died,1137,10,10,4,14,0,0,14,1,1,0,300,600,burn,772,dot_pinned_then_hit
+average,2,corvin,2,3,normal,55,room-s03-corvin-normal-10.pyboy,4 6 11 14 15 25 39,1,left_room,26,0,0,0,14,14,14,14,0,0,0,0,0,,-1,
+bot,2,corvin,2,3,normal,54,room-s03-corvin-normal-08.pyboy,4 25,1,cleared,1941,7,7,0,14,7,7,14,0,0,0,0,0,,-1,
+average,1,corvin,2,3,normal,47,room-s03-corvin-normal-09.pyboy,4 6 11 15 25 39,1,died,1624,14,14,0,14,0,0,14,4,4,0,190,190,stop,49,stop_then_hit
+average,2,corvin,2,3,normal,47,room-s03-corvin-normal-06.pyboy,15 25,1,died,3592,9,9,7,14,0,0,16,4,4,0,855,1176,burn,187,
+average,1,corvin,2,3,normal,54,room-s03-corvin-normal-08.pyboy,4 25,1,cleared,1748,5,5,0,14,9,9,14,0,0,2,0,0,,-1,
+skilled,2,corvin,2,3,normal,47,room-s03-corvin-normal-09.pyboy,4 6 11 15 25 39,1,died,1893,10,10,4,14,0,0,14,5,5,0,579,879,stop,0,stop_then_hit+status_replaced
+skilled,1,corvin,2,3,normal,53,room-s03-corvin-normal-11.pyboy,4 14,1,died,1699,12,12,2,14,0,0,14,2,2,0,496,796,burn,196,
+skilled,2,corvin,2,3,normal,53,room-s03-corvin-normal-11.pyboy,4 14,1,died,1261,11,11,3,14,0,0,14,1,1,0,300,600,burn,1017,
+average,1,corvin,2,3,normal,53,room-s03-corvin-normal-11.pyboy,4 14,1,died,2031,11,15,0,14,0,0,14,0,0,0,0,0,,-1,
+average,1,corvin,2,3,normal,55,room-s03-corvin-normal-10.pyboy,4 6 11 14 15 25 39,1,died,2241,12,12,2,14,0,0,14,1,1,0,300,600,burn,2142,
+average,2,corvin,2,3,normal,53,room-s03-corvin-normal-11.pyboy,4 14,1,died,1667,9,11,3,14,0,0,14,1,1,0,300,600,burn,907,
+bot,2,corvin,2,3,normal,53,room-s03-corvin-normal-12.pyboy,4 25,1,died,1443,13,13,1,14,0,0,14,1,1,0,300,600,burn,650,
+bot,1,corvin,2,3,normal,55,room-s03-corvin-normal-10.pyboy,4 6 11 14 15 25 39,1,cleared,3111,6,6,0,14,8,8,14,0,0,0,0,0,,-1,
+bot,2,corvin,2,3,normal,53,room-s03-corvin-normal-11.pyboy,4 14,1,died,3351,10,10,4,14,0,0,14,1,1,0,300,600,burn,2393,
+skilled,1,corvin,2,3,normal,55,room-s03-corvin-normal-10.pyboy,4 6 11 14 15 25 39,1,died,2712,10,10,4,14,0,0,14,1,1,0,300,600,burn,2446,
+bot,2,corvin,2,3,normal,45,room-s03-corvin-normal-13.pyboy,11 15,0,left_room,703,2,2,0,14,12,12,14,0,0,0,0,0,,-1,
+skilled,2,corvin,2,3,normal,53,room-s03-corvin-normal-12.pyboy,4 25,1,died,1388,10,11,3,14,0,0,14,1,1,0,300,600,burn,1260,
+average,1,corvin,2,3,normal,53,room-s03-corvin-normal-12.pyboy,4 25,1,died,1354,10,10,5,14,0,0,14,3,3,0,443,743,burn,0,
+average,1,corvin,2,3,normal,53,room-s03-corvin-normal-07.pyboy,4 6 14 15 39 41,1,died,5012,14,14,0,14,0,0,14,1,1,0,0,0,burn,0,
+bot,1,corvin,2,3,normal,53,room-s03-corvin-normal-11.pyboy,4 14,1,died,3055,10,10,4,14,0,0,14,2,2,0,363,663,burn,1104,
+average,1,corvin,2,3,normal,45,room-s03-corvin-normal-13.pyboy,11 15,0,cleared,1691,1,1,0,14,15,13,16,0,0,0,0,0,,-1,
+skilled,1,corvin,2,3,normal,47,room-s03-corvin-normal-09.pyboy,4 6 11 15 25 39,1,died,4675,10,10,4,14,0,0,14,1,1,0,300,600,burn,1725,dot_pinned_then_hit
+skilled,2,corvin,2,3,normal,45,room-s03-corvin-normal-13.pyboy,11 15,0,cleared,2076,2,2,0,14,14,12,16,0,0,0,0,0,,-1,
+bot,1,corvin,2,3,normal,53,room-s03-corvin-normal-12.pyboy,4 25,1,died,2897,11,11,3,14,0,0,14,1,1,0,300,600,burn,2057,
+average,2,corvin,2,3,normal,53,room-s03-corvin-normal-12.pyboy,4 25,1,died,2747,9,10,4,14,0,0,14,2,2,0,438,738,burn,138,
+bot,1,corvin,2,3,normal,47,room-s03-corvin-normal-09.pyboy,4 6 11 15 25 39,1,timeout,7200,6,6,0,14,8,8,14,0,0,0,0,0,,-1,
+skilled,2,corvin,2,3,normal,55,room-s03-corvin-normal-10.pyboy,4 6 11 14 15 25 39,1,died,4056,12,12,3,14,0,0,14,2,1,0,300,600,burn,3970,
+skilled,1,corvin,2,3,normal,45,room-s03-corvin-normal-13.pyboy,11 15,0,cleared,2919,3,3,0,14,11,11,14,0,0,0,0,0,,-1,
+bot,1,corvin,2,3,normal,45,room-s03-corvin-normal-13.pyboy,11 15,0,cleared,3020,3,3,0,14,12,11,14,0,0,0,0,0,,-1,
+average,2,corvin,2,3,normal,45,room-s03-corvin-normal-13.pyboy,11 15,0,cleared,3698,6,6,0,14,14,10,16,0,0,0,0,0,,-1,
+bot,2,corvin,2,3,normal,55,room-s03-corvin-normal-10.pyboy,4 6 11 14 15 25 39,1,died,6707,16,16,0,14,0,0,14,0,0,0,0,0,,-1,
+bot,2,corvin,2,3,normal,45,room-s03-corvin-normal-14.pyboy,4 6 14 40,1,died,2197,11,11,3,14,0,0,14,1,1,0,300,600,burn,1852,
+average,2,corvin,2,3,normal,47,room-s03-corvin-normal-09.pyboy,4 6 11 15 25 39,1,died,6003,11,11,4,14,0,0,14,1,1,0,300,600,burn,3533,
+bot,1,corvin,2,3,normal,45,room-s03-corvin-normal-14.pyboy,4 6 14 40,1,cleared,2867,6,6,0,14,8,8,14,0,0,0,0,0,,-1,
+bot,2,corvin,2,3,normal,47,room-s03-corvin-normal-09.pyboy,4 6 11 15 25 39,1,timeout,7200,7,7,0,14,8,7,14,0,0,0,0,0,,-1,
+skilled,1,corvin,2,3,normal,53,room-s03-corvin-normal-12.pyboy,4 25,1,died,6237,14,15,0,14,0,0,14,0,0,0,0,0,,-1,
+bot,2,corvin,2,3,normal,53,room-s03-corvin-normal-15.pyboy,4 6 11 14 25 39 40 41,1,died,2746,12,12,3,14,0,0,14,1,1,0,300,600,burn,1031,
+skilled,1,corvin,2,3,normal,45,room-s03-corvin-normal-14.pyboy,4 6 14 40,1,cleared,4389,13,13,0,14,2,2,14,0,0,0,0,0,,-1,
+average,1,picsean,3,3,normal,47,room-s03-picsean-normal-00.pyboy,15 25,1,cleared,1348,8,8,0,14,8,7,16,0,0,0,0,0,,-1,
+bot,2,picsean,3,3,normal,47,room-s03-picsean-normal-00.pyboy,15 25,1,cleared,2372,5,5,0,14,11,9,16,0,0,0,0,0,,-1,
+skilled,2,picsean,3,3,normal,47,room-s03-picsean-normal-00.pyboy,15 25,1,cleared,1665,3,3,0,14,13,11,16,1,0,0,0,0,,-1,
+bot,1,corvin,2,3,normal,53,room-s03-corvin-normal-15.pyboy,4 6 11 14 25 39 40 41,1,died,2711,12,12,2,14,0,0,14,1,1,5,300,600,burn,780,dot_pinned_then_hit
+average,1,corvin,2,3,normal,45,room-s03-corvin-normal-14.pyboy,4 6 14 40,1,died,4265,10,10,5,14,0,0,14,3,3,0,900,1376,burn,1522,
+skilled,1,picsean,3,3,normal,47,room-s03-picsean-normal-00.pyboy,15 25,1,cleared,4304,10,10,0,14,4,4,14,0,0,0,0,0,,-1,
+skilled,1,corvin,2,3,normal,53,room-s03-corvin-normal-15.pyboy,4 6 11 14 25 39 40 41,1,died,3035,14,14,0,14,0,0,14,0,0,0,0,0,,-1,
+skilled,2,corvin,2,3,normal,45,room-s03-corvin-normal-14.pyboy,4 6 14 40,1,died,5243,10,10,4,14,0,0,14,1,1,0,300,600,burn,3999,
+skilled,2,picsean,3,3,normal,53,room-s03-picsean-normal-01.pyboy,14 40,1,died,2403,9,9,5,14,0,0,14,2,2,0,600,1200,burn,1219,
+skilled,2,corvin,2,3,normal,53,room-s03-corvin-normal-15.pyboy,4 6 11 14 25 39 40 41,1,died,4777,10,10,4,14,0,0,14,1,1,0,300,600,burn,3622,
+average,1,corvin,2,3,normal,53,room-s03-corvin-normal-15.pyboy,4 6 11 14 25 39 40 41,1,died,3720,14,14,0,14,0,0,14,1,1,0,0,0,burn,0,
+average,1,picsean,3,3,normal,53,room-s03-picsean-normal-01.pyboy,14 40,1,died,2959,14,14,0,14,0,0,14,1,1,0,0,0,burn,0,
+average,2,picsean,3,3,normal,47,room-s03-picsean-normal-00.pyboy,15 25,1,cleared,4183,15,15,0,14,1,1,16,0,0,0,0,0,,-1,
+average,2,corvin,2,3,normal,45,room-s03-corvin-normal-14.pyboy,4 6 14 40,1,cleared,5181,9,9,0,14,5,5,14,0,0,0,0,0,,-1,
+average,2,picsean,3,3,normal,47,room-s03-picsean-normal-02.pyboy,14,1,died,1872,8,8,6,14,0,0,14,3,3,0,600,1026,burn,0,dot_pinned_then_hit
+bot,1,picsean,3,3,normal,47,room-s03-picsean-normal-00.pyboy,15 25,1,timeout,7200,15,15,1,14,2,1,16,1,1,0,300,600,,-1,
+bot,2,picsean,3,3,normal,53,room-s03-picsean-normal-01.pyboy,14 40,1,cleared,5724,11,11,2,14,1,1,14,1,1,5,300,600,,-1,
+bot,1,picsean,3,3,normal,55,room-s03-picsean-normal-03.pyboy,4 6 11 14 15 39,1,died,2423,11,11,3,14,0,0,14,1,1,0,300,600,burn,2215,
+average,2,picsean,3,3,normal,55,room-s03-picsean-normal-03.pyboy,4 6 11 14 15 39,1,died,2201,11,11,3,14,0,0,14,1,1,0,300,600,burn,2007,
+bot,1,picsean,3,3,normal,47,room-s03-picsean-normal-02.pyboy,14,1,timeout,7200,8,8,3,14,3,3,14,1,1,0,300,600,,-1,
+average,2,corvin,2,3,normal,53,room-s03-corvin-normal-15.pyboy,4 6 11 14 25 39 40 41,1,died,5640,14,14,0,14,0,0,14,0,0,0,0,0,,-1,
+bot,2,picsean,3,3,normal,47,room-s03-picsean-normal-02.pyboy,14,1,timeout,7200,6,6,4,14,4,4,14,2,2,0,406,706,,-1,
+bot,2,picsean,3,3,normal,55,room-s03-picsean-normal-03.pyboy,4 6 11 14 15 39,1,died,3849,11,11,3,14,0,0,14,1,1,0,300,600,burn,3640,
+skilled,2,picsean,3,3,normal,47,room-s03-picsean-normal-02.pyboy,14,1,cleared,5668,11,11,0,14,3,3,14,0,0,0,0,0,,-1,
+skilled,1,picsean,3,3,normal,53,room-s03-picsean-normal-01.pyboy,14 40,1,died,6086,11,11,3,14,0,0,14,1,1,0,300,600,burn,5589,
+bot,1,picsean,3,3,normal,53,room-s03-picsean-normal-01.pyboy,14 40,1,cleared,6396,8,8,7,14,1,1,14,4,4,4,995,1698,,-1,
+skilled,1,picsean,3,3,normal,47,room-s03-picsean-normal-04.pyboy,0 15 39,0,cleared,3004,5,5,0,14,10,9,14,1,0,0,0,0,,-1,
+average,2,picsean,3,3,normal,53,room-s03-picsean-normal-01.pyboy,14 40,1,cleared,6364,7,7,3,14,4,4,14,1,1,5,300,600,,-1,
+average,2,picsean,3,3,normal,47,room-s03-picsean-normal-04.pyboy,0 15 39,0,cleared,1260,1,1,0,14,14,13,14,1,0,1,0,0,,-1,
+skilled,1,picsean,3,3,normal,55,room-s03-picsean-normal-03.pyboy,4 6 11 14 15 39,1,cleared,5850,10,10,0,14,4,4,14,0,0,0,0,0,,-1,
+average,1,picsean,3,3,normal,55,room-s03-picsean-normal-03.pyboy,4 6 11 14 15 39,1,cleared,5162,13,13,3,14,5,5,14,1,1,0,300,600,,-1,
+average,1,picsean,3,3,normal,47,room-s03-picsean-normal-05.pyboy,6 11,0,died,1406,16,16,0,14,0,0,14,9,9,0,562,562,stop,0,stop_then_hit
+average,1,picsean,3,3,normal,47,room-s03-picsean-normal-02.pyboy,14,1,died,6272,14,14,0,14,0,0,14,0,0,0,0,0,,-1,
+skilled,2,picsean,3,3,normal,47,room-s03-picsean-normal-04.pyboy,0 15 39,0,cleared,2467,4,4,0,14,10,10,14,0,0,0,0,0,,-1,
+skilled,2,picsean,3,3,normal,59,room-s03-picsean-normal-06.pyboy,6 11,0,left_room,637,4,5,0,14,9,9,14,2,2,0,248,248,,-1,
+bot,2,picsean,3,3,normal,47,room-s03-picsean-normal-05.pyboy,6 11,0,died,3279,12,17,0,14,0,0,14,5,5,0,585,885,stop,0,stop_then_hit
+skilled,1,picsean,3,3,normal,59,room-s03-picsean-normal-06.pyboy,6 11,0,died,1652,14,14,0,14,0,0,14,1,1,0,300,600,stop,1376,
+average,1,picsean,3,3,normal,47,room-s03-picsean-normal-04.pyboy,0 15 39,0,cleared,3135,8,8,0,14,7,7,14,0,0,0,0,0,,-1,
+average,2,picsean,3,3,normal,59,room-s03-picsean-normal-06.pyboy,6 11,0,died,1120,11,14,0,14,0,0,14,3,3,0,568,568,stop,172,
+skilled,2,picsean,3,3,normal,55,room-s03-picsean-normal-03.pyboy,4 6 11 14 15 39,1,cleared,6096,8,8,0,14,7,7,14,0,0,0,0,0,,-1,
+bot,1,picsean,3,3,normal,47,room-s03-picsean-normal-04.pyboy,0 15 39,0,timeout,7200,1,1,0,14,14,13,14,1,0,0,0,0,,-1,
+average,1,picsean,3,3,normal,47,room-s03-picsean-normal-07.pyboy,39 41,0,cleared,1534,4,4,0,14,10,10,14,0,0,0,0,0,,-1,
+skilled,1,picsean,3,3,normal,47,room-s03-picsean-normal-07.pyboy,39 41,0,cleared,2609,4,4,0,14,10,10,14,0,0,0,0,0,,-1,
+skilled,1,picsean,3,3,normal,47,room-s03-picsean-normal-02.pyboy,14,1,timeout,7200,8,8,0,14,7,7,14,0,0,0,0,0,,-1,
+average,2,picsean,3,3,normal,47,room-s03-picsean-normal-07.pyboy,39 41,0,cleared,1618,5,5,0,14,9,9,14,0,0,0,0,0,,-1,
+bot,1,picsean,3,3,normal,47,room-s03-picsean-normal-07.pyboy,39 41,0,cleared,1902,4,4,0,14,10,10,14,0,0,0,0,0,,-1,
+bot,2,picsean,3,3,normal,47,room-s03-picsean-normal-04.pyboy,0 15 39,0,timeout,7200,5,5,0,14,12,11,14,0,0,0,0,0,,-1,
+bot,1,picsean,3,3,normal,47,room-s03-picsean-normal-05.pyboy,6 11,0,timeout,7200,6,6,0,14,8,8,14,1,0,0,0,0,,-1,
+average,2,picsean,3,3,normal,53,room-s03-picsean-normal-08.pyboy,15 25,1,died,1751,8,8,6,14,0,0,14,2,2,0,600,750,burn,303,dot_pinned_then_hit
+average,1,picsean,3,3,normal,53,room-s03-picsean-normal-08.pyboy,15 25,1,died,2097,9,9,5,14,0,0,14,3,3,0,900,1246,burn,389,
+skilled,2,picsean,3,3,normal,53,room-s03-picsean-normal-08.pyboy,15 25,1,died,1466,10,10,4,14,0,0,14,2,2,0,600,895,burn,544,
+skilled,1,picsean,3,3,normal,47,room-s03-picsean-normal-05.pyboy,6 11,0,timeout,7200,5,5,0,14,9,9,14,2,1,1,300,600,,-1,
+skilled,1,picsean,3,3,normal,53,room-s03-picsean-normal-08.pyboy,15 25,1,cleared,2083,2,2,0,14,12,12,14,0,0,0,0,0,,-1,
+skilled,2,picsean,3,3,normal,47,room-s03-picsean-normal-05.pyboy,6 11,0,cleared,5593,6,6,0,14,8,8,14,1,1,0,202,202,,-1,
+bot,1,picsean,3,3,normal,59,room-s03-picsean-normal-06.pyboy,6 11,0,timeout,7200,6,6,0,14,8,8,14,0,0,0,0,0,,-1,
+bot,1,picsean,3,3,normal,53,room-s03-picsean-normal-08.pyboy,15 25,1,cleared,3406,11,11,0,14,3,3,14,0,0,0,0,0,,-1,
+skilled,2,picsean,3,3,normal,55,room-s03-picsean-normal-10.pyboy,4 39,0,left_room,57,1,1,0,14,13,13,14,0,0,0,0,0,,-1,
+bot,2,picsean,3,3,normal,47,room-s03-picsean-normal-07.pyboy,39 41,0,died,4695,14,14,0,14,0,0,14,0,0,0,0,0,,-1,
+skilled,2,picsean,3,3,normal,47,room-s03-picsean-normal-07.pyboy,39 41,0,died,4054,14,14,0,14,0,0,14,0,0,0,0,0,,-1,
+bot,2,picsean,3,3,normal,53,room-s03-picsean-normal-08.pyboy,15 25,1,timeout,7200,6,6,2,14,9,9,14,1,1,0,300,600,,-1,
+average,2,picsean,3,3,normal,47,room-s03-picsean-normal-05.pyboy,6 11,0,cleared,6670,11,11,0,14,4,4,14,4,3,0,633,1233,,-1,
+average,1,picsean,3,3,normal,55,room-s03-picsean-normal-10.pyboy,4 39,0,died,1553,14,14,0,14,0,0,14,0,0,0,0,0,,-1,
+average,2,picsean,3,3,normal,55,room-s03-picsean-normal-10.pyboy,4 39,0,died,2346,13,15,0,14,0,0,14,0,0,0,0,0,,-1,
+bot,2,picsean,3,3,normal,59,room-s03-picsean-normal-06.pyboy,6 11,0,cleared,6991,5,5,0,14,9,9,14,1,1,0,300,600,,-1,
+skilled,2,picsean,3,3,normal,47,room-s03-picsean-normal-09.pyboy,6 15,0,cleared,4290,9,12,0,14,3,3,14,0,0,0,0,0,,-1,
+average,1,picsean,3,3,normal,59,room-s03-picsean-normal-06.pyboy,6 11,0,timeout,7200,14,14,0,14,2,1,14,0,0,0,0,0,,-1,
+skilled,1,picsean,3,3,normal,55,room-s03-picsean-normal-10.pyboy,4 39,0,died,3482,15,15,0,14,0,0,14,0,0,0,0,0,,-1,
+bot,1,picsean,3,3,normal,47,room-s03-picsean-normal-09.pyboy,6 15,0,cleared,5364,2,2,0,14,12,12,14,0,0,0,0,0,,-1,
+average,2,picsean,3,3,normal,47,room-s03-picsean-normal-09.pyboy,6 15,0,cleared,6434,6,6,0,14,8,8,14,0,0,0,0,0,,-1,
+average,2,picsean,3,3,normal,53,room-s03-picsean-normal-11.pyboy,4 40,0,died,2670,14,14,0,14,0,0,14,0,0,0,0,0,,-1,
+skilled,1,picsean,3,3,normal,47,room-s03-picsean-normal-09.pyboy,6 15,0,cleared,5119,8,8,0,14,8,8,14,0,0,0,0,0,,-1,
+bot,1,picsean,3,3,normal,55,room-s03-picsean-normal-10.pyboy,4 39,0,timeout,7200,6,8,0,14,6,6,14,0,0,0,0,0,,-1,
+bot,2,picsean,3,3,normal,55,room-s03-picsean-normal-10.pyboy,4 39,0,cleared,4729,10,11,0,14,3,3,14,0,0,0,0,0,,-1,
+bot,2,picsean,3,3,normal,47,room-s03-picsean-normal-09.pyboy,6 15,0,timeout,7200,2,2,0,14,13,12,14,0,0,0,0,0,,-1,
+skilled,2,picsean,3,3,normal,53,room-s03-picsean-normal-11.pyboy,4 40,0,died,4125,15,15,0,14,0,0,14,0,0,0,0,0,,-1,
+average,1,picsean,3,3,normal,47,room-s03-picsean-normal-09.pyboy,6 15,0,cleared,5886,6,6,0,14,8,8,14,0,0,0,0,0,,-1,
+average,2,picsean,3,3,normal,45,room-s03-picsean-normal-12.pyboy,4 6 11 14 25 41,1,died,2016,13,13,0,13,0,0,14,4,4,0,191,191,stop,0,stop_then_hit
+bot,1,picsean,3,3,normal,53,room-s03-picsean-normal-11.pyboy,4 40,0,cleared,5651,10,10,0,14,4,4,14,0,0,0,0,0,,-1,
+skilled,2,picsean,3,3,normal,45,room-s03-picsean-normal-12.pyboy,4 6 11 14 25 41,1,died,3244,10,10,4,13,0,0,14,1,1,0,300,600,burn,3063,
+skilled,2,picsean,3,3,normal,47,room-s03-picsean-normal-13.pyboy,25 40,1,died,3001,13,13,1,14,0,0,14,2,1,0,300,600,burn,1841,
+bot,2,picsean,3,3,normal,53,room-s03-picsean-normal-14.pyboy,39,0,cleared,792,0,0,0,14,14,14,14,0,0,0,0,0,,-1,
+bot,1,picsean,3,3,normal,45,room-s03-picsean-normal-12.pyboy,4 6 11 14 25 41,1,cleared,4316,13,13,0,14,1,1,14,1,1,0,300,600,,-1,
+average,1,picsean,3,3,normal,45,room-s03-picsean-normal-12.pyboy,4 6 11 14 25 41,1,died,3535,12,12,2,14,0,0,14,2,2,0,300,600,stop,0,stop_then_hit
+skilled,1,picsean,3,3,normal,53,room-s03-picsean-normal-14.pyboy,39,0,cleared,972,3,3,0,14,11,11,14,0,0,0,0,0,,-1,
+bot,2,picsean,3,3,normal,53,room-s03-picsean-normal-11.pyboy,4 40,0,timeout,7200,11,11,0,14,5,5,14,0,0,0,0,0,,-1,
+average,1,picsean,3,3,normal,47,room-s03-picsean-normal-13.pyboy,25 40,1,died,2805,11,11,3,14,0,0,14,2,2,0,600,1200,burn,721,
+average,2,picsean,3,3,normal,53,room-s03-picsean-normal-14.pyboy,39,0,cleared,1071,3,3,0,14,11,11,14,0,0,0,0,0,,-1,
+bot,1,picsean,3,3,normal,47,room-s03-picsean-normal-13.pyboy,25 40,1,died,3166,12,12,2,14,0,0,14,2,2,0,600,1142,burn,542,
+skilled,2,picsean,3,3,normal,53,room-s03-picsean-normal-14.pyboy,39,0,cleared,1059,2,2,0,14,12,12,14,0,0,0,0,0,,-1,
+skilled,1,picsean,3,3,normal,53,room-s03-picsean-normal-11.pyboy,4 40,0,cleared,5398,8,8,0,14,7,7,14,1,0,0,0,0,,-1,
+bot,2,picsean,3,3,normal,47,room-s03-picsean-normal-13.pyboy,25 40,1,cleared,4029,3,3,0,14,11,11,14,0,0,0,0,0,,-1,
+average,1,picsean,3,3,normal,53,room-s03-picsean-normal-14.pyboy,39,0,cleared,1370,1,1,0,14,13,13,14,0,0,0,0,0,,-1,
+bot,1,picsean,3,3,normal,53,room-s03-picsean-normal-14.pyboy,39,0,cleared,1870,3,3,0,14,11,11,14,0,0,0,0,0,,-1,
+skilled,1,picsean,3,3,normal,45,room-s03-picsean-normal-12.pyboy,4 6 11 14 25 41,1,cleared,6534,9,9,3,14,2,2,14,1,1,0,300,600,,-1,
+average,2,picsean,3,3,normal,47,room-s03-picsean-normal-13.pyboy,25 40,1,cleared,2739,5,5,0,14,9,9,14,0,0,0,0,0,,-1,
+average,1,picsean,3,3,normal,53,room-s03-picsean-normal-11.pyboy,4 40,0,cleared,6283,13,13,0,14,3,3,14,0,0,0,0,0,,-1,
+skilled,1,picsean,3,3,normal,47,room-s03-picsean-normal-13.pyboy,25 40,1,died,5255,12,12,2,14,0,0,14,2,1,0,300,600,burn,4935,
+bot,1,picsean,3,3,normal,51,room-s03-picsean-normal-15.pyboy,6 14,1,died,3550,13,13,3,14,0,0,16,1,1,0,300,600,burn,3480,
+skilled,2,sauran,1,3,normal,57,room-s03-sauran-normal-01.pyboy,25 40,1,left_room,386,2,2,1,16,13,13,16,1,1,0,290,290,,-1,
+bot,2,picsean,3,3,normal,45,room-s03-picsean-normal-12.pyboy,4 6 11 14 25 41,1,timeout,7200,10,10,0,13,3,3,14,0,0,0,0,0,,-1,
+bot,2,picsean,3,3,normal,51,room-s03-picsean-normal-15.pyboy,6 14,1,died,3788,9,9,8,14,0,0,16,3,3,0,900,1800,burn,921,
+skilled,1,picsean,3,3,normal,51,room-s03-picsean-normal-15.pyboy,6 14,1,timeout,7200,7,7,0,14,7,7,14,1,0,0,0,0,,-1,
+bot,2,sauran,1,3,normal,57,room-s03-sauran-normal-01.pyboy,25 40,1,died,1540,10,10,6,16,0,0,16,4,3,0,764,1320,burn,724,
+skilled,1,sauran,1,3,normal,53,room-s03-sauran-normal-02.pyboy,39,0,left_room,110,0,0,0,16,16,16,16,0,0,0,0,0,,-1,
+bot,1,sauran,1,3,normal,53,room-s03-sauran-normal-02.pyboy,39,0,cleared,607,2,2,0,16,14,14,16,0,0,0,0,0,,-1,
+skilled,2,sauran,1,3,normal,53,room-s03-sauran-normal-02.pyboy,39,0,left_room,93,0,0,0,16,16,16,16,0,0,0,0,0,,-1,
+average,2,sauran,1,3,normal,53,room-s03-sauran-normal-02.pyboy,39,0,left_room,108,0,0,0,16,16,16,16,0,0,0,0,0,,-1,
+bot,2,sauran,1,3,normal,53,room-s03-sauran-normal-02.pyboy,39,0,cleared,1300,2,2,0,16,14,14,16,0,0,0,0,0,,-1,
+bot,2,sauran,1,3,normal,47,room-s03-sauran-normal-03.pyboy,4 40,0,left_room,115,0,0,0,16,16,16,16,0,0,0,0,0,,-1,
+bot,1,sauran,1,3,normal,47,room-s03-sauran-normal-03.pyboy,4 40,0,died,650,16,16,0,16,0,0,16,0,0,0,0,0,,-1,
+average,1,sauran,1,3,normal,53,room-s03-sauran-normal-02.pyboy,39,0,cleared,801,3,3,0,16,13,13,16,0,0,0,0,0,,-1,
+skilled,2,picsean,3,3,normal,51,room-s03-picsean-normal-15.pyboy,6 14,1,cleared,6120,4,4,3,14,7,7,14,1,1,1,300,600,,-1,
+average,2,sauran,1,3,normal,53,room-s03-sauran-normal-00.pyboy,6 15,0,cleared,2715,6,6,0,16,11,10,16,0,0,2,0,0,,-1,
+average,2,sauran,1,3,normal,57,room-s03-sauran-normal-01.pyboy,25 40,1,died,2313,13,13,3,16,0,0,16,3,3,0,805,1405,burn,617,
+bot,1,sauran,1,3,normal,53,room-s03-sauran-normal-00.pyboy,6 15,0,cleared,3163,7,7,0,16,11,10,16,0,0,2,0,0,,-1,
+average,2,picsean,3,3,normal,51,room-s03-picsean-normal-15.pyboy,6 14,1,died,6876,14,14,0,14,0,0,14,0,0,0,0,0,,-1,
+average,1,picsean,3,3,normal,51,room-s03-picsean-normal-15.pyboy,6 14,1,timeout,7200,8,8,3,14,3,3,14,1,1,0,300,600,,-1,
+skilled,1,sauran,1,3,normal,53,room-s03-sauran-normal-00.pyboy,6 15,0,cleared,4691,9,9,0,16,9,9,16,0,0,2,0,0,,-1,
+bot,1,sauran,1,3,normal,55,room-s03-sauran-normal-04.pyboy,6 11,0,died,2073,16,16,0,16,0,0,16,9,9,0,912,1212,stop,33,stop_then_hit
+bot,2,sauran,1,3,normal,53,room-s03-sauran-normal-00.pyboy,6 15,0,timeout,7200,3,3,0,16,16,13,16,0,0,2,0,0,,-1,
+average,1,sauran,1,3,normal,55,room-s03-sauran-normal-04.pyboy,6 11,0,died,1368,16,16,0,16,0,0,16,5,5,0,863,1163,stop,659,
+bot,2,sauran,1,3,normal,55,room-s03-sauran-normal-04.pyboy,6 11,0,died,1679,16,16,0,16,0,0,16,5,5,0,763,1063,stop,1077,
+average,2,sauran,1,3,normal,55,room-s03-sauran-normal-04.pyboy,6 11,0,died,1399,16,16,0,16,0,0,16,6,6,0,911,1211,stop,0,stop_then_hit
+skilled,2,sauran,1,3,normal,55,room-s03-sauran-normal-04.pyboy,6 11,0,died,2029,16,16,0,16,0,0,16,6,6,0,921,1221,stop,127,stop_then_hit
+bot,1,sauran,1,3,normal,57,room-s03-sauran-normal-05.pyboy,39 41,0,cleared,1019,5,5,0,16,11,11,16,0,0,2,0,0,,-1,
+bot,1,sauran,1,3,normal,57,room-s03-sauran-normal-01.pyboy,25 40,1,died,3560,13,13,5,16,0,0,16,6,5,0,970,1570,burn,1546,
+skilled,1,sauran,1,3,normal,47,room-s03-sauran-normal-03.pyboy,4 40,0,died,4592,17,17,0,16,0,0,16,0,0,0,0,0,,-1,
+skilled,1,sauran,1,3,normal,57,room-s03-sauran-normal-01.pyboy,25 40,1,cleared,3375,11,11,6,16,1,1,16,3,2,4,600,1200,,-1,
+average,1,sauran,1,3,normal,57,room-s03-sauran-normal-01.pyboy,25 40,1,died,3910,14,14,3,16,0,0,16,3,3,0,900,1459,burn,1105,
+bot,2,sauran,1,3,normal,47,room-s03-sauran-normal-06.pyboy,0 15 41,0,cleared,1433,3,3,0,16,14,14,16,0,0,6,0,0,,-1,
+skilled,1,sauran,1,3,normal,57,room-s03-sauran-normal-05.pyboy,39 41,0,cleared,1187,8,8,0,16,8,8,16,0,0,2,0,0,,-1,
+skilled,1,sauran,1,3,normal,55,room-s03-sauran-normal-04.pyboy,6 11,0,died,3893,17,17,0,16,0,0,16,1,1,0,300,600,stop,3756,
+average,1,sauran,1,3,normal,57,room-s03-sauran-normal-05.pyboy,39 41,0,cleared,1424,8,8,0,16,8,8,16,0,0,2,0,0,,-1,
+average,2,sauran,1,3,normal,57,room-s03-sauran-normal-05.pyboy,39 41,0,cleared,1203,4,4,0,16,12,12,16,0,0,2,0,0,,-1,
+skilled,2,sauran,1,3,normal,47,room-s03-sauran-normal-03.pyboy,4 40,0,died,5227,17,17,0,16,0,0,16,0,0,0,0,0,,-1,
+bot,2,sauran,1,3,normal,57,room-s03-sauran-normal-05.pyboy,39 41,0,cleared,1596,4,4,0,16,12,12,16,0,0,1,0,0,,-1,
+average,1,sauran,1,3,normal,53,room-s03-sauran-normal-00.pyboy,6 15,0,died,6817,19,19,0,16,0,0,16,0,0,0,0,0,,-1,
+skilled,1,sauran,1,3,normal,53,room-s03-sauran-normal-07.pyboy,4 6 14 15 25 41,1,died,1374,13,13,3,16,0,0,16,1,1,0,300,600,burn,846,
+skilled,2,sauran,1,3,normal,57,room-s03-sauran-normal-05.pyboy,39 41,0,cleared,2554,5,5,0,16,12,11,16,0,0,0,0,0,,-1,
+average,2,sauran,1,3,normal,47,room-s03-sauran-normal-06.pyboy,0 15 41,0,cleared,2800,9,9,0,16,8,8,16,0,0,9,0,0,,-1,
+average,1,sauran,1,3,normal,47,room-s03-sauran-normal-06.pyboy,0 15 41,0,cleared,3110,4,4,0,16,13,12,16,0,0,6,0,0,,-1,
+skilled,2,sauran,1,3,normal,53,room-s03-sauran-normal-00.pyboy,6 15,0,died,6300,18,18,0,16,0,0,16,0,0,0,0,0,,-1,
+average,1,sauran,1,3,normal,47,room-s03-sauran-normal-03.pyboy,4 40,0,died,4238,17,17,0,16,0,0,16,0,0,0,0,0,,-1,
+skilled,2,sauran,1,3,normal,47,room-s03-sauran-normal-06.pyboy,0 15 41,0,cleared,4235,8,8,0,16,9,9,16,0,0,0,0,0,,-1,
+average,2,sauran,1,3,normal,47,room-s03-sauran-normal-03.pyboy,4 40,0,timeout,7200,18,18,0,16,1,1,16,0,0,0,0,0,,-1,
+average,1,sauran,1,3,normal,53,room-s03-sauran-normal-07.pyboy,4 6 14 15 25 41,1,died,2323,12,12,4,16,0,0,16,1,1,0,300,600,burn,1778,
+bot,1,sauran,1,3,normal,53,room-s03-sauran-normal-07.pyboy,4 6 14 15 25 41,1,died,4532,18,18,0,16,0,0,16,0,0,0,0,0,,-1,
+skilled,2,sauran,1,3,normal,53,room-s03-sauran-normal-08.pyboy,11 14,1,died,2128,16,16,0,16,0,0,16,4,4,0,714,1059,stop,345,
+skilled,2,sauran,1,3,normal,53,room-s03-sauran-normal-07.pyboy,4 6 14 15 25 41,1,died,2884,16,16,0,16,0,0,16,1,1,0,123,123,burn,123,
+skilled,1,sauran,1,3,normal,47,room-s03-sauran-normal-06.pyboy,0 15 41,0,cleared,6250,12,12,0,16,7,7,16,2,0,3,0,0,,-1,
+skilled,1,sauran,1,3,normal,53,room-s03-sauran-normal-09.pyboy,4 6 14 15 40,1,died,1754,15,15,1,16,0,0,16,1,1,0,258,258,burn,258,
+bot,2,sauran,1,3,normal,53,room-s03-sauran-normal-08.pyboy,11 14,1,died,4145,17,17,0,16,0,0,16,4,4,0,460,760,stop,32,stop_then_hit
+average,2,sauran,1,3,normal,53,room-s03-sauran-normal-07.pyboy,4 6 14 15 25 41,1,died,3884,17,17,0,16,0,0,16,0,0,0,0,0,,-1,
+skilled,1,sauran,1,3,normal,53,room-s03-sauran-normal-08.pyboy,11 14,1,died,3511,14,14,3,16,0,0,16,2,2,0,378,678,stop,78,stop_then_hit
+average,1,sauran,1,3,normal,53,room-s03-sauran-normal-09.pyboy,4 6 14 15 40,1,died,2933,17,17,0,16,0,0,16,0,0,0,0,0,,-1,
+bot,1,sauran,1,3,normal,53,room-s03-sauran-normal-08.pyboy,11 14,1,died,3813,17,17,0,16,0,0,16,0,0,0,0,0,,-1,
+skilled,2,sauran,1,3,normal,53,room-s03-sauran-normal-10.pyboy,25 39,1,died,1736,13,13,3,16,0,0,16,2,2,0,434,601,burn,134,
+average,2,sauran,1,3,normal,53,room-s03-sauran-normal-08.pyboy,11 14,1,died,3632,17,17,0,16,0,0,16,3,3,0,480,780,stop,0,stop_then_hit
+skilled,1,sauran,1,3,normal,53,room-s03-sauran-normal-10.pyboy,25 39,1,died,1522,11,11,5,16,0,0,16,2,2,0,475,775,burn,1080,
+bot,1,sauran,1,3,normal,53,room-s03-sauran-normal-09.pyboy,4 6 14 15 40,1,died,2458,17,17,0,16,0,0,16,0,0,0,0,0,,-1,
+average,1,sauran,1,3,normal,53,room-s03-sauran-normal-08.pyboy,11 14,1,cleared,4363,12,12,0,16,5,5,16,1,1,1,300,512,,-1,
+average,2,sauran,1,3,normal,53,room-s03-sauran-normal-10.pyboy,25 39,1,died,1872,12,12,4,16,0,0,16,2,2,0,600,1188,burn,588,
+bot,2,sauran,1,3,normal,53,room-s03-sauran-normal-07.pyboy,4 6 14 15 25 41,1,died,5219,14,14,3,16,0,0,16,1,1,0,300,600,burn,1104,
+bot,2,sauran,1,3,normal,53,room-s03-sauran-normal-09.pyboy,4 6 14 15 40,1,cleared,5494,17,17,0,16,3,2,16,0,0,3,0,0,,-1,
+bot,1,sauran,1,3,normal,47,room-s03-sauran-normal-06.pyboy,0 15 41,0,timeout,7200,8,8,0,16,12,10,16,0,0,0,0,0,,-1,
+skilled,2,sauran,1,3,normal,53,room-s03-sauran-normal-09.pyboy,4 6 14 15 40,1,died,4963,17,17,0,16,0,0,16,0,0,0,0,0,,-1,
+average,1,sauran,1,3,normal,53,room-s03-sauran-normal-10.pyboy,25 39,1,died,2554,13,13,4,16,0,0,16,4,3,0,600,940,burn,0,dot_pinned_then_hit+status_replaced
+average,2,sauran,1,3,normal,53,room-s03-sauran-normal-09.pyboy,4 6 14 15 40,1,died,5597,17,17,0,16,0,0,16,0,0,0,0,0,,-1,
+average,2,sauran,1,3,normal,47,room-s03-sauran-normal-11.pyboy,25 41,1,died,1785,11,11,5,16,0,0,16,3,3,0,600,1200,burn,0,
+skilled,1,sauran,1,3,normal,45,room-s03-sauran-normal-13.pyboy,4 6 11 14 15 40,1,died,743,16,16,0,16,0,0,16,0,0,0,0,0,,-1,
+skilled,1,sauran,1,3,normal,53,room-s03-sauran-normal-12.pyboy,0 4 6,0,died,3303,17,17,0,16,0,0,16,0,0,0,0,0,,-1,
+bot,2,sauran,1,3,normal,53,room-s03-sauran-normal-10.pyboy,25 39,1,cleared,3637,10,10,6,16,1,1,16,3,3,0,791,967,,-1,
+bot,1,sauran,1,3,normal,45,room-s03-sauran-normal-13.pyboy,4 6 11 14 15 40,1,died,3508,17,17,0,16,0,0,16,0,0,0,0,0,,-1,
+bot,1,sauran,1,3,normal,45,room-s03-sauran-normal-14.pyboy,11,0,died,1948,16,16,0,16,0,0,16,8,8,0,904,1204,stop,0,stop_then_hit
+skilled,2,sauran,1,3,normal,47,room-s03-sauran-normal-11.pyboy,25 41,1,died,5507,13,13,6,16,0,0,16,3,3,0,828,1428,burn,228,
+bot,1,sauran,1,3,normal,53,room-s03-sauran-normal-10.pyboy,25 39,1,timeout,7200,10,10,0,16,9,7,16,0,0,0,0,0,,-1,
+bot,1,sauran,1,3,normal,47,room-s03-sauran-normal-11.pyboy,25 41,1,cleared,4732,12,12,5,16,1,1,16,3,3,0,575,875,,-1,
+skilled,1,sauran,1,3,normal,47,room-s03-sauran-normal-11.pyboy,25 41,1,timeout,7200,8,8,0,16,11,10,16,0,0,0,0,0,,-1,
+bot,2,sauran,1,3,normal,53,room-s03-sauran-normal-12.pyboy,0 4 6,0,timeout,7200,7,7,0,16,12,9,16,0,0,0,0,0,,-1,
+skilled,2,sauran,1,3,normal,45,room-s03-sauran-normal-14.pyboy,11,0,died,1766,16,16,0,16,0,0,16,5,4,0,641,641,stop,217,
+bot,2,sauran,1,3,normal,45,room-s03-sauran-normal-14.pyboy,11,0,died,3594,17,17,0,16,0,0,16,10,10,0,1236,1836,stop,0,stop_then_hit
+average,1,sauran,1,3,normal,45,room-s03-sauran-normal-14.pyboy,11,0,died,2926,17,17,0,16,0,0,16,7,6,0,645,945,stop,32,stop_then_hit
+bot,1,sauran,1,3,normal,53,room-s03-sauran-normal-12.pyboy,0 4 6,0,cleared,6104,3,3,0,16,14,14,16,0,0,0,0,0,,-1,
+bot,2,sauran,1,3,normal,47,room-s03-sauran-normal-11.pyboy,25 41,1,timeout,7200,3,3,0,16,16,13,16,0,0,0,0,0,,-1,
+average,2,sauran,1,3,normal,45,room-s03-sauran-normal-14.pyboy,11,0,died,2819,17,17,0,16,0,0,16,4,4,0,883,1183,stop,211,
+average,2,sauran,1,3,normal,45,room-s03-sauran-normal-13.pyboy,4 6 11 14 15 40,1,died,5187,17,17,0,16,0,0,16,0,0,0,0,0,,-1,
+skilled,2,sauran,1,3,normal,45,room-s03-sauran-normal-13.pyboy,4 6 11 14 15 40,1,died,4609,17,17,0,16,0,0,16,1,1,0,0,0,stop,0,stop_then_hit
+skilled,1,sauran,1,3,normal,45,room-s03-sauran-normal-14.pyboy,11,0,cleared,3940,12,12,0,16,5,5,16,4,4,10,675,1275,,-1,
+average,1,sauran,1,3,normal,45,room-s03-sauran-normal-13.pyboy,4 6 11 14 15 40,1,died,5064,17,17,0,16,0,0,16,3,3,0,244,244,stop,0,stop_then_hit
+bot,2,sauran,1,3,normal,47,room-s03-sauran-normal-15.pyboy,25,1,died,1503,10,10,6,16,0,0,16,2,2,0,600,936,burn,336,dot_pinned_then_hit
+skilled,2,sauran,1,3,normal,47,room-s03-sauran-normal-15.pyboy,25,1,cleared,1410,4,4,3,16,9,9,16,1,1,13,300,600,,-1,
+average,1,sauran,1,3,normal,47,room-s03-sauran-normal-11.pyboy,25 41,1,died,6237,15,15,5,16,0,0,16,4,4,0,935,1712,burn,477,
+skilled,1,sauran,1,3,normal,47,room-s03-sauran-normal-15.pyboy,25,1,died,1598,9,9,7,16,0,0,16,4,4,0,884,1252,burn,0,dot_pinned_then_hit
+average,1,sauran,1,3,normal,47,room-s03-sauran-normal-15.pyboy,25,1,died,1879,9,9,7,16,0,0,16,2,2,0,600,1200,burn,981,
+average,1,sauran,1,3,normal,53,room-s03-sauran-normal-12.pyboy,0 4 6,0,cleared,5830,8,8,0,16,10,9,16,0,0,0,0,0,,-1,
+bot,2,vespine,4,3,normal,53,room-s03-vespine-normal-01.pyboy,11 25,1,died,1044,9,9,4,13,0,0,13,5,5,0,877,959,burn,0,status_replaced
+skilled,2,sauran,1,3,normal,53,room-s03-sauran-normal-12.pyboy,0 4 6,0,died,6091,19,19,0,16,0,0,16,0,0,0,0,0,,-1,
+bot,1,vespine,4,3,normal,53,room-s03-vespine-normal-01.pyboy,11 25,1,died,2120,7,7,6,13,0,0,13,5,5,0,687,987,burn,38,status_replaced
+skilled,1,vespine,4,3,normal,53,room-s03-vespine-normal-01.pyboy,11 25,1,died,1459,10,10,4,13,0,0,13,3,3,0,498,798,burn,53,
+average,1,vespine,4,3,normal,53,room-s03-vespine-normal-01.pyboy,11 25,1,died,1288,10,10,4,13,0,0,13,4,4,0,637,900,stop,187,status_replaced
+average,2,vespine,4,3,normal,53,room-s03-vespine-normal-01.pyboy,11 25,1,died,2590,8,8,5,13,0,0,13,2,2,0,478,778,burn,2327,
+average,2,sauran,1,3,normal,53,room-s03-sauran-normal-12.pyboy,0 4 6,0,died,6625,18,18,0,16,0,0,16,0,0,0,0,0,,-1,
+skilled,2,vespine,4,3,normal,45,room-s03-vespine-normal-02.pyboy,4 11 14 15 25 40,1,died,1179,11,11,2,13,0,0,13,1,1,0,300,314,burn,314,dot_pinned_then_hit
+bot,1,vespine,4,3,normal,53,room-s03-vespine-normal-03.pyboy,4 11,0,died,505,8,13,0,13,0,0,13,4,4,6,170,170,stop,0,stop_then_hit
+bot,2,vespine,4,3,normal,53,room-s03-vespine-normal-03.pyboy,4 11,0,died,504,8,13,0,13,0,0,13,4,4,6,170,170,stop,0,stop_then_hit
+skilled,1,vespine,4,3,normal,45,room-s03-vespine-normal-02.pyboy,4 11 14 15 25 40,1,died,1863,7,7,6,13,0,0,13,2,2,0,600,1146,burn,546,dot_pinned_then_hit
+skilled,1,vespine,4,3,normal,53,room-s03-vespine-normal-03.pyboy,4 11,0,died,503,8,13,0,13,0,0,13,4,4,6,170,170,stop,0,stop_then_hit
+skilled,2,vespine,4,3,normal,53,room-s03-vespine-normal-03.pyboy,4 11,0,died,496,8,13,0,13,0,0,13,4,4,6,169,169,stop,0,stop_then_hit
+average,2,vespine,4,3,normal,45,room-s03-vespine-normal-02.pyboy,4 11 14 15 25 40,1,died,1315,9,10,3,13,0,0,13,2,2,0,583,883,burn,723,dot_pinned_then_hit
+skilled,2,vespine,4,3,normal,53,room-s03-vespine-normal-01.pyboy,11 25,1,died,2878,9,9,4,13,0,0,13,1,1,0,300,600,burn,2774,
+average,2,vespine,4,3,normal,53,room-s03-vespine-normal-03.pyboy,4 11,0,died,635,8,13,0,13,0,0,13,2,2,0,338,338,stop,271,
+bot,1,vespine,4,3,normal,45,room-s03-vespine-normal-04.pyboy,14,1,died,1074,9,9,4,13,0,0,13,4,4,0,540,612,burn,0,dot_pinned_then_hit
+average,1,vespine,4,3,normal,45,room-s03-vespine-normal-02.pyboy,4 11 14 15 25 40,1,died,1586,9,10,4,13,0,0,13,2,2,0,600,936,burn,1029,
+bot,2,vespine,4,3,normal,45,room-s03-vespine-normal-02.pyboy,4 11 14 15 25 40,1,died,1783,10,11,2,13,0,0,13,2,1,0,300,600,burn,669,
+bot,2,sauran,1,3,normal,45,room-s03-sauran-normal-13.pyboy,4 6 11 14 15 40,1,died,6393,18,18,0,16,0,0,16,0,0,0,0,0,,-1,
+bot,1,vespine,4,3,normal,45,room-s03-vespine-normal-02.pyboy,4 11 14 15 25 40,1,died,4012,10,10,3,13,0,0,13,2,2,0,600,1200,burn,647,dot_pinned_then_hit
+average,1,vespine,4,3,normal,53,room-s03-vespine-normal-03.pyboy,4 11,0,died,1552,13,13,0,13,0,0,13,3,3,0,127,127,stop,34,stop_then_hit
+skilled,2,vespine,4,3,normal,53,room-s03-vespine-normal-00.pyboy,6 15,0,died,3237,13,13,0,13,0,0,13,0,0,0,0,0,,-1,
+bot,2,vespine,4,3,normal,53,room-s03-vespine-normal-00.pyboy,6 15,0,died,3423,13,13,0,13,0,0,13,0,0,0,0,0,,-1,
+skilled,2,vespine,4,3,normal,45,room-s03-vespine-normal-04.pyboy,14,1,died,1271,8,8,5,13,0,0,13,3,3,0,602,902,burn,114,
+average,1,vespine,4,3,normal,45,room-s03-vespine-normal-04.pyboy,14,1,died,1347,9,10,3,13,0,0,13,5,5,2,715,788,burn,56,
+skilled,1,vespine,4,3,normal,45,room-s03-vespine-normal-04.pyboy,14,1,died,1543,8,8,5,13,0,0,13,3,3,0,600,791,burn,0,dot_pinned_then_hit
+average,1,vespine,4,3,normal,53,room-s03-vespine-normal-00.pyboy,6 15,0,died,3797,13,13,0,13,0,0,13,0,0,5,0,0,,-1,
+average,2,vespine,4,3,normal,53,room-s03-vespine-normal-00.pyboy,6 15,0,died,4687,14,14,0,13,0,0,13,0,0,0,0,0,,-1,
+bot,1,sauran,1,3,normal,47,room-s03-sauran-normal-15.pyboy,25,1,died,5450,10,10,8,16,0,0,16,2,2,0,600,1200,burn,1372,
+average,2,sauran,1,3,normal,47,room-s03-sauran-normal-15.pyboy,25,1,cleared,3460,8,8,4,16,14,6,16,1,1,8,300,600,,-1,
+bot,2,vespine,4,3,normal,45,room-s03-vespine-normal-04.pyboy,14,1,died,1184,8,8,5,13,0,0,13,2,2,0,404,704,burn,104,dot_pinned_then_hit
+skilled,1,vespine,4,3,normal,47,room-s03-vespine-normal-05.pyboy,25 40,1,died,2372,14,14,1,13,0,0,15,2,2,1,300,391,burn,0,
+skilled,2,vespine,4,3,normal,47,room-s03-vespine-normal-05.pyboy,25 40,1,died,2100,8,8,7,13,0,0,15,4,4,0,897,1433,burn,0,dot_pinned_then_hit
+bot,1,vespine,4,3,normal,47,room-s03-vespine-normal-05.pyboy,25 40,1,cleared,2672,5,5,0,13,10,10,15,0,0,3,0,0,,-1,
+bot,1,vespine,4,3,normal,53,room-s03-vespine-normal-00.pyboy,6 15,0,cleared,4825,9,9,0,13,4,4,13,1,0,4,0,0,,-1,
+skilled,1,vespine,4,3,normal,57,room-s03-vespine-normal-06.pyboy,14 15,1,died,2544,11,13,1,13,0,0,13,3,3,0,434,664,burn,0,dot_pinned_then_hit
+average,2,vespine,4,3,normal,47,room-s03-vespine-normal-05.pyboy,25 40,1,died,1693,11,11,2,13,0,0,13,2,2,0,345,440,burn,395,dot_pinned_then_hit
+average,2,vespine,4,3,normal,45,room-s03-vespine-normal-04.pyboy,14,1,died,1979,11,11,2,13,0,0,13,1,1,0,300,414,burn,414,dot_pinned_then_hit
+average,1,vespine,4,3,normal,57,room-s03-vespine-normal-06.pyboy,14 15,1,died,981,9,11,2,13,0,0,13,2,2,0,300,390,stop,0,stop_then_hit+dot_pinned_then_hit+status_replaced
+average,2,vespine,4,3,normal,57,room-s03-vespine-normal-06.pyboy,14 15,1,died,2167,12,12,1,13,0,0,13,1,1,0,300,600,burn,638,
+average,1,vespine,4,3,normal,47,room-s03-vespine-normal-05.pyboy,25 40,1,cleared,2879,7,7,4,13,4,4,15,1,1,1,300,600,,-1,
+skilled,1,vespine,4,3,normal,53,room-s03-vespine-normal-00.pyboy,6 15,0,cleared,5640,7,7,0,13,6,6,13,0,0,5,0,0,,-1,
+average,2,vespine,4,3,normal,53,room-s03-vespine-normal-08.pyboy,4 6 14 25 39,1,left_room,329,1,1,0,13,12,12,13,0,0,0,0,0,,-1,
+bot,2,vespine,4,3,normal,57,room-s03-vespine-normal-06.pyboy,14 15,1,died,1907,9,9,4,13,0,0,13,2,2,0,300,600,burn,0,
+bot,2,vespine,4,3,normal,53,room-s03-vespine-normal-07.pyboy,4 6 11 14 15 25 39 41,1,died,2709,8,8,5,13,0,0,13,3,3,0,594,894,burn,2089,
+bot,2,vespine,4,3,normal,47,room-s03-vespine-normal-05.pyboy,25 40,1,died,2995,11,11,4,13,0,0,15,3,3,0,587,887,burn,126,
+average,2,vespine,4,3,normal,53,room-s03-vespine-normal-07.pyboy,4 6 11 14 15 25 39 41,1,died,2723,11,12,1,13,0,0,13,4,4,0,657,879,burn,522,
+average,1,vespine,4,3,normal,53,room-s03-vespine-normal-07.pyboy,4 6 11 14 15 25 39 41,1,died,3678,13,13,0,13,0,0,13,1,1,0,300,387,burn,387,
+skilled,2,vespine,4,3,normal,57,room-s03-vespine-normal-06.pyboy,14 15,1,died,2853,13,13,0,13,0,0,13,0,0,0,0,0,,-1,
+skilled,1,vespine,4,3,normal,53,room-s03-vespine-normal-07.pyboy,4 6 11 14 15 25 39 41,1,died,2680,8,8,5,13,0,0,13,2,2,0,600,1088,burn,1309,
+bot,1,vespine,4,3,normal,57,room-s03-vespine-normal-06.pyboy,14 15,1,died,4120,18,18,3,13,0,0,13,1,1,0,300,600,burn,3354,
+skilled,2,vespine,4,3,normal,53,room-s03-vespine-normal-07.pyboy,4 6 11 14 15 25 39 41,1,died,2588,10,10,3,13,0,0,13,1,1,0,300,600,burn,1377,
+bot,1,vespine,4,3,normal,53,room-s03-vespine-normal-08.pyboy,4 6 14 25 39,1,died,3028,11,11,2,13,0,0,13,1,1,0,300,600,burn,1178,dot_pinned_then_hit
+average,1,vespine,4,3,normal,53,room-s03-vespine-normal-10.pyboy,11 14 25 39,1,left_room,701,1,1,0,13,12,12,13,0,0,0,0,0,,-1,
+skilled,2,vespine,4,3,normal,53,room-s03-vespine-normal-08.pyboy,4 6 14 25 39,1,died,2797,13,13,0,13,0,0,13,0,0,6,0,0,,-1,
+bot,2,vespine,4,3,normal,53,room-s03-vespine-normal-10.pyboy,11 14 25 39,1,died,1476,12,13,2,13,0,0,15,5,5,0,880,899,burn,300,status_replaced
+skilled,1,vespine,4,3,normal,53,room-s03-vespine-normal-08.pyboy,4 6 14 25 39,1,died,2646,9,9,4,13,0,0,13,1,1,0,300,600,burn,2090,
+bot,1,vespine,4,3,normal,53,room-s03-vespine-normal-07.pyboy,4 6 11 14 15 25 39 41,1,died,6271,9,9,4,13,0,0,13,1,1,0,300,600,burn,3582,
+average,1,vespine,4,3,normal,53,room-s03-vespine-normal-08.pyboy,4 6 14 25 39,1,died,3740,10,10,3,13,0,0,13,3,3,0,610,622,burn,312,
+skilled,1,vespine,4,3,normal,53,room-s03-vespine-normal-10.pyboy,11 14 25 39,1,died,1800,11,11,2,13,0,0,13,1,1,0,300,600,burn,882,dot_pinned_then_hit
+average,2,vespine,4,3,normal,53,room-s03-vespine-normal-10.pyboy,11 14 25 39,1,died,1961,8,8,5,13,0,0,13,3,3,0,806,1134,burn,1200,dot_pinned_then_hit
+skilled,2,vespine,4,3,normal,53,room-s03-vespine-normal-11.pyboy,14 39,1,died,1795,7,7,5,12,0,0,13,2,2,0,600,1051,burn,785,dot_pinned_then_hit
+skilled,1,vespine,4,3,normal,53,room-s03-vespine-normal-11.pyboy,14 39,1,died,1127,9,9,4,13,0,0,13,2,2,0,600,908,burn,646,
+average,2,vespine,4,3,normal,53,room-s03-vespine-normal-09.pyboy,15 41,0,died,4040,13,13,0,13,0,0,13,1,0,0,0,0,,-1,
+average,1,vespine,4,3,normal,53,room-s03-vespine-normal-11.pyboy,14 39,1,died,1565,7,7,6,13,0,0,13,4,4,0,498,798,burn,0,dot_pinned_then_hit
+skilled,1,vespine,4,3,normal,53,room-s03-vespine-normal-09.pyboy,15 41,0,timeout,7200,12,12,0,13,1,1,13,1,0,0,0,0,,-1,
+average,2,vespine,4,3,normal,53,room-s03-vespine-normal-11.pyboy,14 39,1,died,1930,5,5,7,12,0,0,13,2,2,0,600,1040,burn,971,
+bot,1,vespine,4,3,normal,53,room-s03-vespine-normal-09.pyboy,15 41,0,timeout,7200,13,13,0,13,1,1,13,0,0,0,0,0,,-1,
+bot,1,vespine,4,3,normal,53,room-s03-vespine-normal-11.pyboy,14 39,1,died,3941,9,9,4,13,0,0,13,2,1,0,300,600,burn,3743,
+skilled,2,vespine,4,3,normal,53,room-s03-vespine-normal-09.pyboy,15 41,0,timeout,7200,13,13,0,13,1,1,13,0,0,0,0,0,,-1,
+bot,2,vespine,4,3,normal,53,room-s03-vespine-normal-08.pyboy,4 6 14 25 39,1,died,4766,14,14,0,13,0,0,13,0,0,0,0,0,,-1,
+bot,1,vespine,4,3,normal,53,room-s03-vespine-normal-10.pyboy,11 14 25 39,1,died,4916,8,9,4,13,0,0,13,2,1,0,300,600,burn,4325,
+bot,1,vespine,4,3,normal,59,room-s03-vespine-normal-13.pyboy,11 14,1,died,1610,13,13,0,13,0,0,13,1,1,0,300,600,stop,817,
+bot,2,vespine,4,3,normal,59,room-s03-vespine-normal-13.pyboy,11 14,1,died,2363,13,13,0,13,0,0,13,6,6,8,350,350,stop,0,stop_then_hit
+skilled,2,vespine,4,3,normal,59,room-s03-vespine-normal-13.pyboy,11 14,1,died,1732,13,13,0,13,0,0,13,0,0,0,0,0,,-1,
+skilled,2,vespine,4,3,normal,53,room-s03-vespine-normal-10.pyboy,11 14 25 39,1,died,4334,9,9,4,13,0,0,13,1,1,0,300,600,burn,3612,
+skilled,1,vespine,4,3,normal,59,room-s03-vespine-normal-13.pyboy,11 14,1,died,2031,13,13,0,13,0,0,13,5,5,0,771,1356,stop,103,stop_then_hit
+average,1,vespine,4,3,normal,53,room-s03-vespine-normal-09.pyboy,15 41,0,died,5557,13,13,0,13,0,0,13,0,0,0,0,0,,-1,
+average,2,vespine,4,3,normal,59,room-s03-vespine-normal-13.pyboy,11 14,1,died,3248,13,13,0,13,0,0,13,4,4,0,590,890,stop,1985,
+skilled,1,vespine,4,3,normal,47,room-s03-vespine-normal-12.pyboy,6 39,0,cleared,2200,6,6,0,13,7,7,13,0,0,3,0,0,,-1,
+bot,1,vespine,4,3,normal,47,room-s03-vespine-normal-12.pyboy,6 39,0,cleared,3052,5,5,0,13,9,9,13,0,0,0,0,0,,-1,
+average,1,vespine,4,3,normal,47,room-s03-vespine-normal-12.pyboy,6 39,0,cleared,2040,4,4,0,13,9,9,13,0,0,2,0,0,,-1,
+bot,2,vespine,4,3,normal,53,room-s03-vespine-normal-11.pyboy,14 39,1,died,4540,10,10,3,12,0,0,13,3,3,0,685,1285,burn,749,
+average,1,vespine,4,3,normal,59,room-s03-vespine-normal-13.pyboy,11 14,1,died,3476,13,13,0,13,0,0,13,8,8,0,816,1116,stop,0,stop_then_hit
+bot,1,vespine,4,3,normal,45,room-s03-vespine-normal-14.pyboy,14 25,1,died,2121,9,9,4,13,0,0,13,2,2,0,600,997,burn,802,dot_pinned_then_hit
+bot,2,vespine,4,3,normal,47,room-s03-vespine-normal-12.pyboy,6 39,0,timeout,7200,3,3,0,13,12,11,15,0,0,0,0,0,,-1,
+bot,2,vespine,4,3,normal,53,room-s03-vespine-normal-09.pyboy,15 41,0,timeout,7200,19,19,0,13,1,1,13,0,0,0,0,0,,-1,
+bot,2,vespine,4,3,normal,47,room-s03-vespine-normal-15.pyboy,14 40,1,died,1717,6,6,7,13,0,0,13,2,2,0,600,1006,burn,406,dot_pinned_then_hit
+skilled,2,vespine,4,3,normal,47,room-s03-vespine-normal-12.pyboy,6 39,0,cleared,3194,4,4,0,13,12,12,15,0,0,0,0,0,,-1,
+bot,1,vespine,4,3,normal,47,room-s03-vespine-normal-15.pyboy,14 40,1,died,2449,9,9,4,13,0,0,13,2,2,0,587,887,burn,1609,
+bot,2,wolfkin,0,3,normal,45,room-s03-wolfkin-normal-00.pyboy,4 6 11 14 25 39,1,died,1818,11,11,3,14,0,0,14,4,4,0,603,603,burn,0,
+skilled,1,vespine,4,3,normal,45,room-s03-vespine-normal-14.pyboy,14 25,1,died,1217,8,8,5,13,0,0,13,4,4,0,527,827,burn,0,
+average,2,vespine,4,3,normal,47,room-s03-vespine-normal-12.pyboy,6 39,0,cleared,2640,5,5,0,13,8,8,13,0,0,0,0,0,,-1,
+bot,2,vespine,4,3,normal,45,room-s03-vespine-normal-14.pyboy,14 25,1,died,4110,9,9,4,13,0,0,13,3,3,0,600,903,burn,0,dot_pinned_then_hit
+average,2,vespine,4,3,normal,47,room-s03-vespine-normal-15.pyboy,14 40,1,died,2099,8,8,5,13,0,0,13,3,3,0,843,1257,burn,561,dot_pinned_then_hit
+skilled,2,vespine,4,3,normal,45,room-s03-vespine-normal-14.pyboy,14 25,1,died,1218,6,6,7,13,0,0,13,2,2,0,600,986,burn,417,dot_pinned_then_hit
+average,2,vespine,4,3,normal,45,room-s03-vespine-normal-14.pyboy,14 25,1,died,1698,11,11,2,13,0,0,13,1,1,0,300,552,burn,552,
+skilled,1,vespine,4,3,normal,47,room-s03-vespine-normal-15.pyboy,14 40,1,died,2994,6,6,7,13,0,0,13,3,3,0,600,1200,burn,0,dot_pinned_then_hit
+average,1,vespine,4,3,normal,47,room-s03-vespine-normal-15.pyboy,14 40,1,died,2846,9,9,5,13,0,0,13,1,1,0,300,600,burn,860,dot_pinned_then_hit
+skilled,2,wolfkin,0,3,normal,45,room-s03-wolfkin-normal-00.pyboy,4 6 11 14 25 39,1,died,1652,8,9,5,14,0,0,14,2,2,0,593,893,burn,1077,
+skilled,1,wolfkin,0,3,normal,45,room-s03-wolfkin-normal-00.pyboy,4 6 11 14 25 39,1,died,1968,9,10,4,14,0,0,14,2,2,0,600,1028,burn,428,dot_pinned_then_hit
+skilled,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-01.pyboy,4 6 14 25 39 40,1,died,1261,12,12,2,14,0,0,14,2,2,0,488,788,burn,756,dot_pinned_then_hit
+skilled,2,vespine,4,3,normal,47,room-s03-vespine-normal-15.pyboy,14 40,1,died,3526,6,6,7,13,0,0,13,3,3,0,600,1200,burn,0,dot_pinned_then_hit
+average,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-01.pyboy,4 6 14 25 39 40,1,died,1602,10,10,4,14,0,0,14,2,2,0,600,1190,burn,590,dot_pinned_then_hit
+bot,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-01.pyboy,4 6 14 25 39 40,1,died,2136,7,7,7,14,0,0,14,2,2,0,600,1001,burn,1605,
+average,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-02.pyboy,25 39,1,died,1898,8,8,6,14,0,0,14,3,3,0,702,1002,burn,248,
+bot,1,wolfkin,0,3,normal,45,room-s03-wolfkin-normal-00.pyboy,4 6 11 14 25 39,1,died,3088,9,9,5,14,0,0,14,2,2,0,588,842,burn,554,
+bot,2,wolfkin,0,3,normal,57,room-s03-wolfkin-normal-03.pyboy,11 39,0,cleared,1184,3,3,0,14,12,11,14,0,0,0,0,0,,-1,
+average,1,vespine,4,3,normal,45,room-s03-vespine-normal-14.pyboy,14 25,1,died,2272,10,10,6,13,0,0,13,3,3,0,765,898,burn,216,
+average,1,wolfkin,0,3,normal,45,room-s03-wolfkin-normal-00.pyboy,4 6 11 14 25 39,1,died,2001,12,13,1,14,0,0,14,1,1,0,268,268,burn,268,dot_pinned_then_hit
+bot,1,wolfkin,0,3,normal,57,room-s03-wolfkin-normal-03.pyboy,11 39,0,cleared,1901,7,7,0,14,7,7,14,0,0,0,0,0,,-1,
+skilled,2,wolfkin,0,3,normal,57,room-s03-wolfkin-normal-03.pyboy,11 39,0,cleared,2509,10,10,0,14,7,6,16,0,0,0,0,0,,-1,
+bot,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-01.pyboy,4 6 14 25 39 40,1,died,3391,11,11,5,14,0,0,14,4,3,0,900,1578,burn,848,dot_pinned_then_hit
+average,2,wolfkin,0,3,normal,57,room-s03-wolfkin-normal-03.pyboy,11 39,0,cleared,1465,4,4,0,14,15,13,16,0,0,0,0,0,,-1,
+average,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-02.pyboy,25 39,1,died,2365,7,7,7,14,0,0,14,3,3,0,848,1323,burn,475,dot_pinned_then_hit
+skilled,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-02.pyboy,25 39,1,died,2346,7,7,7,14,0,0,14,5,4,0,855,1155,burn,0,dot_pinned_then_hit
+bot,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-04.pyboy,4 6 11 14 25 40 41,1,died,1985,14,14,0,14,0,0,14,1,1,0,300,600,stop,725,
+skilled,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-02.pyboy,25 39,1,died,3031,10,10,4,14,0,0,14,1,1,0,300,600,burn,1585,
+average,1,wolfkin,0,3,normal,57,room-s03-wolfkin-normal-03.pyboy,11 39,0,cleared,1940,6,6,0,14,10,10,16,0,0,0,0,0,,-1,
+bot,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-02.pyboy,25 39,1,died,2708,6,10,4,14,0,0,14,1,1,0,300,600,burn,748,
+bot,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-02.pyboy,25 39,1,died,2585,10,10,4,14,0,0,14,2,2,0,579,670,burn,391,dot_pinned_then_hit
+skilled,1,wolfkin,0,3,normal,57,room-s03-wolfkin-normal-03.pyboy,11 39,0,cleared,4109,9,9,0,14,7,7,16,0,0,0,0,0,,-1,
+average,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-01.pyboy,4 6 14 25 39 40,1,died,3537,12,12,9,14,0,0,14,4,4,4,1002,1902,burn,102,
+bot,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-06.pyboy,4 6 11 14 15 25 39 40 41,1,died,2061,10,14,1,14,0,0,14,1,1,0,0,0,burn,0,
+skilled,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-01.pyboy,4 6 14 25 39 40,1,died,3866,12,12,3,14,0,0,14,4,4,5,767,1075,burn,2007,
+skilled,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-04.pyboy,4 6 11 14 25 40 41,1,died,4164,12,12,2,14,0,0,14,1,1,0,300,600,burn,1228,
+skilled,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-06.pyboy,4 6 11 14 15 25 39 40 41,1,died,1759,14,14,0,14,0,0,14,1,0,0,0,0,,-1,
+bot,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-04.pyboy,4 6 11 14 25 40 41,1,died,4988,9,9,5,14,0,0,14,2,2,6,600,963,burn,447,dot_pinned_then_hit
+bot,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-06.pyboy,4 6 11 14 15 25 39 40 41,1,died,2424,13,15,0,14,0,0,14,0,0,0,0,0,,-1,
+average,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-04.pyboy,4 6 11 14 25 40 41,1,died,2978,12,12,2,14,0,0,14,2,2,0,300,600,burn,0,dot_pinned_then_hit
+average,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-04.pyboy,4 6 11 14 25 40 41,1,died,4380,10,10,5,14,0,0,14,2,2,0,600,1200,burn,1539,
+skilled,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-04.pyboy,4 6 11 14 25 40 41,1,died,4349,12,12,3,14,0,0,14,2,2,0,600,999,burn,399,
+skilled,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-06.pyboy,4 6 11 14 15 25 39 40 41,1,died,2373,14,15,1,14,0,0,14,4,4,0,513,513,burn,101,
+average,2,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-07.pyboy,6 39,0,cleared,821,5,5,0,14,10,9,14,0,0,0,0,0,,-1,
+average,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-06.pyboy,4 6 11 14 15 25 39 40 41,1,died,3335,10,11,4,14,0,0,14,1,1,0,300,600,burn,1839,
+average,2,wolfkin,0,3,normal,45,room-s03-wolfkin-normal-00.pyboy,4 6 11 14 25 39,1,died,4735,13,14,0,14,0,0,14,1,1,0,0,0,burn,0,
+average,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-06.pyboy,4 6 11 14 15 25 39 40 41,1,died,2330,12,14,0,14,0,0,14,0,0,0,0,0,,-1,
+bot,2,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-07.pyboy,6 39,0,cleared,2081,7,7,0,14,7,7,14,0,0,0,0,0,,-1,
+average,2,wolfkin,0,3,normal,45,room-s03-wolfkin-normal-05.pyboy,15 39,0,died,3919,14,14,0,14,0,0,14,0,0,0,0,0,,-1,
+skilled,1,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-07.pyboy,6 39,0,cleared,1320,3,3,0,14,11,11,14,0,0,1,0,0,,-1,
+average,1,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-07.pyboy,6 39,0,cleared,2085,3,3,0,14,11,11,14,0,0,0,0,0,,-1,
+bot,1,wolfkin,0,3,normal,45,room-s03-wolfkin-normal-05.pyboy,15 39,0,timeout,7200,6,6,0,14,8,8,14,0,0,0,0,0,,-1,
+bot,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-09.pyboy,4 14,1,died,1650,11,11,3,14,0,0,14,1,1,0,300,600,burn,1454,
+skilled,2,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-07.pyboy,6 39,0,cleared,2628,7,7,0,14,7,7,14,0,0,0,0,0,,-1,
+bot,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-09.pyboy,4 14,1,died,1519,11,11,3,14,0,0,14,1,1,0,300,600,burn,1341,
+bot,1,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-07.pyboy,6 39,0,cleared,1822,6,6,0,14,9,8,14,0,0,0,0,0,,-1,
+skilled,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-09.pyboy,4 14,1,died,1585,10,10,4,14,0,0,14,2,2,0,600,938,burn,338,dot_pinned_then_hit
+bot,1,wolfkin,0,3,normal,55,room-s03-wolfkin-normal-10.pyboy,39,0,cleared,641,2,2,0,14,12,12,14,0,0,0,0,0,,-1,
+skilled,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-09.pyboy,4 14,1,died,2095,10,10,4,14,0,0,14,1,1,0,300,600,burn,742,dot_pinned_then_hit
+skilled,2,wolfkin,0,3,normal,45,room-s03-wolfkin-normal-05.pyboy,15 39,0,cleared,6521,8,8,0,14,6,6,14,2,0,0,0,0,,-1,
+average,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-09.pyboy,4 14,1,died,1708,13,13,1,14,0,0,14,1,1,0,300,588,burn,588,
+bot,2,wolfkin,0,3,normal,55,room-s03-wolfkin-normal-10.pyboy,39,0,cleared,791,2,2,0,14,12,12,14,0,0,0,0,0,,-1,
+skilled,2,wolfkin,0,3,normal,55,room-s03-wolfkin-normal-10.pyboy,39,0,cleared,481,3,3,0,14,12,12,14,0,0,0,0,0,,-1,
+skilled,1,wolfkin,0,3,normal,55,room-s03-wolfkin-normal-10.pyboy,39,0,cleared,870,5,5,0,14,9,9,14,0,0,0,0,0,,-1,
+average,2,wolfkin,0,3,normal,55,room-s03-wolfkin-normal-10.pyboy,39,0,cleared,765,4,4,0,14,10,10,14,0,0,0,0,0,,-1,
+bot,2,wolfkin,0,3,normal,45,room-s03-wolfkin-normal-05.pyboy,15 39,0,timeout,7200,5,5,0,14,11,9,14,0,0,0,0,0,,-1,
+average,1,wolfkin,0,3,normal,55,room-s03-wolfkin-normal-10.pyboy,39,0,cleared,834,4,4,0,14,10,10,14,0,0,0,0,0,,-1,
+skilled,1,wolfkin,0,3,normal,45,room-s03-wolfkin-normal-05.pyboy,15 39,0,timeout,7200,10,10,0,14,5,5,14,0,0,0,0,0,,-1,
+average,2,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-08.pyboy,6,0,died,4963,14,15,0,14,0,0,14,0,0,0,0,0,,-1,
+average,1,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-08.pyboy,6,0,cleared,4540,6,6,0,14,8,8,14,0,0,5,0,0,,-1,
+average,1,wolfkin,0,3,normal,45,room-s03-wolfkin-normal-05.pyboy,15 39,0,timeout,7200,10,10,0,14,5,5,14,0,0,0,0,0,,-1,
+bot,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-11.pyboy,0 6 14 15 40 41,1,cleared,2150,7,7,5,14,2,2,14,2,2,5,498,798,,-1,
+skilled,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-12.pyboy,25,1,died,1238,9,9,5,14,0,0,14,4,4,0,1097,1151,burn,287,
+average,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-09.pyboy,4 14,1,died,2420,15,15,1,14,0,0,14,1,1,0,300,600,burn,1135,
+skilled,2,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-08.pyboy,6,0,died,5738,15,15,0,14,0,0,14,0,0,0,0,0,,-1,
+skilled,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-11.pyboy,0 6 14 15 40 41,1,died,1942,10,11,4,14,0,0,14,5,5,0,770,1070,burn,0,dot_pinned_then_hit
+bot,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-11.pyboy,0 6 14 15 40 41,1,died,1874,12,12,2,14,0,0,14,2,2,0,600,1200,burn,692,
+average,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-12.pyboy,25,1,died,1086,10,10,4,14,0,0,14,4,4,0,567,867,burn,0,
+bot,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-13.pyboy,11,0,died,2336,14,14,0,14,0,0,14,8,7,0,588,888,stop,0,stop_then_hit+status_replaced
+average,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-11.pyboy,0 6 14 15 40 41,1,died,2989,10,11,3,14,0,0,14,2,2,0,341,471,burn,41,
+skilled,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-13.pyboy,11,0,died,1595,14,14,0,14,0,0,14,6,6,9,457,457,stop,0,stop_then_hit
+skilled,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-13.pyboy,11,0,died,2076,14,14,0,14,0,0,14,6,6,0,640,940,stop,0,stop_then_hit
+skilled,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-12.pyboy,25,1,died,2227,6,6,8,14,0,0,14,2,2,0,600,1200,burn,1300,dot_pinned_then_hit
+average,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-13.pyboy,11,0,died,1685,14,14,0,14,0,0,14,8,8,10,546,546,stop,0,stop_then_hit
+bot,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-12.pyboy,25,1,died,2091,11,11,4,14,0,0,14,2,2,0,300,600,burn,0,
+average,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-13.pyboy,11,0,died,1495,14,14,0,14,0,0,14,6,6,9,334,334,stop,37,stop_then_hit
+bot,2,wolfkin,0,3,normal,55,room-s03-wolfkin-normal-14.pyboy,11,0,died,1819,11,15,0,14,0,0,14,5,5,0,167,167,stop,0,stop_then_hit
+skilled,1,wolfkin,0,3,normal,55,room-s03-wolfkin-normal-14.pyboy,11,0,died,1523,14,14,0,14,0,0,14,6,6,0,397,397,stop,0,stop_then_hit
+bot,2,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-15.pyboy,6 11,0,died,1119,13,14,0,14,0,0,14,7,7,0,533,533,stop,0,stop_then_hit
+average,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-11.pyboy,0 6 14 15 40 41,1,died,2825,11,11,3,14,0,0,14,2,2,0,477,777,burn,892,dot_pinned_then_hit
+average,1,wolfkin,0,3,normal,55,room-s03-wolfkin-normal-14.pyboy,11,0,died,1597,14,14,0,14,0,0,14,2,2,0,381,381,stop,116,stop_then_hit
+bot,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-12.pyboy,25,1,died,3004,9,9,5,14,0,0,14,2,2,0,495,795,burn,831,
+skilled,1,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-15.pyboy,6 11,0,died,1014,11,14,0,14,0,0,14,5,5,0,428,597,stop,0,stop_then_hit
+bot,1,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-15.pyboy,6 11,0,died,2440,15,15,0,14,0,0,14,7,7,0,474,474,stop,77,stop_then_hit
+average,2,wolfkin,0,3,normal,55,room-s03-wolfkin-normal-14.pyboy,11,0,died,1442,14,14,0,14,0,0,14,3,3,0,361,361,stop,33,stop_then_hit
+skilled,2,wolfkin,0,3,normal,55,room-s03-wolfkin-normal-14.pyboy,11,0,died,1854,14,14,0,14,0,0,14,2,2,0,562,736,stop,262,
+skilled,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-11.pyboy,0 6 14 15 40 41,1,cleared,3878,6,7,4,14,3,3,14,1,1,2,300,600,,-1,
+bot,2,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-13.pyboy,11,0,died,3762,14,14,0,14,0,0,14,3,3,0,600,1200,stop,0,stop_then_hit
+bot,1,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-08.pyboy,6,0,cleared,6755,9,9,0,14,7,7,14,2,0,0,0,0,,-1,
+average,1,wolfkin,0,3,normal,53,room-s03-wolfkin-normal-12.pyboy,25,1,died,2423,9,9,5,14,0,0,14,3,3,0,561,861,burn,2063,
+average,2,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-15.pyboy,6 11,0,died,2495,13,14,0,14,0,0,14,5,5,0,689,989,stop,122,stop_then_hit
+average,1,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-15.pyboy,6 11,0,died,3224,13,14,0,14,0,0,14,5,5,0,832,1132,stop,153,
+bot,1,wolfkin,0,3,normal,55,room-s03-wolfkin-normal-14.pyboy,11,0,died,5008,14,14,0,14,0,0,14,3,3,0,626,926,stop,258,
+bot,2,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-08.pyboy,6,0,timeout,7200,7,9,0,14,5,5,14,0,0,0,0,0,,-1,
+skilled,1,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-08.pyboy,6,0,timeout,7200,4,4,0,14,10,10,14,1,0,0,0,0,,-1,
+skilled,2,wolfkin,0,3,normal,47,room-s03-wolfkin-normal-15.pyboy,6 11,0,died,5251,14,14,0,14,0,0,14,7,7,0,785,1385,stop,32,stop_then_hit

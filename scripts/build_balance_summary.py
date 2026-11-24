@@ -274,6 +274,12 @@ DEFAULT_NOTES = {
         "death_kind comes from the official room harness (status at death). Arena deaths used death_status_active / death_status_kind; those fields were empty in this sweep because Cinder Rex and foyer slices landed no harmful statuses.",
         "Contact-only means a death with empty/none death_kind and no death_chain. Burn-involved / Stop-involved are overlapping flags (death_kind or chain). Lethal Poison/Bleed is death_kind poison/bleed or a dot_kill chain (not present on this build; Poison/Bleed were not lethal).",
     ],
+    "3a910dbe": [
+        "Official balance_arena.py and balance_rooms.py on 3a910dbe (PR #221 Neon perf pass). Same Burn / Poison / Bleed / Stop rules as 684bac5c: Poison and Bleed are not lethal, Burn still floors at 1 HP. This midpoint isolates the perf pass from #227.",
+        "Same method as the 684bac5c Player sweep: Arena 5 heroes × 3 skills × 4 seeds × boss+entry, Easy and Normal; rooms 80 fixtures × 3 skills × 2 seeds = 480 fights each.",
+        "Cinder Rex is the stage 3 colossus (boss_hp_start 240). Burn carriers: Cinder Maw (14), Cinder Kite (25). Stop carrier: Fold Star (11).",
+        "3a910dbe is 684bac5c plus #221 only. A 684→3a91 contact delta can be attributed to the perf pass. A 3a91→805 delta is #227 (Burn proc trim + lethal Poison/Bleed).",
+    ],
     "805476ea": [
         "Official balance_arena.py and balance_rooms.py on 805476ea (PR #227, current main at the time of the sweep): Cinder Maw/Kite Burn proc trimmed 42/16 → 12/5 (Normal/Easy); Poison and Bleed can take the last half-heart; Burn still floors at 1 HP and still halves ATK. Stop, Rex, and generic hostile proc are unchanged by #227.",
         "Same method as the 684bac5c Player sweep: Arena 5 heroes × 3 skills × 4 seeds × boss+entry, Easy and Normal; rooms 80 fixtures × 3 skills × 2 seeds = 480 fights each.",
@@ -431,6 +437,92 @@ def compare_builds(baseline, current, issue_228_notes=None):
     return out
 
 
+def _died(block):
+    return int(block.get("died", block.get("deaths", 0)) or 0)
+
+
+def three_way_subset(label, a, b, c):
+    ad, bd, cd = _db(a), _db(b), _db(c)
+    def trip(key, src="db"):
+        if src == "db":
+            xs = (ad.get(key, 0), bd.get(key, 0), cd.get(key, 0))
+        elif src == "died":
+            xs = (_died(a), _died(b), _died(c))
+        else:
+            xs = (a.get(key, 0), b.get(key, 0), c.get(key, 0))
+        return {"v684": xs[0], "v3a91": xs[1], "v805": xs[2], "d221": xs[1] - xs[0], "d227": xs[2] - xs[1]}
+
+    return {
+        "subset": label,
+        "n": c.get("n") or b.get("n") or a.get("n") or 0,
+        "died": trip("died", "died"),
+        "contact_only": trip("contact_only"),
+        "burn_involved": trip("burn_involved"),
+        "stop_involved": trip("stop_involved"),
+        "lethal_poison_bleed": trip("lethal_poison_bleed"),
+        "cleared": trip("cleared") if "cleared" in ((a.get("outcomes") or {}) | (b.get("outcomes") or {}) | (c.get("outcomes") or {})) or True else None,
+        "outcomes_684": a.get("outcomes") or {},
+        "outcomes_3a91": b.get("outcomes") or {},
+        "outcomes_805": c.get("outcomes") or {},
+        "death_kind_684": a.get("death_kind") or {},
+        "death_kind_3a91": b.get("death_kind") or {},
+        "death_kind_805": c.get("death_kind") or {},
+        "death_chain_684": a.get("death_chain") or {},
+        "death_chain_3a91": b.get("death_chain") or {},
+        "death_chain_805": c.get("death_chain") or {},
+    }
+
+
+def three_way_arena_kind(label, a, b, c):
+    rec = three_way_subset(label, a, b, c)
+    rec["cleared"] = {
+        "v684": _oc(a, "cleared"),
+        "v3a91": _oc(b, "cleared"),
+        "v805": _oc(c, "cleared"),
+        "d221": _oc(b, "cleared") - _oc(a, "cleared"),
+        "d227": _oc(c, "cleared") - _oc(b, "cleared"),
+    }
+    rec["timeout"] = {
+        "v684": _oc(a, "timeout"),
+        "v3a91": _oc(b, "timeout"),
+        "v805": _oc(c, "timeout"),
+        "d221": _oc(b, "timeout") - _oc(a, "timeout"),
+        "d227": _oc(c, "timeout") - _oc(b, "timeout"),
+    }
+    rec["status_harmful"] = {
+        "v684": a.get("status_harmful", 0),
+        "v3a91": b.get("status_harmful", 0),
+        "v805": c.get("status_harmful", 0),
+    }
+    return rec
+
+
+def three_way_compare(baseline, midpoint, current):
+    out = {"rooms": {}, "arena": {}}
+    for diff in ("easy", "normal"):
+        ro = (baseline.get("rooms") or {}).get(diff) or {}
+        rm = (midpoint.get("rooms") or {}).get(diff) or {}
+        rc = (current.get("rooms") or {}).get(diff) or {}
+        subsets = [
+            three_way_subset("all", ro, rm, rc),
+            three_way_subset("cinder_maw_kite", ro.get("cinder") or {}, rm.get("cinder") or {}, rc.get("cinder") or {}),
+            three_way_subset("cinder_maw", ro.get("cinder_maw") or {}, rm.get("cinder_maw") or {}, rc.get("cinder_maw") or {}),
+            three_way_subset("cinder_kite", ro.get("cinder_kite") or {}, rm.get("cinder_kite") or {}, rc.get("cinder_kite") or {}),
+            three_way_subset("fold_star", ro.get("fold_star") or {}, rm.get("fold_star") or {}, rc.get("fold_star") or {}),
+            three_way_subset("no_status_carriers", ro.get("no_status_carriers") or {}, rm.get("no_status_carriers") or {}, rc.get("no_status_carriers") or {}),
+        ]
+        ao = (baseline.get("arena") or {}).get(diff) or {}
+        am = (midpoint.get("arena") or {}).get(diff) or {}
+        ac = (current.get("arena") or {}).get(diff) or {}
+        out["rooms"][diff] = {"subsets": subsets}
+        out["arena"][diff] = {
+            "boss": three_way_arena_kind("boss", ao.get("boss") or {}, am.get("boss") or {}, ac.get("boss") or {}),
+            "entry": three_way_arena_kind("entry", ao.get("entry") or {}, am.get("entry") or {}, ac.get("entry") or {}),
+        }
+    return out
+
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--base", type=Path, required=True, help="Directory of CSVs for the current (or only) build")
@@ -440,6 +532,9 @@ def main(argv=None):
     ap.add_argument("--baseline-base", type=Path, help="Directory of CSVs for the kept baseline")
     ap.add_argument("--baseline-build", default="684bac5c")
     ap.add_argument("--baseline-rom-sha", default="519f58d9e31205a8911062b48c781a65df0c91d166b6b29813de03870387ac7f")
+    ap.add_argument("--midpoint-base", type=Path, help="Directory of CSVs for the #221 midpoint (3a910dbe)")
+    ap.add_argument("--midpoint-build", default="3a910dbe")
+    ap.add_argument("--midpoint-rom-sha", default="")
     ap.add_argument("--compare-out", type=Path, help="Where to write the comparison document")
     args = ap.parse_args(argv)
 
@@ -457,6 +552,15 @@ def main(argv=None):
         cmp_out = args.compare_out or (args.base.parent / "summary.json")
         cmp_out.parent.mkdir(parents=True, exist_ok=True)
         cmp = compare_builds(baseline, current)
+        if args.midpoint_base:
+            mid = summarize_build(args.midpoint_base, args.midpoint_build, args.midpoint_rom_sha)
+            mout = args.midpoint_base / "summary.json"
+            mout.write_text(json.dumps(mid, indent=2) + "\n")
+            print("wrote", mout, "bytes", mout.stat().st_size)
+            cmp["midpoint_build"] = mid["build"]
+            cmp["midpoint_rom_sha256"] = mid.get("rom_sha256")
+            cmp["builds"][mid["build"]] = mid
+            cmp["three_way"] = three_way_compare(baseline, mid, current)
         cmp_out.write_text(json.dumps(cmp, indent=2) + "\n")
         print("wrote", cmp_out, "bytes", cmp_out.stat().st_size)
         for diff in ("easy", "normal"):

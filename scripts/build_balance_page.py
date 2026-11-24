@@ -346,6 +346,84 @@ def fixture_rows(fixtures):
     return "".join(out)
 
 
+
+def trip_cell(trip, invert_good=False):
+    trip = trip or {}
+    a, b, c = int(trip.get("v684", 0)), int(trip.get("v3a91", 0)), int(trip.get("v805", 0))
+    d1, d2 = int(trip.get("d221", b - a)), int(trip.get("d227", c - b))
+
+    def cls(delta):
+        if delta == 0:
+            return "muted"
+        good = (delta < 0)
+        if invert_good:
+            good = not good
+        return "ok" if good else "bad"
+
+    return (
+        f"{a} → <span class=\"{cls(d1)}\">{b}</span> → <span class=\"{cls(d2)}\">{c}</span>"
+        f' <span class="muted">(d221 {d1:+d}, d227 {d2:+d})</span>'
+    )
+
+
+def three_way_room_row(row, name=None):
+    name = name or row.get("subset") or ""
+    labels = {
+        "all": "All rooms",
+        "cinder_maw_kite": "Cinder Maw / Kite (14, 25)",
+        "cinder_maw": "Cinder Maw (14)",
+        "cinder_kite": "Cinder Kite (25)",
+        "fold_star": "Fold Star / Stop (11)",
+        "no_status_carriers": "No 11 / 14 / 25",
+    }
+    label = labels.get(name, name)
+    return (
+        f"<tr><th>{esc(label)}</th><td>{row.get('n', 0)}</td>"
+        f"<td>{trip_cell(row.get('died'))}</td>"
+        f"<td>{trip_cell(row.get('contact_only'))}</td>"
+        f"<td>{trip_cell(row.get('burn_involved'))}</td>"
+        f"<td>{trip_cell(row.get('stop_involved'))}</td>"
+        f"<td>{trip_cell(row.get('lethal_poison_bleed'))}</td></tr>"
+    )
+
+
+def three_way_arena_row(label, row):
+    return (
+        f"<tr><th>{esc(label)}</th><td>{row.get('n', 0)}</td>"
+        f"<td>{trip_cell(row.get('cleared'), invert_good=True)}</td>"
+        f"<td>{trip_cell(row.get('died'))}</td>"
+        f"<td>{trip_cell(row.get('contact_only'))}</td>"
+        f"<td>{trip_cell(row.get('timeout'))}</td></tr>"
+    )
+
+
+def three_way_diff_section(diff, tw):
+    rooms = ((tw.get("rooms") or {}).get(diff) or {})
+    arena = ((tw.get("arena") or {}).get(diff) or {})
+    subsets = rooms.get("subsets") or []
+    boss, entry = arena.get("boss") or {}, arena.get("entry") or {}
+    return f"""
+<section>
+  <h2>Three-way comparison — {esc(diff.title())}</h2>
+  <p class="meta">Columns are <code>684bac5c</code> (pre-#221) → <code>3a910dbe</code> (#221 perf only) → <code>805476ea</code> (#221+#227).
+     <code>d221</code> is the perf-pass delta; <code>d227</code> is the Burn-trim / lethal Poison-Bleed delta.</p>
+  <h3>Rooms (480 fights)</h3>
+  <div class="table-wrap"><table class="runs-table">
+    <thead><tr><th>Subset</th><th>N</th><th>Deaths (684 → 3a91 → 805)</th><th>Contact-only</th><th>Burn-involved</th><th>Stop-involved</th><th>Lethal Poison/Bleed</th></tr></thead>
+    <tbody>{"".join(three_way_room_row(s) for s in subsets)}</tbody>
+  </table></div>
+  <h3>Cinder Rex and entry foyer</h3>
+  <div class="table-wrap"><table class="runs-table">
+    <thead><tr><th>Slice</th><th>N</th><th>Clears</th><th>Deaths</th><th>Contact-only</th><th>Timeouts</th></tr></thead>
+    <tbody>
+      {three_way_arena_row("Cinder Rex (boss)", boss)}
+      {three_way_arena_row("Stage-3 entry foyer", entry)}
+    </tbody>
+  </table></div>
+</section>
+"""
+
+
 def compare_diff_section(diff, block):
     rooms = block.get("rooms") or {}
     arena = block.get("arena") or {}
@@ -440,54 +518,80 @@ def single_page(summary):
 
 def compare_page(summary):
     base = summary.get("baseline_build") or ""
+    mid = summary.get("midpoint_build") or ""
     cur = summary.get("current_build") or ""
     bu, bs = commit_url(base)
+    mu, ms = commit_url(mid) if mid else ("", "")
     cu, cs = commit_url(cur)
     builds = summary.get("builds") or {}
     diffs = summary.get("difficulties") or {}
+    tw = summary.get("three_way") or {}
     issue = summary.get("issue_228") or {}
     issue_notes = "".join(f"<li>{esc(n)}</li>" for n in (issue.get("notes") or []))
-    # headline stats from normal rooms + rex
-    norm = (diffs.get("normal") or {}).get("rooms") or {}
-    all_n = next((s for s in (norm.get("subsets") or []) if s.get("subset") == "all"), {})
-    rex_n = ((diffs.get("normal") or {}).get("arena") or {}).get("boss") or {}
-    rex_e = ((diffs.get("easy") or {}).get("arena") or {}).get("boss") or {}
+    all_n = next((s for s in (((tw.get("rooms") or {}).get("normal") or {}).get("subsets") or []) if s.get("subset") == "all"), {})
+    all_e = next((s for s in (((tw.get("rooms") or {}).get("easy") or {}).get("subsets") or []) if s.get("subset") == "all"), {})
+    rex_n = ((tw.get("arena") or {}).get("normal") or {}).get("boss") or {}
+    rex_e = ((tw.get("arena") or {}).get("easy") or {}).get("boss") or {}
+    mid_line = ""
+    if mid:
+        mid_line = (
+            f' Midpoint: <a href="{esc(mu)}"><code>{esc(ms)}</code></a> (PR #221 only).'
+        )
+    tw_html = ""
+    if tw:
+        tw_html = three_way_diff_section("easy", tw) + three_way_diff_section("normal", tw)
+    else:
+        tw_html = compare_diff_section("easy", diffs.get("easy") or {}) + compare_diff_section("normal", diffs.get("normal") or {})
+    mid_detail = build_detail(mid, builds.get(mid) or {}) if mid and mid in builds else ""
+    # pairwise 684 vs 805 kept below the three-way tables when both exist
+    pairwise = ""
+    if tw and diffs:
+        pairwise = (
+            "<section><h2>Pairwise 684bac5c vs 805476ea (for reference)</h2>"
+            "<p class=\"meta\">This is the two-commit jump (#221+#227). Prefer the three-way tables above to isolate each PR.</p>"
+            + compare_diff_section("easy", diffs.get("easy") or {})
+            + compare_diff_section("normal", diffs.get("normal") or {})
+            + "</section>"
+        )
     body = f"""
 <header>
   <p class="meta"><a href="../index.html">&larr; All runs</a></p>
   <h1>Stage 3 balance comparison</h1>
-  <p>Official Player sweep re-baselined on
+  <p>Official Player sweep on
      <a href="{esc(cu)}"><code>{esc(cs)}</code></a>
      (PR #227: Maw/Kite Burn proc trimmed, Poison/Bleed lethal, Burn still floors at 1 HP).
      Baseline kept:
      <a href="{esc(bu)}"><code>{esc(bs)}</code></a>
-     (#219 Confusion; also the commit immediately before #221).
-     Same method both times: Cinder Rex <code>balance_arena.py</code> (5 heroes × 3 skills × 4 seeds, Easy + Normal)
+     (#219; also the commit immediately before #221).
+     {mid_line}
+     Same method all three times: Cinder Rex <code>balance_arena.py</code> (5 heroes × 3 skills × 4 seeds, Easy + Normal)
      and stage-3 <code>balance_rooms.py</code> (480 fights each difficulty). No ROM downloads.</p>
 </header>
 <main>
   <div class="stats">
-    <div class="stat"><b>{arrow(all_n.get('old_died', 0), all_n.get('new_died', 0))}</b><span>Normal room deaths</span></div>
-    <div class="stat"><b>{arrow(all_n.get('old_contact_only', 0), all_n.get('new_contact_only', 0))}</b><span>Normal contact-only</span></div>
-    <div class="stat"><b>{arrow(rex_e.get('old_cleared', 0), rex_e.get('new_cleared', 0), invert_good=True)}</b><span>Easy Cinder Rex clears</span></div>
-    <div class="stat"><b>{arrow(rex_n.get('old_died', 0), rex_n.get('new_died', 0))}</b><span>Normal Cinder Rex deaths</span></div>
+    <div class="stat"><b>{trip_cell(all_n.get("died") or {}) if tw else arrow(0,0)}</b><span>Normal room deaths</span></div>
+    <div class="stat"><b>{trip_cell(all_n.get("contact_only") or {}) if tw else arrow(0,0)}</b><span>Normal contact-only</span></div>
+    <div class="stat"><b>{trip_cell(all_e.get("contact_only") or {}) if tw else arrow(0,0)}</b><span>Easy contact-only</span></div>
+    <div class="stat"><b>{trip_cell(rex_n.get("died") or {}) if tw else arrow(0,0)}</b><span>Normal Cinder Rex deaths</span></div>
   </div>
-  {compare_diff_section("easy", diffs.get("easy") or {})}
-  {compare_diff_section("normal", diffs.get("normal") or {})}
+  {tw_html}
   <section>
     <h2>Issue #228 — did #221 raise contact deaths?</h2>
     <p class="meta"><a href="https://github.com/struktured-labs/quintra/issues/228">quintra#228</a>.
        {esc(issue.get("title") or "")}</p>
     <ul>{issue_notes or "<li>Verdict will be filled from the comparison CSVs.</li>"}</ul>
   </section>
+  {pairwise}
   {build_detail(cur, builds.get(cur) or {})}
+  {mid_detail}
   {build_detail(base, builds.get(base) or {})}
   <section>
     <h2>How to read this</h2>
     <ul>
-      <li>Old = <a href="{esc(bu)}"><code>{esc(bs)}</code></a>. New = <a href="{esc(cu)}"><code>{esc(cs)}</code></a>.</li>
+      <li>Baseline = <a href="{esc(bu)}"><code>{esc(bs)}</code></a>. Midpoint = <a href="{esc(mu)}"><code>{esc(ms) or "—"}</code></a>. Current = <a href="{esc(cu)}"><code>{esc(cs)}</code></a>.</li>
       <li>Contact-only deaths have empty/none <code>death_kind</code> and no <code>death_chain</code>. Burn-involved, Stop-involved, and lethal Poison/Bleed are overlapping flags.</li>
       <li><code>dot_pinned_then_hit</code> is the #217 Burn floor (stops at 1 HP, then a hit). <code>dot_kill</code> is a lethal Poison/Bleed tick added in #227. <code>stop_then_hit</code> is a Stop proc followed by a hit while frozen.</li>
+      <li><code>d221</code> is 3a910dbe minus 684bac5c (perf pass, same DoT rules). <code>d227</code> is 805476ea minus 3a910dbe (Burn trim + lethal Poison/Bleed, same perf).</li>
       <li>Source: <a href="summary.json"><code>summary.json</code></a>. Generated from official harness CSVs; the 684bac5c baseline is kept in full below the comparison.</li>
     </ul>
   </section>
